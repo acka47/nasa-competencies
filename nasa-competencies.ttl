@@ -6,11 +6,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 <urn:comp:0>
+    dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA Taxonomy 2.0 was designed to make it easy for various audiences to find relevant information from NASA programs quickly. See https://github.com/nasa/dictionaries/tree/master/taxonomies. This facet is derived from the NASA Workforce Competency Dictionary, revision 6a, published April 17, 2006.
+  """ ;
+    dcterms:title "NASA Workforce Competencies" ;
     a skos:ConceptScheme ;
     skos:hasTopConcept <urn:comp:1124>, <urn:comp:1208>, <urn:comp:1371>, <urn:comp:1393>, <urn:comp:1406> ;
-    dcterms:title "NASA Workforce Competencies" ;
-    dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA Taxonomy 2.0 was designed to make it easy for various audiences to find relevant information from NASA programs quickly. See https://github.com/nasa/dictionaries/tree/master/taxonomies. This facet is derived from the NASA Workforce Competency Dictionary, revision 6a, published April 17, 2006.
-  """ .
+    skos:inScheme <urn:comp:0> .
 
 <urn:comp:1>
     nt2:code "1" ;
@@ -21,6 +22,7 @@
     a skos:Concept ;
     skos:altLabel "MAP" ;
     skos:broader <urn:comp:1231> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mission Analysis and Planning" ;
     skos:scopeNote """Knowledge and ability to analyze requirements of current
     and near-term missions. Manage integration of technical
@@ -38,6 +40,7 @@
     a skos:Concept ;
     skos:altLabel "TESTENG" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1037>, <urn:comp:1038>, <urn:comp:1039>, <urn:comp:1040>, <urn:comp:1041> ;
     skos:prefLabel "Test Engineering" ;
     skos:scopeNote """Knowledge of physics, engineering and manufacturing to test
@@ -68,6 +71,7 @@
     a skos:Concept ;
     skos:altLabel "AEROELA" ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aeroelasticity" ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     investigating aeroelastic phenomena and complex steady and
@@ -92,6 +96,7 @@
     a skos:Concept ;
     skos:altLabel "LEADTEAM" ;
     skos:broader <urn:comp:140> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Employee & Team Leadership" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     communicating business direction, goals and performance,
@@ -121,6 +126,7 @@
     a skos:Concept ;
     skos:altLabel "LEADCOMM" ;
     skos:broader <urn:comp:140> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Knowledge & Communication Management" ;
     skos:scopeNote """Understands and applies knowledge management practices,
     theories and success factors. Possesses knowledge and
@@ -147,6 +153,7 @@
     a skos:Concept ;
     skos:altLabel "LEADWORK" ;
     skos:broader <urn:comp:140> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Work Performance Leadership" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     determining an organizations business direction and
@@ -172,6 +179,7 @@
     a skos:Concept ;
     skos:altLabel "LEADGLOBAL" ;
     skos:broader <urn:comp:140> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "International Relations" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     forming and maintaining cross-cultural relationships and
@@ -191,6 +199,7 @@
     a skos:Concept ;
     skos:altLabel "HFRBIOMECH" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomechanics and Ergonomics Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -204,6 +213,7 @@
     a skos:Concept ;
     skos:altLabel "HFRHABIT" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Habitability and Environmental Psychology Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -217,6 +227,7 @@
     a skos:Concept ;
     skos:altLabel "HFRPERCEPT" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Perception and Psychophysics Fundamental Research" ;
     skos:scopeNote """TBD (includes vision, audition, haptics, vestibular,
     multimodal)
@@ -231,6 +242,7 @@
     a skos:Concept ;
     skos:altLabel "HFRPSYPHY" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Psychophysiology Fundamental Research" ;
     skos:scopeNote """TBD (includes memory, attention, task processing, etc.)
   """ .
@@ -244,6 +256,7 @@
     a skos:Concept ;
     skos:altLabel "HFRATIGUE" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fatigue, Alertness, Circadian Rhythms Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -260,6 +273,7 @@
     skos:broader <urn:comp:1237> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aerodynamics" ;
     skos:scopeNote """Knowledge of the science of aerodynamics, with the ability
     to plan, conduct, interpret and correlate results of
@@ -292,6 +306,7 @@
     a skos:Concept ;
     skos:altLabel "HFRCOG" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cognitive Science Fundamental Research" ;
     skos:scopeNote """TBD (includes memory, attention, task processing, etc.)
   """ .
@@ -305,6 +320,7 @@
     a skos:Concept ;
     skos:altLabel "HFRCOMM" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Communication and Knowledge Management Fundamental Research" ;
     skos:scopeNote """TBD (includes interpersonal communication,
     technology-mediated communication, procedures,
@@ -320,6 +336,7 @@
     a skos:Concept ;
     skos:altLabel "HFRDECISMK" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Decision Making and Risk Management Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -333,6 +350,7 @@
     a skos:Concept ;
     skos:altLabel "HFRORG" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Organizational Science Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -346,6 +364,7 @@
     a skos:Concept ;
     skos:altLabel "HFRHUMMACH" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Human-Machine Interaction Fundamental Research" ;
     skos:scopeNote """TBD (includes human-computer interaction and
     human-automation interaction) (includes human-computer
@@ -361,6 +380,7 @@
     a skos:Concept ;
     skos:altLabel "HFRMANCNTL" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Manual Control Fundamental Research" ;
     skos:scopeNote """TBD
   """ .
@@ -374,6 +394,7 @@
     a skos:Concept ;
     skos:altLabel "HFRSUPCNTL" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Supervisory Control Fundamental Research" ;
     skos:scopeNote """TBD (includes single human operator supervisory control and
     distributed [multi-agent] supervisory control)
@@ -388,6 +409,7 @@
     a skos:Concept ;
     skos:altLabel "HFRTRNG" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Training and Adaptation Fundamental Research" ;
     skos:scopeNote """TBD (includes basic research on perceptual and behavioral
     adaptation, learning, memory, etc.)
@@ -402,6 +424,7 @@
     a skos:Concept ;
     skos:altLabel "HFRHUMPERF" ;
     skos:broader <urn:comp:40> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Human Performance Fundamental Research" ;
     skos:scopeNote """TBD (includes basic research on human error and error
     countermeasures)
@@ -417,6 +440,7 @@
     a skos:Concept ;
     skos:altLabel "HFEBIOMECH" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomechanical Engineering, Technology, Standards" ;
     skos:scopeNote """TBD
   """ .
@@ -430,6 +454,7 @@
     a skos:Concept ;
     skos:altLabel "AEROTHM" ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aerothermodynamics" ;
     skos:scopeNote """Knowledge, capabilities, and practices related to
     aero/aerothermodynamic design for aerospace vehicles and
@@ -455,6 +480,7 @@
     a skos:Concept ;
     skos:altLabel "HFEERGO" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Ergonomics Engineering, Technology, and Standards" ;
     skos:scopeNote """TBD (including lighting, noise, vibration, physical
     ergonomics of hand tools, manual materials handling, etc.)
@@ -469,6 +495,7 @@
     a skos:Concept ;
     skos:altLabel "HFESPACE" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Space Human Factors Engineering, Technology, and Standards" ;
     skos:scopeNote """TBD (focus on humans in micro-gravity, radiation
     environments)
@@ -483,6 +510,7 @@
     a skos:Concept ;
     skos:altLabel "HFEHABIT" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Habitability Engineering, Technology, and Standards" ;
     skos:scopeNote """TBD
   """ .
@@ -496,6 +524,7 @@
     a skos:Concept ;
     skos:altLabel "HFEPERCEPT" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Perceptual Technologies and Standards" ;
     skos:scopeNote """TBD (includes visual display design, image and video
     compression, display composition and layout, icon design
@@ -512,6 +541,7 @@
     a skos:Concept ;
     skos:altLabel "HFECOG" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cognitive Technologies" ;
     skos:scopeNote """TBD (includes augmented cognition devices, decision support
     technologies, intelligent assistant systems)
@@ -526,6 +556,7 @@
     a skos:Concept ;
     skos:altLabel "HFEHUMAUTO" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Human-Automation System Design" ;
     skos:scopeNote """TBD (includes Distributed Supervisory Control Design;
     fFunction Allocation; Mixed-Initiative Decision Making,
@@ -541,6 +572,7 @@
     a skos:Concept ;
     skos:altLabel "HFETRNG" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Training Technologies" ;
     skos:scopeNote """TBD (includes computer-based training systems, intelligent
     tutoring systems, handbooks, documentation)
@@ -555,6 +587,7 @@
     a skos:Concept ;
     skos:altLabel "HFEHUMERR" ;
     skos:broader <urn:comp:41> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Human Reliability and Human Error Analysis" ;
     skos:scopeNote """TBD
   """ .
@@ -568,6 +601,7 @@
     a skos:Concept ;
     skos:altLabel "DDESTRUCT" ;
     skos:broader <urn:comp:8> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Structural Design and Development Engineering" ;
     skos:scopeNote """Knowledge, capability and practices associated with all
     aspects of the technical structural design and development
@@ -598,6 +632,7 @@
     a skos:Concept ;
     skos:altLabel "DDEELEC" ;
     skos:broader <urn:comp:8> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electrical Design and Development Engineering" ;
     skos:scopeNote """Knowledge, capability and practices associated with all
     aspects of the technical electrical design and development
@@ -620,6 +655,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Acoustics" ;
     skos:scopeNote """Knowledge, capabilities, and practices related to interior
     and exterior noise reduction and acoustic design for
@@ -648,6 +684,7 @@
     a skos:Concept ;
     skos:altLabel "DDEPROP" ;
     skos:broader <urn:comp:8> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propulsion Design and Development Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     detailed mechanical design of propulsion components,
@@ -678,6 +715,7 @@
     a skos:Concept ;
     skos:altLabel "DDETEST" ;
     skos:broader <urn:comp:8> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Test Fixtures and GSE Design and Development Engineering" ;
     skos:scopeNote """Knowledge of all aspects of the technical design and
     development process as applied to ground support equipment
@@ -704,6 +742,7 @@
     a skos:Concept ;
     skos:altLabel "INTSTRUCT" ;
     skos:broader <urn:comp:9> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Structural Integration Engineering" ;
     skos:scopeNote """Knowledge of engineering; system engineering;
     manufacturing; testing; quality, reliability, and safety
@@ -727,6 +766,7 @@
     a skos:Concept ;
     skos:altLabel "INTMATER" ;
     skos:broader <urn:comp:9> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Materials Integration Engineering" ;
     skos:scopeNote """Knowledge and capability to integrate all materials
     engineering elements and practices associated with research
@@ -755,6 +795,7 @@
     a skos:Concept ;
     skos:altLabel "INTSYSTEMS" ;
     skos:broader <urn:comp:9> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Systems Integration Engineering" ;
     skos:scopeNote """The Systems Integration Engineer (SIE) is responsible for
     integration of all engineering products and resources
@@ -782,6 +823,7 @@
     a skos:Concept ;
     skos:altLabel "INTELECT" ;
     skos:broader <urn:comp:9> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electrical Integration Engineering" ;
     skos:scopeNote """Knowledge and capability to integrate electrical components
     for air, space and ground systems and instruments into a
@@ -807,6 +849,7 @@
     a skos:Concept ;
     skos:altLabel "INTPROPEL" ;
     skos:broader <urn:comp:9> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propulsion Integration Engineering" ;
     skos:scopeNote """Knowledge and capability to integrate propulsion elements
     into a functioning system or subsystem such as the
@@ -834,6 +877,7 @@
     a skos:Concept ;
     skos:altLabel "TSTSTRUCT" ;
     skos:broader <urn:comp:10> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Structural Test Engineering" ;
     skos:scopeNote """Knowledge of physics, engineering, and manufacturing to
     test structural systems, subsystems, and components that
@@ -862,6 +906,7 @@
     a skos:Concept ;
     skos:altLabel "TSTMATER" ;
     skos:broader <urn:comp:10> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Materials Test Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     materials testing and the behavior and performance
@@ -881,6 +926,7 @@
     a skos:Concept ;
     skos:altLabel "TSTTHERMO" ;
     skos:broader <urn:comp:10> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Thermal Test Engineering" ;
     skos:scopeNote """Knowledge of physics, engineering, thermal, and thermal
     vacuum to test systems or subsystems under development,
@@ -911,6 +957,7 @@
     a skos:Concept ;
     skos:altLabel "THERMALSYS" ;
     skos:broader <urn:comp:1359> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Thermal Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with heat
     transfer, fluid flow, and thermodynamics in the design,
@@ -937,6 +984,7 @@
     a skos:Concept ;
     skos:altLabel "TSTELECT" ;
     skos:broader <urn:comp:10> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electrical Test Engineering" ;
     skos:scopeNote """Knowledge of the principles of electrical engineering, and
     electronic manufacturing to test components, systems, or
@@ -965,6 +1013,7 @@
     a skos:Concept ;
     skos:altLabel "TSTPROPUL" ;
     skos:broader <urn:comp:10> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propulsion Test Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practice associated with
     propulsion systems, subsystem, and/or component testing and
@@ -995,6 +1044,7 @@
     a skos:Concept ;
     skos:altLabel "ELINSTR" ;
     skos:broader <urn:comp:13> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Instrumentation Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     design, development, characterization, and application of
@@ -1020,6 +1070,7 @@
     a skos:Concept ;
     skos:altLabel "ELEEEPART" ;
     skos:broader <urn:comp:13> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "EEE Parts" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with EEE
     Parts requirements, selection, analysis, and verification
@@ -1035,6 +1086,7 @@
     a skos:Concept ;
     skos:altLabel "ELPARTSPKG" ;
     skos:broader <urn:comp:13> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Parts & Packaging" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     electro-mechanical design including printed circuit (pc)
@@ -1053,6 +1105,7 @@
     a skos:Concept ;
     skos:altLabel "ELCIRCUITS" ;
     skos:broader <urn:comp:13> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electrical Circuits Engineering" ;
     skos:scopeNote """Knowledge of, and capability to perform, engineering design
     and analysis, development and research of electrical
@@ -1076,6 +1129,7 @@
     a skos:Concept ;
     skos:altLabel "GNCSPACE" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Spacecraft & Stabilization Control Design and Analysis" ;
     skos:scopeNote """Knowledge of and ability to conduct research and develop
     analytical, computational, and experimental methods for
@@ -1108,6 +1162,7 @@
     a skos:Concept ;
     skos:altLabel "GNCVEHCNTL" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Vehicle Control Design and Analysis" ;
     skos:scopeNote """Knowledge of and ability to research and develop
     analytical, computational, and experimental methods for
@@ -1138,6 +1193,7 @@
     a skos:Concept ;
     skos:altLabel "GNCGUIDE" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Guidance Design and Analysis" ;
     skos:scopeNote """Design of guidance algorithms that command vehicle attitude
     angles and throttle settings (if applicable) for taking a
@@ -1161,6 +1217,7 @@
     a skos:Concept ;
     skos:altLabel "GNCNAVSYS" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Navigation System Design and Analysis" ;
     skos:scopeNote """Knowledge of and ability to employ navigation hardware
     including Inertial Measurement Units (IMU: gyro and
@@ -1181,6 +1238,7 @@
     a skos:Concept ;
     skos:altLabel "THERMALSTR" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Thermal Structures" ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     designing, developing, analyzing, and validating
@@ -1200,6 +1258,7 @@
     a skos:Concept ;
     skos:altLabel "APELEC" ;
     skos:broader <urn:comp:72> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electric Propulsion" ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     in-space electric propulsion system technologies,
@@ -1218,6 +1277,7 @@
     a skos:Concept ;
     skos:altLabel "APCHEM" ;
     skos:broader <urn:comp:72> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Chemical & Thermal Prop" ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     propulsion system technologies which seek to increase the
@@ -1237,6 +1297,7 @@
     a skos:Concept ;
     skos:altLabel "RPTURBO" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Turbomachinery Design and Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying liquid
@@ -1265,6 +1326,7 @@
     a skos:Concept ;
     skos:altLabel "RPCOMBUST" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Combustion Devices Design and Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying liquid
@@ -1289,6 +1351,7 @@
     a skos:Concept ;
     skos:altLabel "RPVALVES" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Valves, Lines & Ducts" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     propulsion system valves, valve actuators, lines, ducts,
@@ -1311,6 +1374,7 @@
     a skos:Concept ;
     skos:altLabel "RPPRPMMT" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propellant Management Systems Design and Analysis" ;
     skos:scopeNote """Knowledge of cryogenic fluid physics and heat transfer
     associated with the design and development of cyrogenic
@@ -1331,6 +1395,7 @@
     a skos:Concept ;
     skos:altLabel "RPAUXPRP" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Spacecraft and Auxiliary Propulsion System Design and Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development of reaction control thrusters, orbital
@@ -1349,6 +1414,7 @@
     a skos:Concept ;
     skos:altLabel "RPFLUIDMCH" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Analytical and computational Fluid Mechanics" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development, validation, and application of Computational
@@ -1377,6 +1443,7 @@
     a skos:Concept ;
     skos:altLabel "RPDYNDATA" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Dynamic Data Analysis" ;
     skos:scopeNote """Diagnostic evaluation of rocket engine vibration data
     acquired from high frequency sensors such as
@@ -1400,6 +1467,7 @@
     a skos:Concept ;
     skos:altLabel "FLUIDSYS" ;
     skos:broader <urn:comp:1359> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fluid Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     basic fluid physics research (including microgravitational
@@ -1435,6 +1503,7 @@
     a skos:Concept ;
     skos:altLabel "MSEMETAL" ;
     skos:broader <urn:comp:66> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Metallurgy" ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the production, characteristics, structure,
@@ -1481,6 +1550,7 @@
     a skos:Concept ;
     skos:altLabel "MSENONMET" ;
     skos:broader <urn:comp:66> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Non-metallics" ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the production, characteristics, structure,
@@ -1515,6 +1585,7 @@
     a skos:Concept ;
     skos:altLabel "MSEFAILURE" ;
     skos:broader <urn:comp:66> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Failure Analysis" ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the characteristics and performance of materials and
@@ -1560,6 +1631,7 @@
     a skos:Concept ;
     skos:altLabel "MSECONTAM" ;
     skos:broader <urn:comp:66> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Contamination Control" ;
     skos:scopeNote """Knowledge capability and practices associated with the
     applications in materials, processes, contamination and
@@ -1592,6 +1664,7 @@
     a skos:Concept ;
     skos:altLabel "BRCE" ;
     skos:broader <urn:comp:156> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomedical and Research Clinical Ethics" ;
     skos:scopeNote """Professional skills and knowledge of bioethics applied to a
     range of bioethical issues surrounding biomedical research,
@@ -1613,6 +1686,7 @@
     a skos:Concept ;
     skos:altLabel "RSPR" ;
     skos:broader <urn:comp:156> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Research Subject Protection Regulation" ;
     skos:scopeNote """Knowledge and a thorough understanding of the Federal and
     Agency regulatory framework, which governs the use of human
@@ -1635,6 +1709,7 @@
     a skos:Concept ;
     skos:altLabel "OCCMED" ;
     skos:broader <urn:comp:130> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Occupational Medicine" ;
     skos:scopeNote """Professional skills and knowledge to apply occupational
     health related requirements to protect and maintain
@@ -1656,6 +1731,7 @@
     a skos:Concept ;
     skos:altLabel "OCCHYGIENE" ;
     skos:broader <urn:comp:130> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Industrial Hygiene" ;
     skos:scopeNote """Professional knowledge and skills to develop and implement
     preventive measures regarding all work-related exposures,
@@ -1680,6 +1756,7 @@
     a skos:Concept ;
     skos:altLabel "OCCPHYSICS" ;
     skos:broader <urn:comp:130> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Health Physics" ;
     skos:scopeNote """Knowledge of Federal and State Health Physics (ionizing and
     non-ionizing radiation) regulations, policies, and
@@ -1705,6 +1782,7 @@
     a skos:Concept ;
     skos:altLabel "OCCASSIST" ;
     skos:broader <urn:comp:130> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Employee Assistance" ;
     skos:scopeNote """Professional knowledge and skills to improve the mental
     health and well being of employees. Knowledge of
@@ -1730,6 +1808,7 @@
     a skos:Concept ;
     skos:altLabel "ICEPHYSICS" ;
     skos:broader <urn:comp:1424> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Icing Physics" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     researching and understanding icing physics analysis and
@@ -1746,6 +1825,7 @@
     a skos:Concept ;
     skos:altLabel "MDPRACTICE" ;
     skos:broader <urn:comp:36> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Medical Practice" ;
     skos:scopeNote """Knowledge and expertise of the multi-disciplinary practice
     of Aerospace Medicine taking into account the hostile,
@@ -1766,6 +1846,7 @@
     a skos:Concept ;
     skos:altLabel "MDBEHAVIOR" ;
     skos:broader <urn:comp:36> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Behavioral Health" ;
     skos:scopeNote """Knowledge and expertise of psychology/psychiatry in
     aviation and operational settings to maintain health and
@@ -1786,6 +1867,7 @@
     a skos:Concept ;
     skos:altLabel "SECPHYSCL" ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Physical Security" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     protection of property and individuals from threats or
@@ -1806,6 +1888,7 @@
     a skos:Concept ;
     skos:altLabel "SECINFO" ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Information Security" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     protection of national classified information and sensitive
@@ -1826,6 +1909,7 @@
     a skos:Concept ;
     skos:altLabel "SECNATION" ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "National Security Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     researching and implementing national security systems used
@@ -1845,6 +1929,7 @@
     a skos:Concept ;
     skos:altLabel "SECPERSON" ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Personnel Security" ;
     skos:scopeNote """Knowledge and ability to request background investigations
     appropriate to position sensitivity and to review and
@@ -1865,6 +1950,7 @@
     a skos:Concept ;
     skos:altLabel "SECINDUST" ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Industrial Security" ;
     skos:scopeNote """This competency refers to the knowledge and ability to
     perform personnel, physical, and information security
@@ -1895,6 +1981,7 @@
     a skos:Concept ;
     skos:altLabel "BITPLAN" ;
     skos:broader <urn:comp:131> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Information Resources Planning and Evaluation" ;
     skos:scopeNote """Knowledge of the principles, methods, and techniques of IT
     assessment, planning, management, monitoring, and
@@ -1912,6 +1999,7 @@
     a skos:Concept ;
     skos:altLabel "BITARCH" ;
     skos:broader <urn:comp:131> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "IT Architecture" ;
     skos:scopeNote """Knowledge of architectural methodologies used in the design
     and development of information systems, including physical
@@ -1935,6 +2023,7 @@
     a skos:Concept ;
     skos:altLabel "AIRTRAFFIC" ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Air Traffic Systems" ;
     skos:scopeNote """Knowledge of Air Traffic Management elements, and their
     properties and interactions, such as air space and range
@@ -1956,6 +2045,7 @@
     a skos:Concept ;
     skos:altLabel "DATDBMMT" ;
     skos:broader <urn:comp:161> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Database Management Systems" ;
     skos:scopeNote """Knowledge of the uses of database management systems and
     software to control the organization, storage, retrieval,
@@ -1974,6 +2064,7 @@
     a skos:Concept ;
     skos:altLabel "BITSECURE" ;
     skos:broader <urn:comp:131> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Information Systems Security" ;
     skos:scopeNote """Knowledge of methods, tools, and procedures, including
     development of information security plans, to prevent
@@ -1996,6 +2087,7 @@
     skos:changeNote """Created ??
     Modified by ???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Paralegal" ;
     skos:scopeNote """Knowledge of legal research and writing, litigation case
     management, and providing professional administrative and
@@ -2015,6 +2107,7 @@
     skos:broader <urn:comp:125> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Intellectual Property Law" ;
     skos:scopeNote """Speciaized knowledge of matter related to intellectual
     property, including but not limited to patents, copyrights,
@@ -2035,6 +2128,7 @@
     skos:broader <urn:comp:125> ;
     skos:changeNote """Modified ???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "General Law" ;
     skos:scopeNote """. Speciaized knowledge of matters related to civil and
     administrative law, including but not limited to fiscal and
@@ -2055,6 +2149,7 @@
     skos:broader <urn:comp:125> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Contracts Law" ;
     skos:scopeNote """Speciaized knowledge of matters related to procurement,
     including but not limited to contracts, grants, cooperative
@@ -2075,6 +2170,7 @@
     skos:broader <urn:comp:125> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Personnel/EEO Law" ;
     skos:scopeNote """Speciaized knowledge of matters related to employee and
     personnel issues, including but not limited to employee
@@ -2095,6 +2191,7 @@
     skos:broader <urn:comp:125> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Environmental/Real Property Law" ;
     skos:scopeNote """Speciaized knowledge of matters related to environmental
     matters, inclucing but not limited to of local, state and
@@ -2113,6 +2210,7 @@
     a skos:Concept ;
     skos:altLabel "ENVPLAN" ;
     skos:broader <urn:comp:133> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Institutional Environmental Planning/NEPA" ;
     skos:scopeNote """Uses knowledge of environmental engineering, environmental
     law, economics and the physical sciences to fully consider
@@ -2136,6 +2234,7 @@
     a skos:Concept ;
     skos:altLabel "ENVREMED" ;
     skos:broader <urn:comp:133> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Institutional Environmental Remediation" ;
     skos:scopeNote """Uses knowledge of environmental engineering, chemistry,
     biology, geology and hydrogeology to identify, investigate,
@@ -2165,6 +2264,7 @@
     skos:broader <urn:comp:1363> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Experimentation and Testing Technologies" ;
     skos:scopeNote """Knowledge of advanced experimentation and testing
     philosophies and approaches that provide results to inform
@@ -2190,6 +2290,7 @@
     a skos:Concept ;
     skos:altLabel "FACIVENG" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Facility Civil Engineering" ;
     skos:scopeNote """Knowledge of building and foundation design and
     construction, concrete and steel design and construction as
@@ -2210,6 +2311,7 @@
     a skos:Concept ;
     skos:altLabel "FACMECHENG" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Facility Mechanical Engineering" ;
     skos:scopeNote """Knowledge of planning, designing, developing, testing, or
     evaluating mechanical, electromechanical, pneumatic,
@@ -2230,6 +2332,7 @@
     a skos:Concept ;
     skos:altLabel "FACELECENG" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Facility Electrical Engineering" ;
     skos:scopeNote """Knowledge of planning, designing, developing, testing, or
     evaluating electrical components, electrical installation
@@ -2251,6 +2354,7 @@
     a skos:Concept ;
     skos:altLabel "ACQPLAN" ;
     skos:broader <urn:comp:124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Acquisition Planning" ;
     skos:scopeNote """Knowledge of contract regulations and government contract
     vehicles, and ability to form contracts through source
@@ -2272,6 +2376,7 @@
     a skos:Concept ;
     skos:altLabel "CONFORMAT" ;
     skos:broader <urn:comp:124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Contract Formation" ;
     skos:scopeNote """Knowledge of contract regulations and government contract
     vehicles, and ability to form contracts through source
@@ -2293,6 +2398,7 @@
     a skos:Concept ;
     skos:altLabel "CONPERFORM" ;
     skos:broader <urn:comp:124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Contract Management and Performance Assessment" ;
     skos:scopeNote """Knowledge and capabilities associated with managing
     contracts and evaluating a contractor's performance,
@@ -2313,6 +2419,7 @@
     a skos:Concept ;
     skos:altLabel "FACONSTMMT" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Construction Management" ;
     skos:scopeNote """Knowledge of the materials, methods, systems, and the tools
     used to construct facilities and other real property
@@ -2328,6 +2435,7 @@
     a skos:Concept ;
     skos:altLabel "FACPROPRTY" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Real Property Management" ;
     skos:scopeNote """Knowledge of requirements and processes to manage real
     property including buildings, other infrastructure, land,
@@ -2353,6 +2461,7 @@
     a skos:Concept ;
     skos:altLabel "FACOPSMAIN" ;
     skos:broader <urn:comp:112> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Facilities Operations and Maintenance" ;
     skos:scopeNote """Knowledge of operation and maintenance of office,
     operations and/or research facilities, and associated
@@ -2380,6 +2489,7 @@
     a skos:Concept ;
     skos:altLabel "DATLARGE" ;
     skos:broader <urn:comp:161> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Large Scale Data Systems" ;
     skos:scopeNote """Knowledge of design, development and implementation of
     large-scale scientific data storage, access, retrieval and
@@ -2399,6 +2509,7 @@
     a skos:Concept ;
     skos:altLabel "ENGSCISUP" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Engineering and Science Support" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     supporting engineering and science functions. This support
@@ -2421,6 +2532,7 @@
     a skos:Concept ;
     skos:altLabel "SIMFLTSYS" ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Simulation/Flight Research Systems" ;
     skos:scopeNote """Knowledge capabilities and practices used to provide and
     integrate appropriate real-time hardware/software systems
@@ -2439,6 +2551,7 @@
     a skos:Concept ;
     skos:altLabel "DATVISUAL" ;
     skos:broader <urn:comp:161> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Data Visualization" ;
     skos:scopeNote """Knowledge capabilities and practices associated with
     extracting information and knowledge from extremely large
@@ -2469,6 +2582,7 @@
     a skos:Concept ;
     skos:altLabel "STUTECH" ;
     skos:broader <urn:comp:174> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Technical Student Trainee" ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Technical Student Trainees.
@@ -2484,6 +2598,7 @@
     a skos:Concept ;
     skos:altLabel "STUCLERICAL" ;
     skos:broader <urn:comp:174> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Clerical Student Trainee" ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Clerical Student Trainees.
@@ -2499,6 +2614,7 @@
     a skos:Concept ;
     skos:altLabel "STUPROFADM" ;
     skos:broader <urn:comp:174> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Professional Administrative Student Trainee" ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Professional Administrative
@@ -2515,6 +2631,7 @@
     a skos:Concept ;
     skos:altLabel "SYSSAFETY" ;
     skos:broader <urn:comp:27> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "System Safety" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     use of formal approaches to analyze hazards that impact
@@ -2541,6 +2658,7 @@
     a skos:Concept ;
     skos:altLabel "PROBRISK" ;
     skos:broader <urn:comp:27> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Probabilistic Risk Assessment" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development and application of system risk models to
@@ -2564,6 +2682,7 @@
     a skos:Concept ;
     skos:altLabel "TREND" ;
     skos:broader <urn:comp:27> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Trend Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     identification of trends and patterns in data. Knowledge
@@ -2588,6 +2707,7 @@
     a skos:Concept ;
     skos:altLabel "PRECURSOR" ;
     skos:broader <urn:comp:27> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Precursor Analysis" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     identification of forerunners to failure. Knowledge of risk
@@ -2614,6 +2734,7 @@
     a skos:Concept ;
     skos:altLabel "SOLIDENG" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Solid & Hybrid Motor Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design and analysis of complex solid and hybrid rocket
@@ -2659,6 +2780,7 @@
     a skos:Concept ;
     skos:altLabel "LIQUIDENG" ;
     skos:broader <urn:comp:73> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Liquid Engine Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design and analysis of complex liquid engine systems for
@@ -2701,6 +2823,7 @@
     a skos:Concept ;
     skos:altLabel "ADVMDI" ;
     skos:broader <urn:comp:1363> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Measurement, Diagnostics, and Instrumentation" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and development, assessment, implementation, and
@@ -2725,6 +2848,7 @@
     a skos:Concept ;
     skos:altLabel "GNCCTLCOM" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Control Components" ;
     skos:scopeNote """Knowledge of and ability to perform research, design,
     development, test and evaluation of inertial, celestial,
@@ -2751,6 +2875,7 @@
     a skos:Concept ;
     skos:altLabel "GNCCTLELE" ;
     skos:broader <urn:comp:22> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Control Electronics" ;
     skos:scopeNote """Knowledge of and ability to employ navigation hardware
     including Inertial Measurement Units (IMU: gyro and
@@ -2772,6 +2897,7 @@
     a skos:Concept ;
     skos:altLabel "INTLLAW" ;
     skos:broader <urn:comp:125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "International Law" ;
     skos:scopeNote """Knowledge of public international law, space law,
     international agreement drafting, conclusion, procedure and
@@ -2792,6 +2918,7 @@
     a skos:Concept ;
     skos:altLabel "COMMLAW" ;
     skos:broader <urn:comp:125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Commercial Law" ;
     skos:scopeNote """Knowledge of negotiating, drafting, and interpreting Space
     Act Agreements with domestic and foreign entities;
@@ -2813,6 +2940,7 @@
     a skos:Concept ;
     skos:altLabel "PATENTAGT" ;
     skos:broader <urn:comp:176> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Patent Agent" ;
     skos:scopeNote """Knowledge of intellectual property matters, patents,
     copyrights, data rights, trademarks, and commercilization
@@ -2831,6 +2959,7 @@
     a skos:Concept ;
     skos:altLabel "HCMCLASS" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Classification" ;
     skos:scopeNote """Knowledge of classification concepts, principles, and
     practices related to structuring organizations and
@@ -2848,6 +2977,7 @@
     a skos:Concept ;
     skos:altLabel "HCMCOMP" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Compensation" ;
     skos:scopeNote """Knowledge of compensation concepts, principles, and
     practices, including pay and leave administration and
@@ -2864,6 +2994,7 @@
     a skos:Concept ;
     skos:altLabel "HCMEMPBENF" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Employee Benefits" ;
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to retirement, insurance, injury compensation, and other
@@ -2880,6 +3011,7 @@
     a skos:Concept ;
     skos:altLabel "HCMEMPDEV" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Employee Development" ;
     skos:scopeNote """Knowledge of employee development concepts, principles, and
     practices related to planning, evaluating,and
@@ -2897,6 +3029,7 @@
     a skos:Concept ;
     skos:altLabel "HCMEMPREL" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Employee Relations" ;
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to employee conduct,
@@ -2912,6 +3045,7 @@
     a skos:Concept ;
     skos:altLabel "FACENG" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1090>, <urn:comp:1091>, <urn:comp:1092>, <urn:comp:1096>, <urn:comp:1097>, <urn:comp:1098> ;
     skos:prefLabel "Facilities Engineering and Management" ;
     skos:scopeNote """Knowledge of facilities engineering , facility evaluation,
@@ -2938,6 +3072,7 @@
     a skos:Concept ;
     skos:altLabel "HCMLABOR" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Labor Relations" ;
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to negotiating and
@@ -2955,6 +3090,7 @@
     a skos:Concept ;
     skos:altLabel "HCMPERFMGT" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Performance Management" ;
     skos:scopeNote """Knowledge of performance management concepts, principles,
     and practices related to planning, monitoring,
@@ -2971,6 +3107,7 @@
     a skos:Concept ;
     skos:altLabel "HCMRECRUIT" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Recruitment/Placement" ;
     skos:scopeNote """Knowledge of HR concepts, principles,and practices related
     to identifying, attracting, and selecting individuals and
@@ -2988,6 +3125,7 @@
     a skos:Concept ;
     skos:altLabel "HCMWORKPLN" ;
     skos:broader <urn:comp:128> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Workforce Planning" ;
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to determining workload projections and current and
@@ -3002,6 +3140,7 @@
     nt2:type "Descriptor" ;
     dcterms:modified "2007-01-11" ;
     a skos:Concept ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1125>, <urn:comp:1150>, <urn:comp:1159>, <urn:comp:1189> ;
     skos:prefLabel "Business Knowledge Domain" .
 
@@ -3013,6 +3152,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:113>, <urn:comp:116>, <urn:comp:117>, <urn:comp:125>, <urn:comp:127>, <urn:comp:131>, <urn:comp:135>, <urn:comp:136>, <urn:comp:137>, <urn:comp:144>, <urn:comp:157>, <urn:comp:169>, <urn:comp:176> ;
     skos:prefLabel "Business Operations Competency Suite" .
 
@@ -3025,6 +3165,7 @@
     a skos:Concept ;
     skos:altLabel "BUSMMT" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Business Management" ;
     skos:scopeNote """Knowledge of principles and practices related to managing
     the internal and external operations of a business unit,
@@ -3052,6 +3193,7 @@
     skos:broader <urn:comp:1209> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Process Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development and implementation of safe, efficient, and
@@ -3079,6 +3221,7 @@
     a skos:Concept ;
     skos:altLabel "PROFADMOPS" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Professional Administrative Operations" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     support of administrative and management activities to
@@ -3099,6 +3242,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:118>, <urn:comp:119>, <urn:comp:120>, <urn:comp:121>, <urn:comp:124> ;
     skos:prefLabel "Financial Operations Competency Suite" .
 
@@ -3110,6 +3254,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:112>, <urn:comp:126>, <urn:comp:130>, <urn:comp:133>, <urn:comp:134>, <urn:comp:143>, <urn:comp:150>, <urn:comp:151>, <urn:comp:152>, <urn:comp:167>, <urn:comp:168> ;
     skos:prefLabel "Institutional Operations & Support Competency Suite" .
 
@@ -3122,6 +3267,7 @@
     a skos:Concept ;
     skos:altLabel "BUSDEV" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Partnership & Business Development" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     effective targeting and acquisition of external
@@ -3153,6 +3299,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:126> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Counterintelligence/Counterterrorism Analysis, Investigation and Liaison(SECOUNTER) [1073]" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     receipt, analysis, dissemination and investigation of
@@ -3172,6 +3319,7 @@
     a skos:Concept ;
     skos:altLabel "COMTEC" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Commercial Technology" ;
     skos:scopeNote """Knowledge and abilities associated with transferring
     current and future Agency technology to external entities
@@ -3194,6 +3342,7 @@
     a skos:Concept ;
     skos:altLabel "FINMMT" ;
     skos:broader <urn:comp:1150> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Financial Management" ;
     skos:scopeNote """Knowledge of how to apply financial management skills,
     principles and practices, generally accepted accounting
@@ -3218,6 +3367,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:115>, <urn:comp:128>, <urn:comp:129>, <urn:comp:158>, <urn:comp:165>, <urn:comp:174> ;
     skos:prefLabel "Workforce Operations & Support Competency Suite" .
 
@@ -3230,6 +3380,7 @@
     a skos:Concept ;
     skos:altLabel "BUDGETMMT" ;
     skos:broader <urn:comp:1150> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Budgeting Management" ;
     skos:scopeNote """Knowledge of how to apply management knowledge, principles
     and practices to obtain, utilize, manage financial
@@ -3256,6 +3407,7 @@
     a skos:Concept ;
     skos:altLabel "ELMAG" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electromagnetics" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical, computational, and
@@ -3278,6 +3430,7 @@
     a skos:Concept ;
     skos:altLabel "INTAUD" ;
     skos:broader <urn:comp:1150> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Internal Control / Audit" ;
     skos:scopeNote """Knowledge of how to evaluate control systems for financial,
     administrative, program, and operational activities to
@@ -3301,6 +3454,7 @@
     nt2:type "Descriptor" ;
     dcterms:modified "2007-01-11" ;
     a skos:Concept ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1209>, <urn:comp:1231>, <urn:comp:1237>, <urn:comp:1244>, <urn:comp:1280>, <urn:comp:1283>, <urn:comp:1294>, <urn:comp:1314>, <urn:comp:1339>, <urn:comp:1347>, <urn:comp:1359>, <urn:comp:1363> ;
     skos:prefLabel "Engineering & Technology Knowledge Domain" .
 
@@ -3312,6 +3466,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:10>, <urn:comp:11>, <urn:comp:114>, <urn:comp:24>, <urn:comp:7>, <urn:comp:8>, <urn:comp:9> ;
     skos:prefLabel "Engineering of Systems Competency Suite" .
 
@@ -3328,6 +3483,7 @@
     skos:changeNote """Name changed from \"Cost Estimation Analysis\" and Scope Note
     updated.
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cost Estimation and Analysis" ;
     skos:scopeNote """This competency refers to the knowledge, capabilities, and
     practices associated with the determination, estimation,
@@ -3355,6 +3511,7 @@
     a skos:Concept ;
     skos:altLabel "PROJPROGMT" ;
     skos:broader <urn:comp:1399> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Program/Project Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     formulating, planning, implementing, managing, tracking and
@@ -3381,6 +3538,7 @@
     a skos:Concept ;
     skos:altLabel "RISKMMT" ;
     skos:broader <urn:comp:1381> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Risk Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     decision process associated with mitigating or accepting
@@ -3400,6 +3558,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1>, <urn:comp:175>, <urn:comp:2>, <urn:comp:89>, <urn:comp:WQQ-590>, <urn:comp:WQQ-591> ;
     skos:prefLabel "Systems Analysis & Mission Planning Competency Suite" .
 
@@ -3411,6 +3570,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:100>, <urn:comp:101>, <urn:comp:102>, <urn:comp:103>, <urn:comp:108>, <urn:comp:110>, <urn:comp:98> ;
     skos:prefLabel "Aeronautics Competency Suite" .
 
@@ -3423,6 +3583,7 @@
     a skos:Concept ;
     skos:altLabel "CONMMT" ;
     skos:broader <urn:comp:1150> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1093>, <urn:comp:1094>, <urn:comp:1095> ;
     skos:prefLabel "Acquisition and Contract Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with each
@@ -3454,6 +3615,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:35>, <urn:comp:36>, <urn:comp:37>, <urn:comp:38>, <urn:comp:39>, <urn:comp:40>, <urn:comp:41>, <urn:comp:58>, <urn:comp:59>, <urn:comp:97> ;
     skos:prefLabel "Human and Biological Competency Suite" .
 
@@ -3472,6 +3634,7 @@
     New child nodes added for International Law and Commercial
     Law.
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1083>, <urn:comp:1084>, <urn:comp:1085>, <urn:comp:1086>, <urn:comp:1087>, <urn:comp:1112>, <urn:comp:1113> ;
     skos:prefLabel "Legal Application Practice" ;
     skos:scopeNote """Member in good standing of the bar of either a Federal
@@ -3498,6 +3661,7 @@
     a skos:Concept ;
     skos:altLabel "SECURITY" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1072>, <urn:comp:1074>, <urn:comp:1075>, <urn:comp:1076>, <urn:comp:1077>, <urn:comp:WQQ-564>, <urn:comp:WQQ-565> ;
     skos:prefLabel "Security & Program Protection" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
@@ -3518,6 +3682,7 @@
     a skos:Concept ;
     skos:altLabel "INSCOMP" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Inspection, Investigation and Compliance" ;
     skos:scopeNote """Knowledge of how to provide objective evaluation of Agency
     standards and operation through use of inspection and
@@ -3540,6 +3705,7 @@
     a skos:Concept ;
     skos:altLabel "HUMCAPMMT" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1115>, <urn:comp:1116>, <urn:comp:1117>, <urn:comp:1118>, <urn:comp:1119>, <urn:comp:1120>, <urn:comp:1121>, <urn:comp:1122>, <urn:comp:1123> ;
     skos:prefLabel "Human Capital Management" ;
     skos:scopeNote """Apply knowledge and practices of the full range of
@@ -3566,6 +3732,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:18>, <urn:comp:25> ;
     skos:prefLabel "Chemical Competency Suite" .
 
@@ -3577,6 +3744,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:161>, <urn:comp:166>, <urn:comp:79>, <urn:comp:80>, <urn:comp:81>, <urn:comp:82>, <urn:comp:84>, <urn:comp:85> ;
     skos:prefLabel "Computer Science & Information Technology Competency Suite" .
 
@@ -3589,6 +3757,7 @@
     a skos:Concept ;
     skos:altLabel "EEOMMT" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Equal Opportunity Management" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     formulating, planning, implementing, managing, tracking and
@@ -3622,6 +3791,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:12>, <urn:comp:13>, <urn:comp:15>, <urn:comp:159>, <urn:comp:16>, <urn:comp:160>, <urn:comp:19>, <urn:comp:21>, <urn:comp:22>, <urn:comp:60> ;
     skos:prefLabel "Electrical & Electronic Competency Suite" .
 
@@ -3634,6 +3804,7 @@
     a skos:Concept ;
     skos:altLabel "ELSYS" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1042>, <urn:comp:1043>, <urn:comp:1044>, <urn:comp:1045> ;
     skos:prefLabel "Electrical and Electronic Systems" ;
     skos:scopeNote """Knowledge of engineering design and analysis, development
@@ -3661,6 +3832,7 @@
     a skos:Concept ;
     skos:altLabel "OCCHEALTH" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1066>, <urn:comp:1067>, <urn:comp:1068>, <urn:comp:1069> ;
     skos:prefLabel "Occupational and Environmental Health" ;
     skos:scopeNote """Knowledge, capabilities, and practice associated with NASA,
@@ -3690,6 +3862,7 @@
     a skos:Concept ;
     skos:altLabel "BITSYS" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1078>, <urn:comp:1079>, <urn:comp:1081> ;
     skos:prefLabel "Business IT Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
@@ -3712,6 +3885,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:138>, <urn:comp:68>, <urn:comp:69>, <urn:comp:70>, <urn:comp:71>, <urn:comp:72>, <urn:comp:73>, <urn:comp:74>, <urn:comp:75>, <urn:comp:76>, <urn:comp:77>, <urn:comp:78> ;
     skos:prefLabel "Power & Propulsion Competency Suite" .
 
@@ -3723,6 +3897,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:72> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propellantless Propulsion(APNOPROP) [1051]" ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     in-space propulsion systems which use technologies other
@@ -3742,6 +3917,7 @@
     a skos:Concept ;
     skos:altLabel "ENVENGMMT" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1088>, <urn:comp:1089> ;
     skos:prefLabel "Institutional Environmental Engineering & Management" ;
     skos:scopeNote """Uses knowledge of environmental engineering, environmental
@@ -3766,6 +3942,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:14>, <urn:comp:20>, <urn:comp:92>, <urn:comp:93>, <urn:comp:94>, <urn:comp:95>, <urn:comp:96> ;
     skos:prefLabel "Sensor Systems Competency Suite" .
 
@@ -3778,6 +3955,7 @@
     a skos:Concept ;
     skos:altLabel "LOGSUPTRAN" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Institutional Logistics, Supply and Transportation" ;
     skos:scopeNote """Knowledge of principles, practices, equipment and tools in
     the areas of Logistics, Supply and Transportation.
@@ -3807,6 +3985,7 @@
     dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:105>, <urn:comp:17>, <urn:comp:61>, <urn:comp:62>, <urn:comp:63>, <urn:comp:64>, <urn:comp:66>, <urn:comp:67> ;
     skos:prefLabel "Structures, Materials & Mechanics Competency Suite" .
 
@@ -3819,6 +3998,7 @@
     a skos:Concept ;
     skos:altLabel "PUBLICOMM" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Public Communications & Outreach" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     assessment, development and execution of public
@@ -3850,6 +4030,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:104>, <urn:comp:106>, <urn:comp:26> ;
     skos:prefLabel "Thermal/Fluid Competency Suite" .
 
@@ -3862,6 +4043,7 @@
     a skos:Concept ;
     skos:altLabel "GOVAF" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Governmental Affairs" ;
     skos:scopeNote """Knowledge of NASA-related legislation, the legislative
     process and public affairs as it pertains to NASA. Includes
@@ -3884,6 +4066,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:109>, <urn:comp:111>, <urn:comp:155>, <urn:comp:57>, <urn:comp:86>, <urn:comp:91>, <urn:comp:WQQ-470>, <urn:comp:WQQ-471> ;
     skos:prefLabel "Multi-disciplinary R&D Competency Suite" .
 
@@ -3896,6 +4079,7 @@
     a skos:Concept ;
     skos:altLabel "EDTECH" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Education Programs and Technologies" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     research and application of education programs, standards,
@@ -3924,6 +4108,7 @@
     nt2:type "Descriptor" ;
     dcterms:modified "2007-01-11" ;
     a skos:Concept ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1372>, <urn:comp:1381> ;
     skos:prefLabel "Mission Operations Knowledge Domain" .
 
@@ -3935,6 +4120,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1371> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:147>, <urn:comp:153>, <urn:comp:162>, <urn:comp:3>, <urn:comp:30>, <urn:comp:4>, <urn:comp:5>, <urn:comp:6> ;
     skos:prefLabel "Mission Operations Competency Suite" .
 
@@ -3947,6 +4133,7 @@
     a skos:Concept ;
     skos:altLabel "NUCLEARENG" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Nuclear Engineering /Propulsion" ;
     skos:scopeNote """Knowledge of scientific and engineering principles
     associated with the safe design and operations of
@@ -3974,6 +4161,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1371> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:123>, <urn:comp:139>, <urn:comp:149>, <urn:comp:154>, <urn:comp:27>, <urn:comp:28>, <urn:comp:29> ;
     skos:prefLabel "Quality/Safety/Performance Competency Suite" .
 
@@ -3986,6 +4174,7 @@
     a skos:Concept ;
     skos:altLabel "SWASSURANCE" ;
     skos:broader <urn:comp:1381> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Software Assurance Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     planning, organizing, performing, monitoring and directing
@@ -4013,6 +4202,7 @@
     nt2:type "Descriptor" ;
     dcterms:modified "2007-01-11" ;
     a skos:Concept ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1394>, <urn:comp:1399> ;
     skos:prefLabel "Leadership & Management Knowledge Domain" .
 
@@ -4024,6 +4214,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1393> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:170>, <urn:comp:171>, <urn:comp:172>, <urn:comp:173> ;
     skos:prefLabel "Management Competency Suite" .
 
@@ -4035,6 +4226,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1393> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:122>, <urn:comp:140> ;
     skos:prefLabel "Professional Development Competency Suite" .
 
@@ -4047,6 +4239,7 @@
     a skos:Concept ;
     skos:altLabel "ELDEVTEC" ;
     skos:broader <urn:comp:1339> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electron Device Technology" ;
     skos:scopeNote """Knowledge and practices associated in conducting research
     and development of electron device technology for
@@ -4063,6 +4256,7 @@
     a skos:Concept ;
     skos:altLabel "NASALEADER" ;
     skos:broader <urn:comp:1399> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1001>, <urn:comp:1002>, <urn:comp:1003>, <urn:comp:1004> ;
     skos:prefLabel "NASA Leadership Competency" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
@@ -4091,6 +4285,7 @@
     nt2:type "Descriptor" ;
     dcterms:modified "2007-01-11" ;
     a skos:Concept ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1407>, <urn:comp:1415>, <urn:comp:1424>, <urn:comp:1430> ;
     skos:prefLabel "Science Knowledge Domain" .
 
@@ -4102,6 +4297,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:163>, <urn:comp:44>, <urn:comp:51>, <urn:comp:52>, <urn:comp:53>, <urn:comp:54>, <urn:comp:55> ;
     skos:prefLabel "Space Sciences Competency Suite" .
 
@@ -4113,6 +4309,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:164>, <urn:comp:45>, <urn:comp:46>, <urn:comp:47>, <urn:comp:48>, <urn:comp:49>, <urn:comp:50>, <urn:comp:88> ;
     skos:prefLabel "Earth Sciences Competency Suite" .
 
@@ -4124,6 +4321,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:107>, <urn:comp:42>, <urn:comp:43>, <urn:comp:56>, <urn:comp:65> ;
     skos:prefLabel "Physical Sciences Competency Suite" .
 
@@ -4139,6 +4337,7 @@
     skos:broader <urn:comp:1159> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fire Protection Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated fire
     prevention-related tools and their application to systems
@@ -4163,6 +4362,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:156>, <urn:comp:31>, <urn:comp:32>, <urn:comp:34> ;
     skos:prefLabel "Biological Sciences Competency Suite" .
 
@@ -4175,6 +4375,7 @@
     a skos:Concept ;
     skos:altLabel "EXPORT" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Export Control" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     complying with federal laws controlling the export of items
@@ -4195,6 +4396,7 @@
     a skos:Concept ;
     skos:altLabel "PROJANALYS" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Program/Project Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     formulating, planning, implementing, tracking and
@@ -4217,6 +4419,7 @@
     a skos:Concept ;
     skos:altLabel "MISHAPINV" ;
     skos:broader <urn:comp:1381> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mishap Investigation" ;
     skos:scopeNote """A NASA employee who understands NASA mishap investigation
     policy, and requirements, and has the skills to perform all
@@ -4235,6 +4438,7 @@
     a skos:Concept ;
     skos:altLabel "ELMECHSY" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Electro-Mechanical Systems" ;
     skos:scopeNote """Knowledge of and ability to design, develop, test,
     integrate and evaluate electro-mechanical systems such as;
@@ -4258,6 +4462,7 @@
     skos:broader <urn:comp:1159> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Workplace Safety" ;
     skos:scopeNote """Knowledge, capabilities, and practice associated with NASA,
     Federal (29 CFR 1960), and State OSHA health and safety
@@ -4295,6 +4500,7 @@
     a skos:Concept ;
     skos:altLabel "EMERGMMT" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Emergency Management" ;
     skos:scopeNote """Knowledge, capabilities, and practices of Comprehensive
     Emergency Management are associated with an integrated
@@ -4351,6 +4557,7 @@
     a skos:Concept ;
     skos:altLabel "AIROPS" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Institutional Aircraft Operations" ;
     skos:scopeNote """Knowledge of aircraft operations, maintenance, acquisition,
     airworthiness and aviation safety principles for
@@ -4376,6 +4583,7 @@
     a skos:Concept ;
     skos:altLabel "TECHMMT" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Technical Management" ;
     skos:scopeNote """Knowledge, capabilities, and practices of technical
     formulation, planning, implementing, integration and
@@ -4394,6 +4602,7 @@
     a skos:Concept ;
     skos:altLabel "CONFIGMMT" ;
     skos:broader <urn:comp:1381> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Configuration Management" ;
     skos:scopeNote """Knowledge of configuration management practices required to
     define, document, control and manage changes to the
@@ -4422,6 +4631,7 @@
     a skos:Concept ;
     skos:altLabel "SPACE_ENV" ;
     skos:broader <urn:comp:1363> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Space Environments Science and Engineering" ;
     skos:scopeNote """Knowledge of composition, elements, behaviors and impact of
     the space environments on the design, development, testing
@@ -4443,6 +4653,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1430> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1064>, <urn:comp:1065> ;
     skos:prefLabel "Bioethics" ;
     skos:scopeNote """Knowledge and experience in interpreting and implementing
@@ -4466,6 +4677,7 @@
     a skos:Concept ;
     skos:altLabel "INTLPGMDEV" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "International Program Development" ;
     skos:scopeNote """This competency refers to the knowledge and capabilities
     associated with establishing international
@@ -4488,6 +4700,7 @@
     a skos:Concept ;
     skos:altLabel "DIVERSEMMT" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Diversity Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     application of diversity management including developing,
@@ -4516,6 +4729,7 @@
     a skos:Concept ;
     skos:altLabel "WIRELESS" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Wireless Communications and Telemetry" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     design, analysis, development and/or test of microwave, RF
@@ -4546,6 +4760,7 @@
     a skos:Concept ;
     skos:altLabel "MICROELMEC" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Micro-Electromechanical Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     research, design, development, test, evaluation,
@@ -4563,6 +4778,7 @@
     a skos:Concept ;
     skos:altLabel "METROLOGY" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Metrology and Calibration Competency" ;
     skos:scopeNote """This competency refers to the knowledge, capabilities and
     responsibilities associated with the NASA Metrology and
@@ -4593,6 +4809,7 @@
     a skos:Concept ;
     skos:altLabel "DATSYS" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1080>, <urn:comp:1099>, <urn:comp:1100> ;
     skos:prefLabel "Data Systems and Technology" ;
     skos:scopeNote """Knowledge of the principles, procedures, and tools of data
@@ -4610,6 +4827,7 @@
     a skos:Concept ;
     skos:altLabel "INTLOGSUP" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Integrated Logistics Support" ;
     skos:scopeNote """Knowledge, capabilities, concepts, and methods of strategic
     logistics planning, ad execution, emphasizing proactive
@@ -4639,6 +4857,7 @@
     a skos:Concept ;
     skos:altLabel "PLANETATM" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Planetary Atmospheres" ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation,
     chemistry and dynamics in the study of the structure and
@@ -4666,6 +4885,7 @@
     a skos:Concept ;
     skos:altLabel "CLIMATE" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Climate Change and Variability" ;
     skos:scopeNote """Applies an integrated and cross discipline approach to
     understanding, assessing, and predicting the Earth's
@@ -4690,6 +4910,7 @@
     a skos:Concept ;
     skos:altLabel "PARABUSOPS" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Para-Professional Business Operations" ;
     skos:scopeNote """The knowledge and capabilities associated with
     administrative, clerical and management support to a
@@ -4710,6 +4931,7 @@
     a skos:Concept ;
     skos:altLabel "IMAGING" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Imaging Analysis" ;
     skos:scopeNote """This competency referes to the knowledge and capabilities
     associated with the analysis of all imaging media to
@@ -4737,6 +4959,7 @@
     a skos:Concept ;
     skos:altLabel "MASTERPLAN" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Master Planning" ;
     skos:scopeNote """Knowledge of strategic and long-term planning for
     operations, research or development activities at the
@@ -4762,6 +4985,7 @@
     a skos:Concept ;
     skos:altLabel "FACLTYPLAN" ;
     skos:broader <urn:comp:1159> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Research, Development or Flight Facility Planning" ;
     skos:scopeNote """Knowledge of strategic and long-term planning for research,
     development or flight facilities and related equipment
@@ -4796,6 +5020,7 @@
     a skos:Concept ;
     skos:altLabel "POLICYMGMT" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Policy Management" ;
     skos:scopeNote """Knowledge of NASA relationships to headquarters, Centers,
     component facilities, partnerships and other government
@@ -4821,6 +5046,7 @@
     a skos:Concept ;
     skos:altLabel "MECHSYS" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mechanical Systems" ;
     skos:scopeNote """Knowledge, capability and practices involving the design,
     development and testing of vehicle and instrument
@@ -4847,6 +5073,7 @@
     a skos:Concept ;
     skos:altLabel "EXECMMT" ;
     skos:broader <urn:comp:1394> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Executive Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     leading change, people, and work of an organization.
@@ -4879,6 +5106,7 @@
     a skos:Concept ;
     skos:altLabel "TECWORKMMT" ;
     skos:broader <urn:comp:1394> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Technical Work & Team Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -4899,6 +5127,7 @@
     a skos:Concept ;
     skos:altLabel "BUSWORKMMT" ;
     skos:broader <urn:comp:1394> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Business Work & Team Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -4920,6 +5149,7 @@
     a skos:Concept ;
     skos:altLabel "PROWORKMMT" ;
     skos:broader <urn:comp:1394> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Project Work & Team Management" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -4941,6 +5171,7 @@
     a skos:Concept ;
     skos:altLabel "STUDENT" ;
     skos:broader <urn:comp:1189> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1101>, <urn:comp:1102>, <urn:comp:1103> ;
     skos:prefLabel "Student Trainee" ;
     skos:scopeNote """This is a training and development competency for employees
@@ -4962,6 +5193,7 @@
     a skos:Concept ;
     skos:altLabel "SIMULATE" ;
     skos:broader <urn:comp:1231> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Simulation Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     real-time simulation which is a realistic representation of
@@ -5005,6 +5237,7 @@
     a skos:Concept ;
     skos:altLabel "LEGALSUP" ;
     skos:broader <urn:comp:1125> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1082>, <urn:comp:1114> ;
     skos:prefLabel "Legal Assistance" ;
     skos:scopeNote """Other knowledge of legal research and writing, litigation
@@ -5021,6 +5254,7 @@
     a skos:Concept ;
     skos:altLabel "PYROTECH" ;
     skos:broader <urn:comp:1280> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Pyrotechnics" ;
     skos:scopeNote """Knowledge of the composition, nature, applications and
     handling of devices or assemblies containing or operated by
@@ -5042,6 +5276,7 @@
     a skos:Concept ;
     skos:altLabel "FLTGNDSYS" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Flight and Ground Data Systems" ;
     skos:scopeNote """Knowledge of controlling and monitoring systems for
     aerospace vehicles, payload flight systems and related
@@ -5070,6 +5305,7 @@
     skos:broader <urn:comp:1231> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mission Flight Design" ;
     skos:scopeNote """Knowledge and ability to conduct computational analysis of
     air and space vehicle flight design for mission
@@ -5098,6 +5334,7 @@
     skos:broader <urn:comp:1339> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Sensors & Data Acquisition" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     sensors and data acquisition systems, particularly for use
@@ -5119,6 +5356,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Avionics" ;
     skos:scopeNote """Knowledge of research and engineering of real-time analog
     and/or digital electronic avionics systems that use data
@@ -5140,6 +5378,7 @@
     a skos:Concept ;
     skos:altLabel "GNC" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1046>, <urn:comp:1047>, <urn:comp:1048>, <urn:comp:1049>, <urn:comp:1110>, <urn:comp:1111> ;
     skos:prefLabel "Control Systems, Guidance & Navigation" ;
     skos:scopeNote """Knowledge of and ability to develop analytical,
@@ -5166,6 +5405,7 @@
     a skos:Concept ;
     skos:altLabel "PLANETENV" ;
     skos:broader <urn:comp:1363> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Terrestrial & Planetary Environmental Science and Engineering" ;
     skos:scopeNote """Knowledge of composition, elements, behaviors and impact of
     the terrestrial and planetary environments on the design,
@@ -5188,6 +5428,7 @@
     a skos:Concept ;
     skos:altLabel "MANUFACT" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Manufacturing Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices to perform concurrent
     engineering and producibility. Includes knowledge and
@@ -5208,6 +5449,7 @@
     a skos:Concept ;
     skos:altLabel "CHEMENG" ;
     skos:broader <urn:comp:1280> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Chemistry/ Chemical Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     Chemistry and Chemical Engineering as applied to aerospace
@@ -5232,6 +5474,7 @@
     a skos:Concept ;
     skos:altLabel "CRYOENG" ;
     skos:broader <urn:comp:1359> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cryogenics Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     aerospace cryogenic systems, particularly for use in
@@ -5256,6 +5499,7 @@
     skos:broader <urn:comp:1381> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1104>, <urn:comp:1105>, <urn:comp:1106>, <urn:comp:1107> ;
     skos:prefLabel "Safety Engineering and Assurance" ;
     skos:scopeNote """Knowledge of scientific, engineering and management
@@ -5286,6 +5530,7 @@
     a skos:Concept ;
     skos:altLabel "RMEA" ;
     skos:broader <urn:comp:1381> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Reliability & Maintainability Engineering & Assurance" ;
     skos:scopeNote """Knowledge, capabilities and practices used to design
     flight, ground support, and facility systems, equipment and
@@ -5331,6 +5576,7 @@
     skos:broader <urn:comp:1381> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Quality Engineering & Assurance" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     assurance of quality (aeronautic and astronautic) for all
@@ -5376,6 +5622,7 @@
     a skos:Concept ;
     skos:altLabel "ADVTEC" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Technical Training Design" ;
     skos:scopeNote """Knowledge of state-of-the art practices required to train
     technical personnel such as flight crew or ground support
@@ -5395,6 +5642,7 @@
     a skos:Concept ;
     skos:altLabel "MA" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mission Assurance" ;
     skos:scopeNote """Knowledge of methodologies and practices such as risk
     identification, analysis, planning, tracking and control
@@ -5421,6 +5669,7 @@
     skos:changeNote """Changed \"and\" in term label to \"&\". Added \"and development
     of biosentinals\" to end of scope note.
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cell & Molecular Biology" ;
     skos:scopeNote """Knowledge of and ability to conduct research on basic
     cellular function and properties such as gene regulation
@@ -5444,6 +5693,7 @@
     a skos:Concept ;
     skos:altLabel "DEVELOPBIO" ;
     skos:broader <urn:comp:1430> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Developmental Biology" ;
     skos:scopeNote """Knowledge of and ability to conduct research on the
     processes of development, differentiation, and growth in
@@ -5460,6 +5710,7 @@
     a skos:Concept ;
     skos:altLabel "BIOMEDRES" ;
     skos:broader <urn:comp:1430> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomedical Research" ;
     skos:scopeNote """Involves the capability to research, investigate and
     characterize the effects of space flight and exposure to
@@ -5488,6 +5739,7 @@
     a skos:Concept ;
     skos:altLabel "BIOMEDENG" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomedical Engineering" ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     test of biomedical systems such as equipment and tools for
@@ -5508,6 +5760,7 @@
     a skos:Concept ;
     skos:altLabel "AEROMED" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1070>, <urn:comp:1071> ;
     skos:prefLabel "Aerospace Medicine" ;
     skos:scopeNote """Knowledge, capabilities, and credentials to engage,
@@ -5528,6 +5781,7 @@
     a skos:Concept ;
     skos:altLabel "ECLSS" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Environmental Control and Life Support Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     environmental control and/or life support systems used to
@@ -5554,6 +5808,7 @@
     a skos:Concept ;
     skos:altLabel "EAS" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Extravehicular Activity Systems" ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     test of EVA systems. Requires knowledge and skills
@@ -5578,6 +5833,7 @@
     skos:changeNote """Name changed from \"Habitability and Environmenal Factors\".
     Scope note modified to remove mentions of \"habitability\".
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Environmental Factors" ;
     skos:scopeNote """Knowledge of practices associated with research of and
     applying research to spacecraft and space-based
@@ -5601,6 +5857,7 @@
     a skos:Concept ;
     skos:altLabel "MISEXC" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mission Execution" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     execution of missions, including pre-launch, launch,
@@ -5623,6 +5880,7 @@
     a skos:Concept ;
     skos:altLabel "HUMFACTRES" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1005>, <urn:comp:1007>, <urn:comp:1008>, <urn:comp:1009>, <urn:comp:1010>, <urn:comp:1011>, <urn:comp:1012>, <urn:comp:1013>, <urn:comp:1014>, <urn:comp:1015>, <urn:comp:1016>, <urn:comp:1017>, <urn:comp:1018>, <urn:comp:WQQ-302>, <urn:comp:WQQ-303> ;
     skos:prefLabel "Fundamental Human Factors Research" ;
     skos:scopeNote """Knowledge of human engineering research methods (e.g.
@@ -5657,6 +5915,7 @@
     a skos:Concept ;
     skos:altLabel "HUMFACTENG" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1019>, <urn:comp:1020>, <urn:comp:1021>, <urn:comp:1022>, <urn:comp:1023>, <urn:comp:1024>, <urn:comp:1025>, <urn:comp:1026>, <urn:comp:1027> ;
     skos:prefLabel "Human Factors Engineering" ;
     skos:scopeNote """Knowledge and capabilities to apply human factors
@@ -5690,6 +5949,7 @@
     a skos:Concept ;
     skos:altLabel "FUNPHYSICS" ;
     skos:broader <urn:comp:1424> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fundamental Physics" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     research and application of electromagnetism, continuum and
@@ -5713,6 +5973,7 @@
     a skos:Concept ;
     skos:altLabel "FLUIDPHY" ;
     skos:broader <urn:comp:1424> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fluid Physics" ;
     skos:scopeNote """Employ knowledge of the motion of fluids and the effects of
     such motion, to the understanding, control and improvement
@@ -5731,6 +5992,7 @@
     a skos:Concept ;
     skos:altLabel "EARTHATM" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Earth Atmosphere" ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation,
     chemistry and dynamics in the study of the structure and
@@ -5756,6 +6018,7 @@
     a skos:Concept ;
     skos:altLabel "GEOSCI" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Geophysical/Geologic Science" ;
     skos:scopeNote """Knowledge of a wide range of disciplines related to the
     earth's composition, its fluid envelopes, and its position
@@ -5775,6 +6038,7 @@
     a skos:Concept ;
     skos:altLabel "BBECO" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biology and Biogeochemistry of Ecosystems" ;
     skos:scopeNote """Apply knowledge of biology, biogeochemistry of ecosystems
     and the global carbon cycle to research, understand and
@@ -5799,6 +6063,7 @@
     a skos:Concept ;
     skos:altLabel "HYDROSCI" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Hydrological Science" ;
     skos:scopeNote """Knowledge of the scientific study of waters of the earth,
     especially with relation to the effects of precipitation
@@ -5821,6 +6086,7 @@
     a skos:Concept ;
     skos:altLabel "OCEANSCI" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Oceanographic Science" ;
     skos:scopeNote """Research into the composition, activities, processes and
     patterns in the oceans and ocean ice to increase
@@ -5843,6 +6109,7 @@
     a skos:Concept ;
     skos:altLabel "EARSCIRES" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Earth Science Applications Research" ;
     skos:scopeNote """Use knowledge of Earth systems and measurement technologies
     for designing research into Earth Science disciplines that
@@ -5862,6 +6129,7 @@
     a skos:Concept ;
     skos:altLabel "PAYLOADINT" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Payload Integration" ;
     skos:scopeNote """Applies knowledge and practices of management, science and
     engineering to lifecycle of all payload research
@@ -5885,6 +6153,7 @@
     a skos:Concept ;
     skos:altLabel "EARSYMODEL" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Earth System Modeling" ;
     skos:scopeNote """Apply understanding of Earth systems to consolidation of
     scientific findings into integrated representations of
@@ -5902,6 +6171,7 @@
     a skos:Concept ;
     skos:altLabel "SPACEPHY" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Space Physics" ;
     skos:scopeNote """Uses knowledge to conduct experimental, theoretical, and/or
     applied physics and modeling relating to matter, radiation,
@@ -5929,6 +6199,7 @@
     a skos:Concept ;
     skos:altLabel "ASTRONOMY" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Astronomy & Astrophysics" ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation and
     dynamics for the study of the structure and composition of
@@ -5960,6 +6231,7 @@
     a skos:Concept ;
     skos:altLabel "PLANETSCI" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Planetary Science" ;
     skos:scopeNote """Knowledge of space science applied to conducting
     experimental, observational, and theoretical studies and
@@ -5979,6 +6251,7 @@
     a skos:Concept ;
     skos:altLabel "ASTROBIO" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Astrobiology" ;
     skos:scopeNote """Apply knowledge of biology, chemistry, physics, and other
     sciences in interdisciplinary experimental, observational,
@@ -5999,6 +6272,7 @@
     a skos:Concept ;
     skos:altLabel "ASTROMATER" ;
     skos:broader <urn:comp:1407> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Astromaterials, Collections, Curation & Analysis" ;
     skos:scopeNote """Apply knowledge of foreign materials, and planetary
     sciences to the collection of materials from foreign
@@ -6017,6 +6291,7 @@
     a skos:Concept ;
     skos:altLabel "TINYSCI" ;
     skos:broader <urn:comp:1424> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Nanoscience" ;
     skos:scopeNote """Knowledge, capability and practices to study and research
     extremely small materials is such areas as their structure,
@@ -6033,6 +6308,7 @@
     a skos:Concept ;
     skos:altLabel "TINYTEC" ;
     skos:broader <urn:comp:1363> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Nanotechnology" ;
     skos:scopeNote """Knowledge of the study of characteristics and properties of
     extremely small materials for development of new
@@ -6053,6 +6329,7 @@
     a skos:Concept ;
     skos:altLabel "BIOENG" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Bioengineering" ;
     skos:scopeNote """Application of technologies to living systems including
     such areas as biomechanics, imaging, biomedical
@@ -6068,6 +6345,7 @@
     a skos:Concept ;
     skos:altLabel "BIOMIMETIC" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomimetics" ;
     skos:scopeNote """Knowledge and capability to research and further study
     natural processes which have potential to be deciphered,
@@ -6087,6 +6365,7 @@
     a skos:Concept ;
     skos:altLabel "WOBSFR" ;
     skos:broader <urn:comp:1372> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Weather Observation and Forecasting" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     developing or improving techniques for observing or
@@ -6117,6 +6396,7 @@
     a skos:Concept ;
     skos:altLabel "COMNETENG" ;
     skos:broader <urn:comp:1294> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Communication Networks & Engineering" ;
     skos:scopeNote """Knowledge and practices associated with researching and
     developing air and space communications architectures and
@@ -6142,6 +6422,7 @@
     a skos:Concept ;
     skos:altLabel "STRUCTDYN" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Structural Dynamics" ;
     skos:scopeNote """Research knowledge, capabilities and practices for
     developing and analyzing methods to predict, verify and
@@ -6166,6 +6447,7 @@
     skos:broader <urn:comp:1347> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mechanics and Durability" ;
     skos:scopeNote """Knowledge, capability and practices associated with using
     and modifying advanced analytical and computational methods
@@ -6197,6 +6479,7 @@
     a skos:Concept ;
     skos:altLabel "STRSYS" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Structural Systems" ;
     skos:scopeNote """Knowledge, capability and practices associated with using
     and modifying advanced analytical and computational methods
@@ -6226,6 +6509,7 @@
     a skos:Concept ;
     skos:altLabel "ACMSTR" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Analytical and Computational Structural Methods" ;
     skos:scopeNote """Research knowledge, capability, and practices for
     developing computationally efficient methodologies for
@@ -6251,6 +6535,7 @@
     a skos:Concept ;
     skos:altLabel "ADVMATSCI" ;
     skos:broader <urn:comp:1424> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Materials and Processing Science" ;
     skos:scopeNote """Research knowledge, capabilities and practices associated
     with the synthesis, structure, processing and properties of
@@ -6280,6 +6565,7 @@
     a skos:Concept ;
     skos:altLabel "MATSCIENG" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1060>, <urn:comp:1061>, <urn:comp:1062>, <urn:comp:1063> ;
     skos:prefLabel "Materials Science and Engineering" ;
     skos:scopeNote """Knowledge capability and practices associated with research
@@ -6303,6 +6589,7 @@
     a skos:Concept ;
     skos:altLabel "NONDESSCI" ;
     skos:broader <urn:comp:1347> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Non-destructive Evaluation Sciences" ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     developing and applying advanced sensors, health monitoring
@@ -6326,6 +6613,7 @@
     a skos:Concept ;
     skos:altLabel "PROSYS" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Propulsion Systems & Testing" ;
     skos:scopeNote """Knowledge of conceptual aeropropulsion and aviation systems
     analysis and testing to assess the benefits of
@@ -6352,6 +6640,7 @@
     a skos:Concept ;
     skos:altLabel "AIRPRO" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Airbreathing Propulsion" ;
     skos:scopeNote """Knowledge of technologies and concepts for airbreathing
     propelled vehicles in order to enhance the safety of
@@ -6374,6 +6663,7 @@
     a skos:Concept ;
     skos:altLabel "SYSTEMSENG" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Systems Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying an
@@ -6410,6 +6700,7 @@
     a skos:Concept ;
     skos:altLabel "HAIRPRO" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Hypersonic Airbreathing Propulsion" ;
     skos:scopeNote """Knowledge of research and testing activities associated
     with hypersonic airbreathing propulsion flowpath and its
@@ -6431,6 +6722,7 @@
     a skos:Concept ;
     skos:altLabel "HYPERSYS" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Hypergolic Systems" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     hypergolic propellants and propulsion systems. This
@@ -6450,6 +6742,7 @@
     a skos:Concept ;
     skos:altLabel "ADVPRO" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1050>, <urn:comp:1052>, <urn:comp:1318> ;
     skos:prefLabel "Advanced In-Space Propulsion" ;
     skos:scopeNote """Research, development, design, testing and evaluation of
@@ -6471,6 +6764,7 @@
     a skos:Concept ;
     skos:altLabel "ROCKETPRO" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1053>, <urn:comp:1054>, <urn:comp:1055>, <urn:comp:1056>, <urn:comp:1058>, <urn:comp:1059>, <urn:comp:1108>, <urn:comp:1109>, <urn:comp:WQQ-542>, <urn:comp:WQQ-543> ;
     skos:prefLabel "Rocket Propulsion" ;
     skos:scopeNote """Knowledge of research and testing activities associated
@@ -6493,6 +6787,7 @@
     a skos:Concept ;
     skos:altLabel "BOOMSCI" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Combustion Science" ;
     skos:scopeNote """Employs knowledge, capabilities and practices of study of
     the science of burning and burning processes, including
@@ -6512,6 +6807,7 @@
     a skos:Concept ;
     skos:altLabel "PWRSYS" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Power Systems" ;
     skos:scopeNote """Applies knowledge and capabilities involved in the design,
     development, test, and evaluation of hardware for power
@@ -6534,6 +6830,7 @@
     a skos:Concept ;
     skos:altLabel "PWRENG" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Power -Energy Storage" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test, and evaluation of battery,
@@ -6550,6 +6847,7 @@
     a skos:Concept ;
     skos:altLabel "PWRPHO" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Power Generation -Photovoltaics" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test and evaluation of photovoltaic
@@ -6566,6 +6864,7 @@
     a skos:Concept ;
     skos:altLabel "PWRTHM" ;
     skos:broader <urn:comp:1314> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Power Generation -Thermal Systems" ;
     skos:scopeNote """Design development, test, and evaluation of dynamic power
     systems including thermal and solar dynamic systems.
@@ -6579,6 +6878,7 @@
     dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Robotics" ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     testing of robotic and robotic/human systems, including
@@ -6595,6 +6895,7 @@
     a skos:Concept ;
     skos:altLabel "DESDEVENG" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1028>, <urn:comp:1029>, <urn:comp:1030>, <urn:comp:1031> ;
     skos:prefLabel "Design and Development Engineering" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with all
@@ -6622,6 +6923,7 @@
     skos:broader <urn:comp:1283> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Computer Systems and Engineering" ;
     skos:scopeNote """Knowledge of the design and development of computers and/or
     robots. Involves design of hardware, software, networks and
@@ -6642,6 +6944,7 @@
     a skos:Concept ;
     skos:altLabel "NETSYS" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Network Systems and Technology" ;
     skos:scopeNote """Knowledge of how to research and implement high-speed wide
     area networks, including technology development to allow
@@ -6666,6 +6969,7 @@
     a skos:Concept ;
     skos:altLabel "SWENG" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Software Engineering" ;
     skos:scopeNote """Knowledge and ability to apply systematic, disciplines and
     quantifiable approaches to the acquisition and development
@@ -6691,6 +6995,7 @@
     a skos:Concept ;
     skos:altLabel "NEUNETSYS" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Neural Networks & Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices of synthesizing
     practical implementations of artificial neural networks for
@@ -6710,6 +7015,7 @@
     a skos:Concept ;
     skos:altLabel "IASYS" ;
     skos:broader <urn:comp:1283> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Intelligent/Adaptive Systems" ;
     skos:scopeNote """Knowledge of research and development techniques involving
     autonomous reasoning, human-centered computing and
@@ -6736,6 +7042,7 @@
     a skos:Concept ;
     skos:altLabel "MMA" ;
     skos:broader <urn:comp:1363> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mathematical Modeling & Analysis" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     mathematical modeling, the design of algorithms and applied
@@ -6761,6 +7068,7 @@
     a skos:Concept ;
     skos:altLabel "GEOSPATIAL" ;
     skos:broader <urn:comp:1415> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Geospatial Science and Technologies" ;
     skos:scopeNote """Applies knowledge and practices of geospatial science and
     has the ability to utilize and/or develop the tools for
@@ -6789,6 +7097,7 @@
     skos:broader <urn:comp:1231> ;
     skos:changeNote """Modified for 6a by ???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Mission Analysis" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     conception, development, and planning of advanced mission
@@ -6807,6 +7116,7 @@
     a skos:Concept ;
     skos:altLabel "INTEGENG" ;
     skos:broader <urn:comp:1209> ;
+    skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1032>, <urn:comp:1033>, <urn:comp:1034>, <urn:comp:1035>, <urn:comp:1036> ;
     skos:prefLabel "Integration Engineering" ;
     skos:scopeNote """Knowledge and capability to integrate all elements into a
@@ -6832,6 +7142,7 @@
     skos:broader <urn:comp:1231> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aerospace Systems Concept Development & Technology Assessment" ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development of aerospace vehicle and spacecraft concepts
@@ -6856,6 +7167,7 @@
     skos:broader <urn:comp:1363> ;
     skos:changeNote """???
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Analysis and Design Method Development" ;
     skos:scopeNote """Enable the mission and system analysis and technology
     trades for advanced aerospace system concepts. Knowledge of
@@ -6877,6 +7189,7 @@
     a skos:Concept ;
     skos:altLabel "LASER" ;
     skos:broader <urn:comp:1339> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Laser Technology" ;
     skos:scopeNote """Knowledge of high performance, high reliability lasers and
     laser systems for measurement of essential planet
@@ -6901,6 +7214,7 @@
     a skos:Concept ;
     skos:altLabel "OPTSYS" ;
     skos:broader <urn:comp:1339> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Optical Systems" ;
     skos:scopeNote """Applies principles and practices related to the research,
     design, development, test, and evaluation and/or operation
@@ -6930,6 +7244,7 @@
     a skos:Concept ;
     skos:altLabel "MICROSYS" ;
     skos:broader <urn:comp:1339> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Microwave Systems" ;
     skos:scopeNote """Applies knowledge and practices associated with the design,
     analysis, development and test support for devices
@@ -6954,6 +7269,7 @@
     a skos:Concept ;
     skos:altLabel "REMOTESENS" ;
     skos:broader <urn:comp:1339> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Remote Sensing Technologies" ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     reasearch, design, development, characterization, and
@@ -6984,6 +7300,7 @@
     (2006-04-05). Will be scheduled for deletion in a future
     revision.
   """ ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Detector Systems" ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     research, design, development, characterization, and
@@ -7006,6 +7323,7 @@
     a skos:Concept ;
     skos:altLabel "CSAOPS" ;
     skos:broader <urn:comp:1244> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Crew Systems and Aviation Operations" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical and experimental
@@ -7022,647 +7340,11 @@
     a skos:Concept ;
     skos:altLabel "FLTDYN" ;
     skos:broader <urn:comp:1237> ;
+    skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Flight Dynamics" ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical, computational, and
     experimental methods to characterize the flight dynamics
     behaviors of aerospace vehicles.
-  """ .<urn:comp:88> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:98> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:66> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1025> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1121> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:57> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1085> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:30> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1036> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:176> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:69> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1031> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1019> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1208> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:175> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1406> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:19> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1003> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:74> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:96> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:170> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1100> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:76> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:158> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:53> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1052> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1122> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:86> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1087> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1107> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1014> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1027> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1093> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1099> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:23> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1024> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:26> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:164> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1363> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:140> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1112> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1012> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1049> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:172> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1056> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:81> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:8> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:65> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:24> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1035> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:34> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:107> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:71> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1124> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1060> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1080> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1280> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:121> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1159> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1058> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1062> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:78> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:17> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1339> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1105> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1045> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1237> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:35> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:155> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1021> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:128> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:22> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1077> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1070> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1071> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:85> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1381> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:122> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:29> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:143> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:103> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:49> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:31> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1372> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1005> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:108> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:51> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1108> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:50> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:139> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1150> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:7> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1011> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:47> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:21> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1069> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1007> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:11> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1114> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1116> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:59> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1111> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:72> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:150> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:44> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1168> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:38> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1102> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:37> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1244> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:80> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1106> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1067> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1113> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1096> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:168> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:90> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1074> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:147> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1347> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:135> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1072> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1283> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1002> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1092> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1424> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1104> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1063> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:93> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1415> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:56> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:82> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:123> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1119> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:161> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1066> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:154> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:95> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1061> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1120> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1065> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1089> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:64> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1123> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1050> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:92> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1110> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:54> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:163> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:127> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1064> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1318> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:112> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1209> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:4> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1231> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1075> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1084> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:126> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:9> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:55> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:166> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1314> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:165> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1041> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:125> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:14> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:162> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:15> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1393> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1079> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1037> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:174> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:110> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1010> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1042> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1015> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1009> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:3> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1086> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1022> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1371> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1030> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:169> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1294> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1097> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:10> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1059> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1033> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:73> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:149> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1399> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1081> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:173> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:131> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:89> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1076> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1039> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:102> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:160> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:116> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1083> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:104> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1040> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:115> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:159> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:156> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:94> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1082> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:68> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1094> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1008> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1016> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:0> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1047> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:137> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1095> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1090> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1001> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:6> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:144> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:101> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1018> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1043> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:61> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:36> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:134> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:2> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1118> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:42> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:70> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1078> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1189> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1026> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:167> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1101> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:43> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:118> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:52> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:13> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:114> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1044> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:75> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1004> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:119> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1091> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1057> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:111> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:16> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:5> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:28> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1407> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1053> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1034> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1038> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1117> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:151> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1028> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:171> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1054> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:20> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:84> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:109> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:60> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1088> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:41> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:48> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:106> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:91> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:18> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1098> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1115> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:39> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:63> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:124> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:79> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:58> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1006> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:40> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:117> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:133> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:153> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:130> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1029> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:138> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1430> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:62> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1023> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1359> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:12> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1068> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:152> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:46> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1109> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1032> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:32> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:27> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1013> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:105> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:77> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1055> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1046> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:97> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1048> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1125> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:129> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:100> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:113> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:136> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:120> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:45> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:67> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1017> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1020> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:157> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1103> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:25> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1394> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-
-<urn:comp:164> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:135> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:147> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1024> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:2> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1027> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1053> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:13> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1120> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:79> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:32> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:29> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:168> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:35> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1098> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:23> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:71> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:42> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1022> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1088> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1099> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:73> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1244> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1032> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:47> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1041> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:121> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:150> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:4> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:65> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1117> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1067> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1105> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:119> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:30> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:159> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1040> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1430> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1031> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1020> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:49> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:72> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:172> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:21> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1039> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1055> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1064> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:77> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:139> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:166> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:123> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1399> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:100> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1122> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1363> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:63> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1035> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1393> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1063> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1150> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1280> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:113> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1017> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:7> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:57> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:105> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:125> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1006> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:128> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:127> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1208> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1002> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:170> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:50> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:129> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1044> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1189> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:149> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1075> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:82> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:131> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:90> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1079> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:12> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1030> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:174> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1057> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1049> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1058> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1016> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1052> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1028> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:122> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:124> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1116> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1026> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1115> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:81> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1080> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1121> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:157> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1001> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1077> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:3> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1083> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1113> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:138> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:14> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1095> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1014> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1061> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1050> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:53> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1094> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:78> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:55> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:103> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1054> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:66> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1097> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:27> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:162> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1100> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1072> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:111> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:114> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:116> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1086> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1009> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1371> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1406> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:44> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1283> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:160> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:115> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:152> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:9> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:171> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:25> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:69> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:26> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1045> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1102> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1093> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1046> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:140> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:107> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1124> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1314> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1078> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1003> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1060> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:136> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:151> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:144> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:46> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1011> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1159> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1004> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:94> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:101> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1108> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:137> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:155> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:75> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:61> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1372> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:117> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:76> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1019> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:39> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:19> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1037> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:92> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1021> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1104> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1091> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:89> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1107> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1082> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1013> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:68> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1090> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1056> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:102> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1359> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:31> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1066> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1209> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:74> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1089> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:130> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:158> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:40> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1047> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:110> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1394> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1339> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:43> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1424> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1029> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1018> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:96> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:134> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1125> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1007> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:54> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:109> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1101> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1415> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:59> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:20> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1085> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:37> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1012> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:120> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1237> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:85> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1096> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:167> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:8> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:154> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1114> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1033> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1059> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:58> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1118> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:34> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1038> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:118> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:10> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1036> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1071> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1103> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:163> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:153> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:104> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:11> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1076> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:93> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1034> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1381> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1231> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:84> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1062> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:173> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1015> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:17> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1010> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1069> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:16> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:41> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:156> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1112> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1106> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1070> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:62> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1092> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:91> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1318> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:95> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1123> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1081> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1068> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1023> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:70> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:98> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:169> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1109> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:6> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1168> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:143> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:64> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1065> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:97> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:106> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1087> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:38> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:112> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:108> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:165> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1025> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:60> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:133> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:175> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1119> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:52> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:80> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:51> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1074> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:86> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1294> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1084> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:67> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1008> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:176> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1110> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:24> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:36> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:126> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:5> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:22> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1111> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:18> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:28> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1005> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:15> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:45> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:56> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1407> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1048> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1347> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:161> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:48> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1043> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:1042> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
-<urn:comp:88> <http://www.w3.org/2004/02/skos/core#inScheme> <urn:comp:0> .
+  """ .
 
