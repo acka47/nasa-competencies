@@ -2,7 +2,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://example.org/nasa-competencies/> .
 
-<urn:comp:0>
+<n0>
     dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA
     Taxonomy 2.0 was designed to make it easy for various audiences to find relevant
      information from NASA programs quickly. 
@@ -11,14 +11,14 @@
      revision 6a, published April 17, 2006."""@en ;
     dcterms:title "NASA Workforce Competencies"@en ;
     a skos:ConceptScheme ;
-    skos:hasTopConcept <urn:comp:1124>, <urn:comp:1208>, <urn:comp:1371>, <urn:comp:1393>, <urn:comp:1406> ;
-    skos:inScheme <urn:comp:0> .
+    skos:hasTopConcept <n1124>, <n1208>, <n1371>, <n1393>, <n1406> ;
+    skos:inScheme <n0> .
 
-<urn:comp:1>
+<n1>
     a skos:Concept ;
     skos:altLabel "MAP"@en ;
-    skos:broader <urn:comp:1231> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1231> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mission Analysis and Planning"@en ;
     skos:scopeNote """Knowledge and ability to analyze requirements of current
     and near-term missions. Manage integration of technical
@@ -26,12 +26,12 @@
     operational and ground-based infrastructure requirements in
     order to meet mission and programmatic objectives."""@en .
 
-<urn:comp:10>
+<n10>
     a skos:Concept ;
     skos:altLabel "TESTENG"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1037>, <urn:comp:1038>, <urn:comp:1039>, <urn:comp:1040>, <urn:comp:1041> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1037>, <n1038>, <n1039>, <n1040>, <n1041> ;
     skos:prefLabel "Test Engineering"@en ;
     skos:scopeNote """Knowledge of physics, engineering and manufacturing to test
     systems or subsystems under development for their
@@ -51,11 +51,11 @@
     knowledge required for safe and reliable system
     development/integration."""@en .
 
-<urn:comp:100>
+<n100>
     a skos:Concept ;
     skos:altLabel "AEROELA"@en ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Aeroelasticity"@en ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     investigating aeroelastic phenomena and complex steady and
@@ -70,11 +70,11 @@
     conducting unsteady aerodynamic, aeroelastic, and
     aeroservoelastic wind-tunnel tests."""@en .
 
-<urn:comp:1001>
+<n1001>
     a skos:Concept ;
     skos:altLabel "LEADTEAM"@en ;
-    skos:broader <urn:comp:140> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n140> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Employee & Team Leadership"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     communicating business direction, goals and performance,
@@ -94,11 +94,11 @@
     achieve work objectives and maintain effective and positive
     operational environments."""@en .
 
-<urn:comp:1002>
+<n1002>
     a skos:Concept ;
     skos:altLabel "LEADCOMM"@en ;
-    skos:broader <urn:comp:140> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n140> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Knowledge & Communication Management"@en ;
     skos:scopeNote """Understands and applies knowledge management practices,
     theories and success factors. Possesses knowledge and
@@ -115,11 +115,11 @@
     to data publishing, technology transfer and release of
     information."""@en .
 
-<urn:comp:1003>
+<n1003>
     a skos:Concept ;
     skos:altLabel "LEADWORK"@en ;
-    skos:broader <urn:comp:140> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n140> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Work Performance Leadership"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     determining an organizations business direction and
@@ -135,11 +135,11 @@
     integrating work from across functional and organizational
     boundaries."""@en .
 
-<urn:comp:1004>
+<n1004>
     a skos:Concept ;
     skos:altLabel "LEADGLOBAL"@en ;
-    skos:broader <urn:comp:140> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n140> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "International Relations"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     forming and maintaining cross-cultural relationships and
@@ -149,53 +149,53 @@
     guidelines in order to accomplish objectives and sustain
     ongoing relationships."""@en .
 
-<urn:comp:1005>
+<n1005>
     a skos:Concept ;
     skos:altLabel "HFRBIOMECH"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomechanics and Ergonomics Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1006>
+<n1006>
     a skos:Concept ;
     skos:altLabel "HFRHABIT"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Habitability and Environmental Psychology Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1007>
+<n1007>
     a skos:Concept ;
     skos:altLabel "HFRPERCEPT"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Perception and Psychophysics Fundamental Research"@en ;
     skos:scopeNote """TBD (includes vision, audition, haptics, vestibular,
     multimodal)"""@en .
 
-<urn:comp:1008>
+<n1008>
     a skos:Concept ;
     skos:altLabel "HFRPSYPHY"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Psychophysiology Fundamental Research"@en ;
     skos:scopeNote """TBD (includes memory, attention, task processing, etc.)"""@en .
 
-<urn:comp:1009>
+<n1009>
     a skos:Concept ;
     skos:altLabel "HFRATIGUE"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Fatigue, Alertness, Circadian Rhythms Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:101>
+<n101>
     a skos:Concept ;
     skos:altLabel "AERODYN"@en ;
-    skos:broader <urn:comp:1237> ;
+    skos:broader <n1237> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Aerodynamics"@en ;
     skos:scopeNote """Knowledge of the science of aerodynamics, with the ability
     to plan, conduct, interpret and correlate results of
@@ -218,99 +218,99 @@
     assessment and improvement of the vehicle aerodynamic
     performance."""@en .
 
-<urn:comp:1010>
+<n1010>
     a skos:Concept ;
     skos:altLabel "HFRCOG"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Cognitive Science Fundamental Research"@en ;
     skos:scopeNote """TBD (includes memory, attention, task processing, etc.)"""@en .
 
-<urn:comp:1011>
+<n1011>
     a skos:Concept ;
     skos:altLabel "HFRCOMM"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Communication and Knowledge Management Fundamental Research"@en ;
     skos:scopeNote """TBD (includes interpersonal communication,
     technology-mediated communication, procedures,
     documentation)"""@en .
 
-<urn:comp:1012>
+<n1012>
     a skos:Concept ;
     skos:altLabel "HFRDECISMK"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Decision Making and Risk Management Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1013>
+<n1013>
     a skos:Concept ;
     skos:altLabel "HFRORG"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Organizational Science Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1014>
+<n1014>
     a skos:Concept ;
     skos:altLabel "HFRHUMMACH"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Human-Machine Interaction Fundamental Research"@en ;
     skos:scopeNote """TBD (includes human-computer interaction and
     human-automation interaction) (includes human-computer
     interaction and human-automation interaction)"""@en .
 
-<urn:comp:1015>
+<n1015>
     a skos:Concept ;
     skos:altLabel "HFRMANCNTL"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Manual Control Fundamental Research"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1016>
+<n1016>
     a skos:Concept ;
     skos:altLabel "HFRSUPCNTL"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Supervisory Control Fundamental Research"@en ;
     skos:scopeNote """TBD (includes single human operator supervisory control and
     distributed [multi-agent] supervisory control)"""@en .
 
-<urn:comp:1017>
+<n1017>
     a skos:Concept ;
     skos:altLabel "HFRTRNG"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Training and Adaptation Fundamental Research"@en ;
     skos:scopeNote """TBD (includes basic research on perceptual and behavioral
     adaptation, learning, memory, etc.)"""@en .
 
-<urn:comp:1018>
+<n1018>
     a skos:Concept ;
     skos:altLabel "HFRHUMPERF"@en ;
-    skos:broader <urn:comp:40> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n40> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Human Performance Fundamental Research"@en ;
     skos:scopeNote """TBD (includes basic research on human error and error
     countermeasures)
     NASA Competency Management SystemPage 36"""@en .
 
-<urn:comp:1019>
+<n1019>
     a skos:Concept ;
     skos:altLabel "HFEBIOMECH"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomechanical Engineering, Technology, Standards"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:102>
+<n102>
     a skos:Concept ;
     skos:altLabel "AEROTHM"@en ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Aerothermodynamics"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to
     aero/aerothermodynamic design for aerospace vehicles and
@@ -326,84 +326,84 @@
     structure, rate processes, and radiative emission
     characteristics."""@en .
 
-<urn:comp:1020>
+<n1020>
     a skos:Concept ;
     skos:altLabel "HFEERGO"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Ergonomics Engineering, Technology, and Standards"@en ;
     skos:scopeNote """TBD (including lighting, noise, vibration, physical
     ergonomics of hand tools, manual materials handling, etc.)"""@en .
 
-<urn:comp:1021>
+<n1021>
     a skos:Concept ;
     skos:altLabel "HFESPACE"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Space Human Factors Engineering, Technology, and Standards"@en ;
     skos:scopeNote """TBD (focus on humans in micro-gravity, radiation
     environments)"""@en .
 
-<urn:comp:1022>
+<n1022>
     a skos:Concept ;
     skos:altLabel "HFEHABIT"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Habitability Engineering, Technology, and Standards"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1023>
+<n1023>
     a skos:Concept ;
     skos:altLabel "HFEPERCEPT"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Perceptual Technologies and Standards"@en ;
     skos:scopeNote """TBD (includes visual display design, image and video
     compression, display composition and layout, icon design
     and font selection, auditory displays, multimodal
     environments)"""@en .
 
-<urn:comp:1024>
+<n1024>
     a skos:Concept ;
     skos:altLabel "HFECOG"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Cognitive Technologies"@en ;
     skos:scopeNote """TBD (includes augmented cognition devices, decision support
     technologies, intelligent assistant systems)"""@en .
 
-<urn:comp:1025>
+<n1025>
     a skos:Concept ;
     skos:altLabel "HFEHUMAUTO"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Human-Automation System Design"@en ;
     skos:scopeNote """TBD (includes Distributed Supervisory Control Design;
     fFunction Allocation; Mixed-Initiative Decision Making,
     Planning and Operations; Distributed Human-Machine Systems)"""@en .
 
-<urn:comp:1026>
+<n1026>
     a skos:Concept ;
     skos:altLabel "HFETRNG"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Training Technologies"@en ;
     skos:scopeNote """TBD (includes computer-based training systems, intelligent
     tutoring systems, handbooks, documentation)"""@en .
 
-<urn:comp:1027>
+<n1027>
     a skos:Concept ;
     skos:altLabel "HFEHUMERR"@en ;
-    skos:broader <urn:comp:41> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n41> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Human Reliability and Human Error Analysis"@en ;
     skos:scopeNote """TBD"""@en .
 
-<urn:comp:1028>
+<n1028>
     a skos:Concept ;
     skos:altLabel "DDESTRUCT"@en ;
-    skos:broader <urn:comp:8> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n8> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Structural Design and Development Engineering"@en ;
     skos:scopeNote """Knowledge, capability and practices associated with all
     aspects of the technical structural design and development
@@ -424,11 +424,11 @@
     assess structural characteristics and risks, and ensure
     system integration."""@en .
 
-<urn:comp:1029>
+<n1029>
     a skos:Concept ;
     skos:altLabel "DDEELEC"@en ;
-    skos:broader <urn:comp:8> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n8> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electrical Design and Development Engineering"@en ;
     skos:scopeNote """Knowledge, capability and practices associated with all
     aspects of the technical electrical design and development
@@ -442,10 +442,10 @@
     power generation, distribution, storage and conditioning
     systems."""@en .
 
-<urn:comp:103>
+<n103>
     a skos:Concept ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Acoustics"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to interior
     and exterior noise reduction and acoustic design for
@@ -464,11 +464,11 @@
     concepts.
     NASA Competency Management SystemPage 32"""@en .
 
-<urn:comp:1030>
+<n1030>
     a skos:Concept ;
     skos:altLabel "DDEPROP"@en ;
-    skos:broader <urn:comp:8> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n8> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propulsion Design and Development Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     detailed mechanical design of propulsion components,
@@ -489,11 +489,11 @@
     design review process, interface control documents, and
     interface requirements documents."""@en .
 
-<urn:comp:1031>
+<n1031>
     a skos:Concept ;
     skos:altLabel "DDETEST"@en ;
-    skos:broader <urn:comp:8> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n8> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Test Fixtures and GSE Design and Development Engineering"@en ;
     skos:scopeNote """Knowledge of all aspects of the technical design and
     development process as applied to ground support equipment
@@ -510,11 +510,11 @@
     design, development, and integration meets the intended
     objectives."""@en .
 
-<urn:comp:1032>
+<n1032>
     a skos:Concept ;
     skos:altLabel "INTSTRUCT"@en ;
-    skos:broader <urn:comp:9> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n9> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Structural Integration Engineering"@en ;
     skos:scopeNote """Knowledge of engineering; system engineering;
     manufacturing; testing; quality, reliability, and safety
@@ -528,11 +528,11 @@
     accordance with requirements and specifications, both
     external and internal."""@en .
 
-<urn:comp:1033>
+<n1033>
     a skos:Concept ;
     skos:altLabel "INTMATER"@en ;
-    skos:broader <urn:comp:9> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n9> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Materials Integration Engineering"@en ;
     skos:scopeNote """Knowledge and capability to integrate all materials
     engineering elements and practices associated with research
@@ -551,11 +551,11 @@
     mission, manifest, contigency and long-range plans and
     responses to externally-driven requirements."""@en .
 
-<urn:comp:1034>
+<n1034>
     a skos:Concept ;
     skos:altLabel "INTSYSTEMS"@en ;
-    skos:broader <urn:comp:9> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n9> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Systems Integration Engineering"@en ;
     skos:scopeNote """The Systems Integration Engineer (SIE) is responsible for
     integration of all engineering products and resources
@@ -573,11 +573,11 @@
     requirements are met and reviews and audits program
     engineering support activities."""@en .
 
-<urn:comp:1035>
+<n1035>
     a skos:Concept ;
     skos:altLabel "INTELECT"@en ;
-    skos:broader <urn:comp:9> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n9> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electrical Integration Engineering"@en ;
     skos:scopeNote """Knowledge and capability to integrate electrical components
     for air, space and ground systems and instruments into a
@@ -593,11 +593,11 @@
     mission, manifest, contingency and long-range plans, and
     responses to externally-driven requirements."""@en .
 
-<urn:comp:1036>
+<n1036>
     a skos:Concept ;
     skos:altLabel "INTPROPEL"@en ;
-    skos:broader <urn:comp:9> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n9> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propulsion Integration Engineering"@en ;
     skos:scopeNote """Knowledge and capability to integrate propulsion elements
     into a functioning system or subsystem such as the
@@ -615,11 +615,11 @@
     proper function and compatibility within the propulsion
     systems."""@en .
 
-<urn:comp:1037>
+<n1037>
     a skos:Concept ;
     skos:altLabel "TSTSTRUCT"@en ;
-    skos:broader <urn:comp:10> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n10> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Structural Test Engineering"@en ;
     skos:scopeNote """Knowledge of physics, engineering, and manufacturing to
     test structural systems, subsystems, and components that
@@ -638,11 +638,11 @@
     acoustics; shock; static structural loads; and modal
     analysis."""@en .
 
-<urn:comp:1038>
+<n1038>
     a skos:Concept ;
     skos:altLabel "TSTMATER"@en ;
-    skos:broader <urn:comp:10> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n10> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Materials Test Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     materials testing and the behavior and performance
@@ -652,11 +652,11 @@
     utilized for material qualification and certification for
     ground and aerospace flight systems."""@en .
 
-<urn:comp:1039>
+<n1039>
     a skos:Concept ;
     skos:altLabel "TSTTHERMO"@en ;
-    skos:broader <urn:comp:10> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n10> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Thermal Test Engineering"@en ;
     skos:scopeNote """Knowledge of physics, engineering, thermal, and thermal
     vacuum to test systems or subsystems under development,
@@ -677,11 +677,11 @@
     and humidity. Includes knowledge required for safe and
     reliable system testing and development/integration."""@en .
 
-<urn:comp:104>
+<n104>
     a skos:Concept ;
     skos:altLabel "THERMALSYS"@en ;
-    skos:broader <urn:comp:1359> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1359> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Thermal Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with heat
     transfer, fluid flow, and thermodynamics in the design,
@@ -698,11 +698,11 @@
     the development of math models for low and high speed
     convection, conduction, radiation, ablation and aeroheating."""@en .
 
-<urn:comp:1040>
+<n1040>
     a skos:Concept ;
     skos:altLabel "TSTELECT"@en ;
-    skos:broader <urn:comp:10> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n10> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electrical Test Engineering"@en ;
     skos:scopeNote """Knowledge of the principles of electrical engineering, and
     electronic manufacturing to test components, systems, or
@@ -721,11 +721,11 @@
     electromagnetic interference and compatibility (EMI/EMC),
     depressurization and vacuum operation, and thermal cycling."""@en .
 
-<urn:comp:1041>
+<n1041>
     a skos:Concept ;
     skos:altLabel "TSTPROPUL"@en ;
-    skos:broader <urn:comp:10> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n10> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propulsion Test Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practice associated with
     propulsion systems, subsystem, and/or component testing and
@@ -746,11 +746,11 @@
     components, piece parts, as well as integrated propulsion
     systems or sub-systems."""@en .
 
-<urn:comp:1042>
+<n1042>
     a skos:Concept ;
     skos:altLabel "ELINSTR"@en ;
-    skos:broader <urn:comp:13> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n13> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Instrumentation Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     design, development, characterization, and application of
@@ -766,21 +766,21 @@
     position, displacement, acceleration, mass spectroscopy,
     heat flux, flow, optical spectrometry and strain."""@en .
 
-<urn:comp:1043>
+<n1043>
     a skos:Concept ;
     skos:altLabel "ELEEEPART"@en ;
-    skos:broader <urn:comp:13> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n13> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "EEE Parts"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with EEE
     Parts requirements, selection, analysis, and verification
     for space flight and ground support hardware."""@en .
 
-<urn:comp:1044>
+<n1044>
     a skos:Concept ;
     skos:altLabel "ELPARTSPKG"@en ;
-    skos:broader <urn:comp:13> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n13> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Parts & Packaging"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     electro-mechanical design including printed circuit (pc)
@@ -789,11 +789,11 @@
     processes involved in the manufacturing/assembly of this
     hardware."""@en .
 
-<urn:comp:1045>
+<n1045>
     a skos:Concept ;
     skos:altLabel "ELCIRCUITS"@en ;
-    skos:broader <urn:comp:13> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n13> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electrical Circuits Engineering"@en ;
     skos:scopeNote """Knowledge of, and capability to perform, engineering design
     and analysis, development and research of electrical
@@ -807,11 +807,11 @@
     thermal analysis of printed circuit boards and subsequent
     use of thermal data to optimize flight electronics design."""@en .
 
-<urn:comp:1046>
+<n1046>
     a skos:Concept ;
     skos:altLabel "GNCSPACE"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Spacecraft & Stabilization Control Design and Analysis"@en ;
     skos:scopeNote """Knowledge of and ability to conduct research and develop
     analytical, computational, and experimental methods for
@@ -834,11 +834,11 @@
     interplanetary environmental models, experimental methods
     and a broad array of engineering disciplines."""@en .
 
-<urn:comp:1047>
+<n1047>
     a skos:Concept ;
     skos:altLabel "GNCVEHCNTL"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Vehicle Control Design and Analysis"@en ;
     skos:scopeNote """Knowledge of and ability to research and develop
     analytical, computational, and experimental methods for
@@ -859,11 +859,11 @@
     mathematical modeling, experimental methods and a broad
     array of engineering disciplines."""@en .
 
-<urn:comp:1048>
+<n1048>
     a skos:Concept ;
     skos:altLabel "GNCGUIDE"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Guidance Design and Analysis"@en ;
     skos:scopeNote """Design of guidance algorithms that command vehicle attitude
     angles and throttle settings (if applicable) for taking a
@@ -877,11 +877,11 @@
     requirements. Detailed definition of guidance algorithms
     and support of software development and testing."""@en .
 
-<urn:comp:1049>
+<n1049>
     a skos:Concept ;
     skos:altLabel "GNCNAVSYS"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Navigation System Design and Analysis"@en ;
     skos:scopeNote """Knowledge of and ability to employ navigation hardware
     including Inertial Measurement Units (IMU: gyro and
@@ -892,11 +892,11 @@
     optimum navigation solution. Skill in using the output
     navigation solution for orbit determination."""@en .
 
-<urn:comp:105>
+<n105>
     a skos:Concept ;
     skos:altLabel "THERMALSTR"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Thermal Structures"@en ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     designing, developing, analyzing, and validating
@@ -906,11 +906,11 @@
     for multiscale optimization of metallic materials,
     structures, and fabrication processes."""@en .
 
-<urn:comp:1050>
+<n1050>
     a skos:Concept ;
     skos:altLabel "APELEC"@en ;
-    skos:broader <urn:comp:72> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n72> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electric Propulsion"@en ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     in-space electric propulsion system technologies,
@@ -919,11 +919,11 @@
     three categories of electric propulsion thruster devices:
     electrothermal, electromagnetic and electrostatic."""@en .
 
-<urn:comp:1052>
+<n1052>
     a skos:Concept ;
     skos:altLabel "APCHEM"@en ;
-    skos:broader <urn:comp:72> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n72> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Chemical & Thermal Prop"@en ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     propulsion system technologies which seek to increase the
@@ -933,11 +933,11 @@
     subsytems, high temperature system operation, heat addition
     to propellant by insolation concentration, etc."""@en .
 
-<urn:comp:1053>
+<n1053>
     a skos:Concept ;
     skos:altLabel "RPTURBO"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Turbomachinery Design and Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying liquid
@@ -956,11 +956,11 @@
     bearings. Also includes component test planning, test
     integration, and data analysis."""@en .
 
-<urn:comp:1054>
+<n1054>
     a skos:Concept ;
     skos:altLabel "RPCOMBUST"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Combustion Devices Design and Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying liquid
@@ -975,11 +975,11 @@
     thrust chambers, nozzles, preburners, heat exchangers, and
     ignition systems."""@en .
 
-<urn:comp:1055>
+<n1055>
     a skos:Concept ;
     skos:altLabel "RPVALVES"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Valves, Lines & Ducts"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     propulsion system valves, valve actuators, lines, ducts,
@@ -992,11 +992,11 @@
     flight systems, developmental systems, and ground test
     systems."""@en .
 
-<urn:comp:1056>
+<n1056>
     a skos:Concept ;
     skos:altLabel "RPPRPMMT"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propellant Management Systems Design and Analysis"@en ;
     skos:scopeNote """Knowledge of cryogenic fluid physics and heat transfer
     associated with the design and development of cyrogenic
@@ -1007,11 +1007,11 @@
     storage and management systems for long-duration space
     flight."""@en .
 
-<urn:comp:1057>
+<n1057>
     a skos:Concept ;
     skos:altLabel "RPAUXPRP"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Spacecraft and Auxiliary Propulsion System Design and Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development of reaction control thrusters, orbital
@@ -1020,11 +1020,11 @@
     cryogenic propellants in pressure-fed spacecraft auxiliary
     propulsion systems."""@en .
 
-<urn:comp:1058>
+<n1058>
     a skos:Concept ;
     skos:altLabel "RPFLUIDMCH"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Analytical and computational Fluid Mechanics"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development, validation, and application of Computational
@@ -1043,11 +1043,11 @@
     structural dynamisc modeling in order to properly provide
     output of tasks to these other disciplines."""@en .
 
-<urn:comp:1059>
+<n1059>
     a skos:Concept ;
     skos:altLabel "RPDYNDATA"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Dynamic Data Analysis"@en ;
     skos:scopeNote """Diagnostic evaluation of rocket engine vibration data
     acquired from high frequency sensors such as
@@ -1061,11 +1061,11 @@
     statistical family comparability, and flight acceptability.
     NASA Competency Management SystemPage 46"""@en .
 
-<urn:comp:106>
+<n106>
     a skos:Concept ;
     skos:altLabel "FLUIDSYS"@en ;
-    skos:broader <urn:comp:1359> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1359> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Fluid Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     basic fluid physics research (including microgravitational
@@ -1091,11 +1091,11 @@
     with recommended change, however, move under new knowledge
     category mechanical engineering."""@en .
 
-<urn:comp:1060>
+<n1060>
     a skos:Concept ;
     skos:altLabel "MSEMETAL"@en ;
-    skos:broader <urn:comp:66> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n66> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Metallurgy"@en ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the production, characteristics, structure,
@@ -1132,11 +1132,11 @@
     produce materials with specific and exacting properties for
     aerospace applications."""@en .
 
-<urn:comp:1061>
+<n1061>
     a skos:Concept ;
     skos:altLabel "MSENONMET"@en ;
-    skos:broader <urn:comp:66> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n66> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Non-metallics"@en ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the production, characteristics, structure,
@@ -1161,11 +1161,11 @@
     including the mechanisms and effects by which materials
     react to stresses, environments, and processes."""@en .
 
-<urn:comp:1062>
+<n1062>
     a skos:Concept ;
     skos:altLabel "MSEFAILURE"@en ;
-    skos:broader <urn:comp:66> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n66> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Failure Analysis"@en ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the characteristics and performance of materials and
@@ -1201,11 +1201,11 @@
     types such as ceramics, metallics, composites and polymers
     as well as tribology or surface science."""@en .
 
-<urn:comp:1063>
+<n1063>
     a skos:Concept ;
     skos:altLabel "MSECONTAM"@en ;
-    skos:broader <urn:comp:66> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n66> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Contamination Control"@en ;
     skos:scopeNote """Knowledge capability and practices associated with the
     applications in materials, processes, contamination and
@@ -1228,11 +1228,11 @@
     sensitive hardware bake-out certification, and ultraviolet
     enhanced contaminant deposition characterization."""@en .
 
-<urn:comp:1064>
+<n1064>
     a skos:Concept ;
     skos:altLabel "BRCE"@en ;
-    skos:broader <urn:comp:156> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n156> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomedical and Research Clinical Ethics"@en ;
     skos:scopeNote """Professional skills and knowledge of bioethics applied to a
     range of bioethical issues surrounding biomedical research,
@@ -1244,11 +1244,11 @@
     Agency policy, and provision of expert opinion on relevant
     ethical issues to inform Agency decision-making."""@en .
 
-<urn:comp:1065>
+<n1065>
     a skos:Concept ;
     skos:altLabel "RSPR"@en ;
-    skos:broader <urn:comp:156> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n156> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Research Subject Protection Regulation"@en ;
     skos:scopeNote """Knowledge and a thorough understanding of the Federal and
     Agency regulatory framework, which governs the use of human
@@ -1261,11 +1261,11 @@
     knowledge of the implementation of such Agency Boards and
     Committees."""@en .
 
-<urn:comp:1066>
+<n1066>
     a skos:Concept ;
     skos:altLabel "OCCMED"@en ;
-    skos:broader <urn:comp:130> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n130> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Occupational Medicine"@en ;
     skos:scopeNote """Professional skills and knowledge to apply occupational
     health related requirements to protect and maintain
@@ -1277,11 +1277,11 @@
     management, health surveillance, and emergency medical
     response."""@en .
 
-<urn:comp:1067>
+<n1067>
     a skos:Concept ;
     skos:altLabel "OCCHYGIENE"@en ;
-    skos:broader <urn:comp:130> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n130> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Industrial Hygiene"@en ;
     skos:scopeNote """Professional knowledge and skills to develop and implement
     preventive measures regarding all work-related exposures,
@@ -1296,11 +1296,11 @@
     development of related training programs for Agency-wide
     application."""@en .
 
-<urn:comp:1068>
+<n1068>
     a skos:Concept ;
     skos:altLabel "OCCPHYSICS"@en ;
-    skos:broader <urn:comp:130> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n130> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Health Physics"@en ;
     skos:scopeNote """Knowledge of Federal and State Health Physics (ionizing and
     non-ionizing radiation) regulations, policies, and
@@ -1316,11 +1316,11 @@
     provide professional symposia, workshops, and develop
     related training programs for Agency-wide application."""@en .
 
-<urn:comp:1069>
+<n1069>
     a skos:Concept ;
     skos:altLabel "OCCASSIST"@en ;
-    skos:broader <urn:comp:130> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n130> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Employee Assistance"@en ;
     skos:scopeNote """Professional knowledge and skills to improve the mental
     health and well being of employees. Knowledge of
@@ -1336,22 +1336,22 @@
     assessment of regulations that potentially impact the
     workplace."""@en .
 
-<urn:comp:107>
+<n107>
     a skos:Concept ;
     skos:altLabel "ICEPHYSICS"@en ;
-    skos:broader <urn:comp:1424> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1424> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Icing Physics"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     researching and understanding icing physics analysis and
     testing, atmospheric science, and ice sensing and
     protection methods."""@en .
 
-<urn:comp:1070>
+<n1070>
     a skos:Concept ;
     skos:altLabel "MDPRACTICE"@en ;
-    skos:broader <urn:comp:36> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n36> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Medical Practice"@en ;
     skos:scopeNote """Knowledge and expertise of the multi-disciplinary practice
     of Aerospace Medicine taking into account the hostile,
@@ -1362,11 +1362,11 @@
     operational medicine, clinical practice, human systems
     interfaces, and astronaut selection and training."""@en .
 
-<urn:comp:1071>
+<n1071>
     a skos:Concept ;
     skos:altLabel "MDBEHAVIOR"@en ;
-    skos:broader <urn:comp:36> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n36> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Behavioral Health"@en ;
     skos:scopeNote """Knowledge and expertise of psychology/psychiatry in
     aviation and operational settings to maintain health and
@@ -1377,11 +1377,11 @@
     behavioral health maintenance, human systems interfaces and
     astronaut selection and training."""@en .
 
-<urn:comp:1072>
+<n1072>
     a skos:Concept ;
     skos:altLabel "SECPHYSCL"@en ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Physical Security"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     protection of property and individuals from threats or
@@ -1392,11 +1392,11 @@
     equipment, facilities, material, and documents; and
     safeguard against espionage, sabotage, damage, and theft."""@en .
 
-<urn:comp:1074>
+<n1074>
     a skos:Concept ;
     skos:altLabel "SECINFO"@en ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Information Security"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     protection of national classified information and sensitive
@@ -1407,11 +1407,11 @@
     Order 12958, April 17, 1995, \"Classified National Security
     Information,\""""@en .
 
-<urn:comp:1075>
+<n1075>
     a skos:Concept ;
     skos:altLabel "SECNATION"@en ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "National Security Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     researching and implementing national security systems used
@@ -1421,11 +1421,11 @@
     data, video, and facsimile to include ground-to-ground,
     space-to-space, and ground-to-space communications assets."""@en .
 
-<urn:comp:1076>
+<n1076>
     a skos:Concept ;
     skos:altLabel "SECPERSON"@en ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Personnel Security"@en ;
     skos:scopeNote """Knowledge and ability to request background investigations
     appropriate to position sensitivity and to review and
@@ -1436,11 +1436,11 @@
     and/or will have access to classified national security
     information and material."""@en .
 
-<urn:comp:1077>
+<n1077>
     a skos:Concept ;
     skos:altLabel "SECINDUST"@en ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Industrial Security"@en ;
     skos:scopeNote """This competency refers to the knowledge and ability to
     perform personnel, physical, and information security
@@ -1461,11 +1461,11 @@
     and access to communication security, intelligence or
     international organization information."""@en .
 
-<urn:comp:1078>
+<n1078>
     a skos:Concept ;
     skos:altLabel "BITPLAN"@en ;
-    skos:broader <urn:comp:131> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n131> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Information Resources Planning and Evaluation"@en ;
     skos:scopeNote """Knowledge of the principles, methods, and techniques of IT
     assessment, planning, management, monitoring, and
@@ -1473,11 +1473,11 @@
     functional analysis, contingency planning, and disaster
     recovery."""@en .
 
-<urn:comp:1079>
+<n1079>
     a skos:Concept ;
     skos:altLabel "BITARCH"@en ;
-    skos:broader <urn:comp:131> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n131> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "IT Architecture"@en ;
     skos:scopeNote """Knowledge of architectural methodologies used in the design
     and development of information systems, including physical
@@ -1491,11 +1491,11 @@
     and/or implement Knolwedge Management practices at a local
     or enterprise level."""@en .
 
-<urn:comp:108>
+<n108>
     a skos:Concept ;
     skos:altLabel "AIRTRAFFIC"@en ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Air Traffic Systems"@en ;
     skos:scopeNote """Knowledge of Air Traffic Management elements, and their
     properties and interactions, such as air space and range
@@ -1507,11 +1507,11 @@
     system, using advanced distributed modeling techniques to
     research and test concepts and prototypes."""@en .
 
-<urn:comp:1080>
+<n1080>
     a skos:Concept ;
     skos:altLabel "DATDBMMT"@en ;
-    skos:broader <urn:comp:161> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n161> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Database Management Systems"@en ;
     skos:scopeNote """Knowledge of the uses of database management systems and
     software to control the organization, storage, retrieval,
@@ -1520,11 +1520,11 @@
     automating, developing, implementing, or administering
     database systems."""@en .
 
-<urn:comp:1081>
+<n1081>
     a skos:Concept ;
     skos:altLabel "BITSECURE"@en ;
-    skos:broader <urn:comp:131> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n131> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Information Systems Security"@en ;
     skos:scopeNote """Knowledge of methods, tools, and procedures, including
     development of information security plans, to prevent
@@ -1534,24 +1534,24 @@
     tools for evaluating information systems security features
     against a set of specified security requirements."""@en .
 
-<urn:comp:1082>
+<n1082>
     a skos:Concept ;
-    skos:broader <urn:comp:176> ;
+    skos:broader <n176> ;
     skos:changeNote """Created ??
     Modified by ???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Paralegal"@en ;
     skos:scopeNote """Knowledge of legal research and writing, litigation case
     management, and providing professional administrative and
     technical legal support. Possesses paralegal certificate or
     equivalent"""@en .
 
-<urn:comp:1083>
+<n1083>
     a skos:Concept ;
     skos:altLabel "INTPROPLAW"@en ;
-    skos:broader <urn:comp:125> ;
+    skos:broader <n125> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Intellectual Property Law"@en ;
     skos:scopeNote """Speciaized knowledge of matter related to intellectual
     property, including but not limited to patents, copyrights,
@@ -1559,12 +1559,12 @@
     technology. Be in good standing to practice before the
     United States Patent and Trademark Office."""@en .
 
-<urn:comp:1084>
+<n1084>
     a skos:Concept ;
     skos:altLabel "GENERALLAW"@en ;
-    skos:broader <urn:comp:125> ;
+    skos:broader <n125> ;
     skos:changeNote """Modified ???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "General Law"@en ;
     skos:scopeNote """. Speciaized knowledge of matters related to civil and
     administrative law, including but not limited to fiscal and
@@ -1572,12 +1572,12 @@
     export control, immigration and foreign visitors, and
     litigation and appeals."""@en .
 
-<urn:comp:1085>
+<n1085>
     a skos:Concept ;
     skos:altLabel "CONTRCTLAW"@en ;
-    skos:broader <urn:comp:125> ;
+    skos:broader <n125> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Contracts Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to procurement,
     including but not limited to contracts, grants, cooperative
@@ -1585,12 +1585,12 @@
     claims, protests, and litigation and appeals related to
     procurement matters ."""@en .
 
-<urn:comp:1086>
+<n1086>
     a skos:Concept ;
     skos:altLabel "PERSONLAW"@en ;
-    skos:broader <urn:comp:125> ;
+    skos:broader <n125> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Personnel/EEO Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to employee and
     personnel issues, including but not limited to employee
@@ -1598,12 +1598,12 @@
     collective bargaining, EEO, ADR, and litigation and appeals
     related to employment and personnel matters."""@en .
 
-<urn:comp:1087>
+<n1087>
     a skos:Concept ;
     skos:altLabel "ENVLAW"@en ;
-    skos:broader <urn:comp:125> ;
+    skos:broader <n125> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Environmental/Real Property Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to environmental
     matters, inclucing but not limited to of local, state and
@@ -1612,11 +1612,11 @@
     corrective actions, pollution prevention, and litigation
     and appeals related to environmental matters."""@en .
 
-<urn:comp:1088>
+<n1088>
     a skos:Concept ;
     skos:altLabel "ENVPLAN"@en ;
-    skos:broader <urn:comp:133> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n133> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Institutional Environmental Planning/NEPA"@en ;
     skos:scopeNote """Uses knowledge of environmental engineering, environmental
     law, economics and the physical sciences to fully consider
@@ -1630,11 +1630,11 @@
     Impact, and Records of Decision. Coordinates public
     meetings to solicit input on major Agency actions."""@en .
 
-<urn:comp:1089>
+<n1089>
     a skos:Concept ;
     skos:altLabel "ENVREMED"@en ;
-    skos:broader <urn:comp:133> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n133> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Institutional Environmental Remediation"@en ;
     skos:scopeNote """Uses knowledge of environmental engineering, chemistry,
     biology, geology and hydrogeology to identify, investigate,
@@ -1651,12 +1651,12 @@
     of Decisions (RODs), administrative orders, and consent
     decrees. Performs necessary community relations activities."""@en .
 
-<urn:comp:109>
+<n109>
     a skos:Concept ;
     skos:altLabel "AETT"@en ;
-    skos:broader <urn:comp:1363> ;
+    skos:broader <n1363> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Experimentation and Testing Technologies"@en ;
     skos:scopeNote """Knowledge of advanced experimentation and testing
     philosophies and approaches that provide results to inform
@@ -1672,11 +1672,11 @@
     optimize productivity, cycle time, data quality, cost and
     customer satisfaction."""@en .
 
-<urn:comp:1090>
+<n1090>
     a skos:Concept ;
     skos:altLabel "FACIVENG"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Facility Civil Engineering"@en ;
     skos:scopeNote """Knowledge of building and foundation design and
     construction, concrete and steel design and construction as
@@ -1687,11 +1687,11 @@
     requires knowledge of construction contracting and
     contractor oversight and contracts management."""@en .
 
-<urn:comp:1091>
+<n1091>
     a skos:Concept ;
     skos:altLabel "FACMECHENG"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Facility Mechanical Engineering"@en ;
     skos:scopeNote """Knowledge of planning, designing, developing, testing, or
     evaluating mechanical, electromechanical, pneumatic,
@@ -1702,11 +1702,11 @@
     contracting and contractor oversight and contracts
     management."""@en .
 
-<urn:comp:1092>
+<n1092>
     a skos:Concept ;
     skos:altLabel "FACELECENG"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Facility Electrical Engineering"@en ;
     skos:scopeNote """Knowledge of planning, designing, developing, testing, or
     evaluating electrical components, electrical installation
@@ -1718,11 +1718,11 @@
     contracting and contractor oversight and contracts
     management."""@en .
 
-<urn:comp:1093>
+<n1093>
     a skos:Concept ;
     skos:altLabel "ACQPLAN"@en ;
-    skos:broader <urn:comp:124> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n124> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Acquisition Planning"@en ;
     skos:scopeNote """Knowledge of contract regulations and government contract
     vehicles, and ability to form contracts through source
@@ -1734,11 +1734,11 @@
     negotiating, identifying actions to resolve protests, and
     contract awarding."""@en .
 
-<urn:comp:1094>
+<n1094>
     a skos:Concept ;
     skos:altLabel "CONFORMAT"@en ;
-    skos:broader <urn:comp:124> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n124> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Contract Formation"@en ;
     skos:scopeNote """Knowledge of contract regulations and government contract
     vehicles, and ability to form contracts through source
@@ -1750,11 +1750,11 @@
     negotiating, identifying actions to resolve protests, and
     contract awarding."""@en .
 
-<urn:comp:1095>
+<n1095>
     a skos:Concept ;
     skos:altLabel "CONPERFORM"@en ;
-    skos:broader <urn:comp:124> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n124> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Contract Management and Performance Assessment"@en ;
     skos:scopeNote """Knowledge and capabilities associated with managing
     contracts and evaluating a contractor's performance,
@@ -1765,21 +1765,21 @@
     course of action for resolving a contractor dispute, and
     identifying and implementing contract close-out procedures."""@en .
 
-<urn:comp:1096>
+<n1096>
     a skos:Concept ;
     skos:altLabel "FACONSTMMT"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Construction Management"@en ;
     skos:scopeNote """Knowledge of the materials, methods, systems, and the tools
     used to construct facilities and other real property
     infrastructure."""@en .
 
-<urn:comp:1097>
+<n1097>
     a skos:Concept ;
     skos:altLabel "FACPROPRTY"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Real Property Management"@en ;
     skos:scopeNote """Knowledge of requirements and processes to manage real
     property including buildings, other infrastructure, land,
@@ -1795,11 +1795,11 @@
     charges as well as for space management and utilization
     reporting at the agency as well as at the federal level."""@en .
 
-<urn:comp:1098>
+<n1098>
     a skos:Concept ;
     skos:altLabel "FACOPSMAIN"@en ;
-    skos:broader <urn:comp:112> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n112> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Facilities Operations and Maintenance"@en ;
     skos:scopeNote """Knowledge of operation and maintenance of office,
     operations and/or research facilities, and associated
@@ -1817,11 +1817,11 @@
     effectively integrate these services to be consistent with
     the strategies and program goals of the organization."""@en .
 
-<urn:comp:1099>
+<n1099>
     a skos:Concept ;
     skos:altLabel "DATLARGE"@en ;
-    skos:broader <urn:comp:161> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n161> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Large Scale Data Systems"@en ;
     skos:scopeNote """Knowledge of design, development and implementation of
     large-scale scientific data storage, access, retrieval and
@@ -1831,11 +1831,11 @@
     Includes knowledge of image methods and procedures for
     automated feature extraction from large data sets."""@en .
 
-<urn:comp:11>
+<n11>
     a skos:Concept ;
     skos:altLabel "ENGSCISUP"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Engineering and Science Support"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     supporting engineering and science functions. This support
@@ -1848,11 +1848,11 @@
     apparatus, both physical and analytical, are a key element
     of this competency."""@en .
 
-<urn:comp:110>
+<n110>
     a skos:Concept ;
     skos:altLabel "SIMFLTSYS"@en ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Simulation/Flight Research Systems"@en ;
     skos:scopeNote """Knowledge capabilities and practices used to provide and
     integrate appropriate real-time hardware/software systems
@@ -1861,11 +1861,11 @@
     Guidance/Navigation/Control, Crew Systems and Aviation
     Operations, Reliable Digital Systems and Electromagnetics."""@en .
 
-<urn:comp:1100>
+<n1100>
     a skos:Concept ;
     skos:altLabel "DATVISUAL"@en ;
-    skos:broader <urn:comp:161> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n161> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Data Visualization"@en ;
     skos:scopeNote """Knowledge capabilities and practices associated with
     extracting information and knowledge from extremely large
@@ -1885,39 +1885,39 @@
     aesthetic skills in creating renditions of data with the
     power to communicate meaning."""@en .
 
-<urn:comp:1101>
+<n1101>
     a skos:Concept ;
     skos:altLabel "STUTECH"@en ;
-    skos:broader <urn:comp:174> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n174> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Technical Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Technical Student Trainees."""@en .
 
-<urn:comp:1102>
+<n1102>
     a skos:Concept ;
     skos:altLabel "STUCLERICAL"@en ;
-    skos:broader <urn:comp:174> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n174> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Clerical Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Clerical Student Trainees."""@en .
 
-<urn:comp:1103>
+<n1103>
     a skos:Concept ;
     skos:altLabel "STUPROFADM"@en ;
-    skos:broader <urn:comp:174> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n174> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Professional Administrative Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Professional Administrative
     Student Trainees."""@en .
 
-<urn:comp:1104>
+<n1104>
     a skos:Concept ;
     skos:altLabel "SYSSAFETY"@en ;
-    skos:broader <urn:comp:27> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n27> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "System Safety"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     use of formal approaches to analyze hazards that impact
@@ -1933,11 +1933,11 @@
     timely and effectively communicate safety risk insights to
     decision-makers."""@en .
 
-<urn:comp:1105>
+<n1105>
     a skos:Concept ;
     skos:altLabel "PROBRISK"@en ;
-    skos:broader <urn:comp:27> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n27> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Probabilistic Risk Assessment"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development and application of system risk models to
@@ -1950,11 +1950,11 @@
     consequences of accident scenarios), uncertainty and
     risk-trade-off analysis, and risk communication."""@en .
 
-<urn:comp:1106>
+<n1106>
     a skos:Concept ;
     skos:altLabel "TREND"@en ;
-    skos:broader <urn:comp:27> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n27> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Trend Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     identification of trends and patterns in data. Knowledge
@@ -1969,11 +1969,11 @@
     capability to interpret the information provided by trends
     and patterns in terms of their program implications."""@en .
 
-<urn:comp:1107>
+<n1107>
     a skos:Concept ;
     skos:altLabel "PRECURSOR"@en ;
-    skos:broader <urn:comp:27> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n27> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Precursor Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     identification of forerunners to failure. Knowledge of risk
@@ -1990,11 +1990,11 @@
     preventative or mitigative actions to determine their
     impact on the precursor probability or consequences."""@en .
 
-<urn:comp:1108>
+<n1108>
     a skos:Concept ;
     skos:altLabel "SOLIDENG"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Solid & Hybrid Motor Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design and analysis of complex solid and hybrid rocket
@@ -2030,11 +2030,11 @@
     procedures that are required to ensure safe and reliable
     system development and integration."""@en .
 
-<urn:comp:1109>
+<n1109>
     a skos:Concept ;
     skos:altLabel "LIQUIDENG"@en ;
-    skos:broader <urn:comp:73> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n73> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Liquid Engine Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design and analysis of complex liquid engine systems for
@@ -2067,11 +2067,11 @@
     procedures that are required to ensure safe and reliable
     engine system development and integration."""@en .
 
-<urn:comp:111>
+<n111>
     a skos:Concept ;
     skos:altLabel "ADVMDI"@en ;
-    skos:broader <urn:comp:1363> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1363> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Measurement, Diagnostics, and Instrumentation"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and development, assessment, implementation, and
@@ -2085,11 +2085,11 @@
     resolve issues arising from test articles, data systems,
     and integrated measurement systems and their interactions."""@en .
 
-<urn:comp:1110>
+<n1110>
     a skos:Concept ;
     skos:altLabel "GNCCTLCOM"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Control Components"@en ;
     skos:scopeNote """Knowledge of and ability to perform research, design,
     development, test and evaluation of inertial, celestial,
@@ -2105,11 +2105,11 @@
     experimental methods, statistical analysis and application
     and mathematical modeling.."""@en .
 
-<urn:comp:1111>
+<n1111>
     a skos:Concept ;
     skos:altLabel "GNCCTLELE"@en ;
-    skos:broader <urn:comp:22> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n22> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Control Electronics"@en ;
     skos:scopeNote """Knowledge of and ability to employ navigation hardware
     including Inertial Measurement Units (IMU: gyro and
@@ -2120,11 +2120,11 @@
     optimum navigation solution. Skill in using the output
     navigation solution for orbit determination."""@en .
 
-<urn:comp:1112>
+<n1112>
     a skos:Concept ;
     skos:altLabel "INTLLAW"@en ;
-    skos:broader <urn:comp:125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "International Law"@en ;
     skos:scopeNote """Knowledge of public international law, space law,
     international agreement drafting, conclusion, procedure and
@@ -2134,11 +2134,11 @@
     general knowledge concerning all other areas of law (e.g.,
     IP, ethics, contracts, environmental)."""@en .
 
-<urn:comp:1113>
+<n1113>
     a skos:Concept ;
     skos:altLabel "COMMLAW"@en ;
-    skos:broader <urn:comp:125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Commercial Law"@en ;
     skos:scopeNote """Knowledge of negotiating, drafting, and interpreting Space
     Act Agreements with domestic and foreign entities;
@@ -2149,11 +2149,11 @@
     policy, legislative drafting, negotiating and drafting
     agreements, and providing legal advice and reviews."""@en .
 
-<urn:comp:1114>
+<n1114>
     a skos:Concept ;
     skos:altLabel "PATENTAGT"@en ;
-    skos:broader <urn:comp:176> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n176> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Patent Agent"@en ;
     skos:scopeNote """Knowledge of intellectual property matters, patents,
     copyrights, data rights, trademarks, and commercilization
@@ -2161,64 +2161,64 @@
     Patent Office, but not necessarily liscensed to practice
     law."""@en .
 
-<urn:comp:1115>
+<n1115>
     a skos:Concept ;
     skos:altLabel "HCMCLASS"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Classification"@en ;
     skos:scopeNote """Knowledge of classification concepts, principles, and
     practices related to structuring organizations and
     positions and determining the appropriate pay system,
     occupational grouping, title, and pay level of positions.."""@en .
 
-<urn:comp:1116>
+<n1116>
     a skos:Concept ;
     skos:altLabel "HCMCOMP"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Compensation"@en ;
     skos:scopeNote """Knowledge of compensation concepts, principles, and
     practices, including pay and leave administration and
     compensation flexibilities.."""@en .
 
-<urn:comp:1117>
+<n1117>
     a skos:Concept ;
     skos:altLabel "HCMEMPBENF"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Employee Benefits"@en ;
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to retirement, insurance, injury compensation, and other
     employee benefits programs.."""@en .
 
-<urn:comp:1118>
+<n1118>
     a skos:Concept ;
     skos:altLabel "HCMEMPDEV"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Employee Development"@en ;
     skos:scopeNote """Knowledge of employee development concepts, principles, and
     practices related to planning, evaluating,and
     administering training, organizational development, and
     career development initiatives."""@en .
 
-<urn:comp:1119>
+<n1119>
     a skos:Concept ;
     skos:altLabel "HCMEMPREL"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Employee Relations"@en ;
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to employee conduct,
     performance, and dispute resolution."""@en .
 
-<urn:comp:112>
+<n112>
     a skos:Concept ;
     skos:altLabel "FACENG"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1090>, <urn:comp:1091>, <urn:comp:1092>, <urn:comp:1096>, <urn:comp:1097>, <urn:comp:1098> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1090>, <n1091>, <n1092>, <n1096>, <n1097>, <n1098> ;
     skos:prefLabel "Facilities Engineering and Management"@en ;
     skos:scopeNote """Knowledge of facilities engineering , facility evaluation,
     cost, schedules and formulation of performance requirements
@@ -2233,67 +2233,67 @@
     construction contracting and contractor oversight and
     contracts management."""@en .
 
-<urn:comp:1120>
+<n1120>
     a skos:Concept ;
     skos:altLabel "HCMLABOR"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Labor Relations"@en ;
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to negotiating and
     administering
     labor agreements."""@en .
 
-<urn:comp:1121>
+<n1121>
     a skos:Concept ;
     skos:altLabel "HCMPERFMGT"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Performance Management"@en ;
     skos:scopeNote """Knowledge of performance management concepts, principles,
     and practices related to planning, monitoring,
     rating,and rewarding employee performance."""@en .
 
-<urn:comp:1122>
+<n1122>
     a skos:Concept ;
     skos:altLabel "HCMRECRUIT"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Recruitment/Placement"@en ;
     skos:scopeNote """Knowledge of HR concepts, principles,and practices related
     to identifying, attracting, and selecting individuals and
     placing them into positions to address changing
     organizational needs."""@en .
 
-<urn:comp:1123>
+<n1123>
     a skos:Concept ;
     skos:altLabel "HCMWORKPLN"@en ;
-    skos:broader <urn:comp:128> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n128> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Workforce Planning"@en ;
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to determining workload projections and current and
     future competency gaps to align human capital with
     organizational goals."""@en .
 
-<urn:comp:1124>
+<n1124>
     a skos:Concept ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1125>, <urn:comp:1150>, <urn:comp:1159>, <urn:comp:1189> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1125>, <n1150>, <n1159>, <n1189> ;
     skos:prefLabel "Business Knowledge Domain"@en .
 
-<urn:comp:1125>
+<n1125>
     a skos:Concept ;
-    skos:broader <urn:comp:1124> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:113>, <urn:comp:116>, <urn:comp:117>, <urn:comp:125>, <urn:comp:127>, <urn:comp:131>, <urn:comp:135>, <urn:comp:136>, <urn:comp:137>, <urn:comp:144>, <urn:comp:157>, <urn:comp:169>, <urn:comp:176> ;
+    skos:broader <n1124> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n113>, <n116>, <n117>, <n125>, <n127>, <n131>, <n135>, <n136>, <n137>, <n144>, <n157>, <n169>, <n176> ;
     skos:prefLabel "Business Operations Competency Suite"@en .
 
-<urn:comp:113>
+<n113>
     a skos:Concept ;
     skos:altLabel "BUSMMT"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Business Management"@en ;
     skos:scopeNote """Knowledge of principles and practices related to managing
     the internal and external operations of a business unit,
@@ -2308,12 +2308,12 @@
     and how to apply these processes to optimize operational
     and investment decisions."""@en .
 
-<urn:comp:114>
+<n114>
     a skos:Concept ;
     skos:altLabel "PROCESSENG"@en ;
-    skos:broader <urn:comp:1209> ;
+    skos:broader <n1209> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Process Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development and implementation of safe, efficient, and
@@ -2331,11 +2331,11 @@
     modeling (discrete and/or continuous), linear programming,
     and scheduling and capacity analysis systems."""@en .
 
-<urn:comp:115>
+<n115>
     a skos:Concept ;
     skos:altLabel "PROFADMOPS"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Professional Administrative Operations"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     support of administrative and management activities to
@@ -2347,25 +2347,25 @@
     services, documentation, procurement and financial
     management."""@en .
 
-<urn:comp:1150>
+<n1150>
     a skos:Concept ;
-    skos:broader <urn:comp:1124> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:118>, <urn:comp:119>, <urn:comp:120>, <urn:comp:121>, <urn:comp:124> ;
+    skos:broader <n1124> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n118>, <n119>, <n120>, <n121>, <n124> ;
     skos:prefLabel "Financial Operations Competency Suite"@en .
 
-<urn:comp:1159>
+<n1159>
     a skos:Concept ;
-    skos:broader <urn:comp:1124> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:112>, <urn:comp:126>, <urn:comp:130>, <urn:comp:133>, <urn:comp:134>, <urn:comp:143>, <urn:comp:150>, <urn:comp:151>, <urn:comp:152>, <urn:comp:167>, <urn:comp:168> ;
+    skos:broader <n1124> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n112>, <n126>, <n130>, <n133>, <n134>, <n143>, <n150>, <n151>, <n152>, <n167>, <n168> ;
     skos:prefLabel "Institutional Operations & Support Competency Suite"@en .
 
-<urn:comp:116>
+<n116>
     a skos:Concept ;
     skos:altLabel "BUSDEV"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Partnership & Business Development"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     effective targeting and acquisition of external
@@ -2388,10 +2388,10 @@
     appropriate elements of the agency's technical and support
     communities."""@en .
 
-<urn:comp:1168>
+<n1168>
     a skos:Concept ;
-    skos:broader <urn:comp:126> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n126> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Counterintelligence/Counterterrorism Analysis, Investigation and Liaison(SECOUNTER) [1073]"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     receipt, analysis, dissemination and investigation of
@@ -2401,11 +2401,11 @@
     for or on behalf of foreign powers, organizations or
     persons."""@en .
 
-<urn:comp:117>
+<n117>
     a skos:Concept ;
     skos:altLabel "COMTEC"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Commercial Technology"@en ;
     skos:scopeNote """Knowledge and abilities associated with transferring
     current and future Agency technology to external entities
@@ -2418,11 +2418,11 @@
     of Agency technologies and programs, as well as familiarity
     with external entities and markets."""@en .
 
-<urn:comp:118>
+<n118>
     a skos:Concept ;
     skos:altLabel "FINMMT"@en ;
-    skos:broader <urn:comp:1150> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1150> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Financial Management"@en ;
     skos:scopeNote """Knowledge of how to apply financial management skills,
     principles and practices, generally accepted accounting
@@ -2438,18 +2438,18 @@
     allocate organizational resources rationally and
     effectively."""@en .
 
-<urn:comp:1189>
+<n1189>
     a skos:Concept ;
-    skos:broader <urn:comp:1124> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:115>, <urn:comp:128>, <urn:comp:129>, <urn:comp:158>, <urn:comp:165>, <urn:comp:174> ;
+    skos:broader <n1124> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n115>, <n128>, <n129>, <n158>, <n165>, <n174> ;
     skos:prefLabel "Workforce Operations & Support Competency Suite"@en .
 
-<urn:comp:119>
+<n119>
     a skos:Concept ;
     skos:altLabel "BUDGETMMT"@en ;
-    skos:broader <urn:comp:1150> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1150> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Budgeting Management"@en ;
     skos:scopeNote """Knowledge of how to apply management knowledge, principles
     and practices to obtain, utilize, manage financial
@@ -2466,11 +2466,11 @@
     Installation accounting, and internal business information
     systems."""@en .
 
-<urn:comp:12>
+<n12>
     a skos:Concept ;
     skos:altLabel "ELMAG"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electromagnetics"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical, computational, and
@@ -2483,11 +2483,11 @@
     electromagnetic fields, compatibility, interference and
     discharge."""@en .
 
-<urn:comp:120>
+<n120>
     a skos:Concept ;
     skos:altLabel "INTAUD"@en ;
-    skos:broader <urn:comp:1150> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1150> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Internal Control / Audit"@en ;
     skos:scopeNote """Knowledge of how to evaluate control systems for financial,
     administrative, program, and operational activities to
@@ -2503,26 +2503,26 @@
     assessment and recommend, establish, modify and/or
     implement internal controls to mitigate findings."""@en .
 
-<urn:comp:1208>
+<n1208>
     a skos:Concept ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1209>, <urn:comp:1231>, <urn:comp:1237>, <urn:comp:1244>, <urn:comp:1280>, <urn:comp:1283>, <urn:comp:1294>, <urn:comp:1314>, <urn:comp:1339>, <urn:comp:1347>, <urn:comp:1359>, <urn:comp:1363> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1209>, <n1231>, <n1237>, <n1244>, <n1280>, <n1283>, <n1294>, <n1314>, <n1339>, <n1347>, <n1359>, <n1363> ;
     skos:prefLabel "Engineering & Technology Knowledge Domain"@en .
 
-<urn:comp:1209>
+<n1209>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:10>, <urn:comp:11>, <urn:comp:114>, <urn:comp:24>, <urn:comp:7>, <urn:comp:8>, <urn:comp:9> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n10>, <n11>, <n114>, <n24>, <n7>, <n8>, <n9> ;
     skos:prefLabel "Engineering of Systems Competency Suite"@en .
 
-<urn:comp:121>
+<n121>
     a skos:Concept ;
     skos:altLabel "COSTEST"@en ;
-    skos:broader <urn:comp:1150> ;
+    skos:broader <n1150> ;
     skos:changeNote """Name changed from \"Cost Estimation Analysis\"@en and Scope Note
     updated."""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Cost Estimation and Analysis"@en ;
     skos:scopeNote """This competency refers to the knowledge, capabilities, and
     practices associated with the determination, estimation,
@@ -2540,11 +2540,11 @@
     application of cost models, and evaluation of cost realism
     in proposals."""@en .
 
-<urn:comp:122>
+<n122>
     a skos:Concept ;
     skos:altLabel "PROJPROGMT"@en ;
-    skos:broader <urn:comp:1399> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1399> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Program/Project Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     formulating, planning, implementing, managing, tracking and
@@ -2561,11 +2561,11 @@
     risk assessment, schedule, configuration management,
     contract technical management, and project controls."""@en .
 
-<urn:comp:123>
+<n123>
     a skos:Concept ;
     skos:altLabel "RISKMMT"@en ;
-    skos:broader <urn:comp:1381> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1381> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Risk Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     decision process associated with mitigating or accepting
@@ -2576,26 +2576,26 @@
     that require formal acquisition planning, and ongoing
     assessment of program/project risk management activities."""@en .
 
-<urn:comp:1231>
+<n1231>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1>, <urn:comp:175>, <urn:comp:2>, <urn:comp:89>, <urn:comp:WQQ-590>, <urn:comp:WQQ-591> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1>, <n175>, <n2>, <n89>, <urn:comp:WQQ-590>, <urn:comp:WQQ-591> ;
     skos:prefLabel "Systems Analysis & Mission Planning Competency Suite"@en .
 
-<urn:comp:1237>
+<n1237>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:100>, <urn:comp:101>, <urn:comp:102>, <urn:comp:103>, <urn:comp:108>, <urn:comp:110>, <urn:comp:98> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n100>, <n101>, <n102>, <n103>, <n108>, <n110>, <n98> ;
     skos:prefLabel "Aeronautics Competency Suite"@en .
 
-<urn:comp:124>
+<n124>
     a skos:Concept ;
     skos:altLabel "CONMMT"@en ;
-    skos:broader <urn:comp:1150> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1093>, <urn:comp:1094>, <urn:comp:1095> ;
+    skos:broader <n1150> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1093>, <n1094>, <n1095> ;
     skos:prefLabel "Acquisition and Contract Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with each
     phase of the acquisition and contract management lifecycle
@@ -2617,23 +2617,23 @@
     necessary to ensure contract or acquisition requirements
     are being met throughout the life of the contract."""@en .
 
-<urn:comp:1244>
+<n1244>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:35>, <urn:comp:36>, <urn:comp:37>, <urn:comp:38>, <urn:comp:39>, <urn:comp:40>, <urn:comp:41>, <urn:comp:58>, <urn:comp:59>, <urn:comp:97> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n35>, <n36>, <n37>, <n38>, <n39>, <n40>, <n41>, <n58>, <n59>, <n97> ;
     skos:prefLabel "Human and Biological Competency Suite"@en .
 
-<urn:comp:125>
+<n125>
     a skos:Concept ;
     skos:altLabel "LEGALAPP"@en ;
-    skos:broader <urn:comp:1125> ;
+    skos:broader <n1125> ;
     skos:changeNote """Introduced ???
     Modified for 6a by ???
     New child nodes added for International Law and Commercial
     Law."""@en ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1083>, <urn:comp:1084>, <urn:comp:1085>, <urn:comp:1086>, <urn:comp:1087>, <urn:comp:1112>, <urn:comp:1113> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1083>, <n1084>, <n1085>, <n1086>, <n1087>, <n1112>, <n1113> ;
     skos:prefLabel "Legal Application Practice"@en ;
     skos:scopeNote """Member in good standing of the bar of either a Federal
     court or the highest court of any state in the United
@@ -2649,12 +2649,12 @@
     intellectual property and data rights, litigation, and
     appeals."""@en .
 
-<urn:comp:126>
+<n126>
     a skos:Concept ;
     skos:altLabel "SECURITY"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1072>, <urn:comp:1074>, <urn:comp:1075>, <urn:comp:1076>, <urn:comp:1077>, <urn:comp:WQQ-564>, <urn:comp:WQQ-565> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1072>, <n1074>, <n1075>, <n1076>, <n1077>, <urn:comp:WQQ-564>, <urn:comp:WQQ-565> ;
     skos:prefLabel "Security & Program Protection"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     providing security to protect facilities, personnel and
@@ -2664,11 +2664,11 @@
     and security support programs including physical,
     information, personnel and industrial security."""@en .
 
-<urn:comp:127>
+<n127>
     a skos:Concept ;
     skos:altLabel "INSCOMP"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Inspection, Investigation and Compliance"@en ;
     skos:scopeNote """Knowledge of how to provide objective evaluation of Agency
     standards and operation through use of inspection and
@@ -2681,12 +2681,12 @@
     communicate information to constituents, including Agency
     leadership and management, employees, and Congress."""@en .
 
-<urn:comp:128>
+<n128>
     a skos:Concept ;
     skos:altLabel "HUMCAPMMT"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1115>, <urn:comp:1116>, <urn:comp:1117>, <urn:comp:1118>, <urn:comp:1119>, <urn:comp:1120>, <urn:comp:1121>, <urn:comp:1122>, <urn:comp:1123> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1115>, <n1116>, <n1117>, <n1118>, <n1119>, <n1120>, <n1121>, <n1122>, <n1123> ;
     skos:prefLabel "Human Capital Management"@en ;
     skos:scopeNote """Apply knowledge and practices of the full range of
     personnel/human resource functions, such as classification,
@@ -2703,25 +2703,25 @@
     various rules, regulations and culture on people and their
     work."""@en .
 
-<urn:comp:1280>
+<n1280>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:18>, <urn:comp:25> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n18>, <n25> ;
     skos:prefLabel "Chemical Competency Suite"@en .
 
-<urn:comp:1283>
+<n1283>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:161>, <urn:comp:166>, <urn:comp:79>, <urn:comp:80>, <urn:comp:81>, <urn:comp:82>, <urn:comp:84>, <urn:comp:85> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n161>, <n166>, <n79>, <n80>, <n81>, <n82>, <n84>, <n85> ;
     skos:prefLabel "Computer Science & Information Technology Competency Suite"@en .
 
-<urn:comp:129>
+<n129>
     a skos:Concept ;
     skos:altLabel "EEOMMT"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Equal Opportunity Management"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     formulating, planning, implementing, managing, tracking and
@@ -2746,19 +2746,19 @@
     change and ensure compliance with relevant federal law,
     rules and regulations."""@en .
 
-<urn:comp:1294>
+<n1294>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:12>, <urn:comp:13>, <urn:comp:15>, <urn:comp:159>, <urn:comp:16>, <urn:comp:160>, <urn:comp:19>, <urn:comp:21>, <urn:comp:22>, <urn:comp:60> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n12>, <n13>, <n15>, <n159>, <n16>, <n160>, <n19>, <n21>, <n22>, <n60> ;
     skos:prefLabel "Electrical & Electronic Competency Suite"@en .
 
-<urn:comp:13>
+<n13>
     a skos:Concept ;
     skos:altLabel "ELSYS"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1042>, <urn:comp:1043>, <urn:comp:1044>, <urn:comp:1045> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1042>, <n1043>, <n1044>, <n1045> ;
     skos:prefLabel "Electrical and Electronic Systems"@en ;
     skos:scopeNote """Knowledge of engineering design and analysis, development
     and research of electrical systems and components for air,
@@ -2775,12 +2775,12 @@
     use to analyze data to optimize design of flight
     electronics."""@en .
 
-<urn:comp:130>
+<n130>
     a skos:Concept ;
     skos:altLabel "OCCHEALTH"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1066>, <urn:comp:1067>, <urn:comp:1068>, <urn:comp:1069> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1066>, <n1067>, <n1068>, <n1069> ;
     skos:prefLabel "Occupational and Environmental Health"@en ;
     skos:scopeNote """Knowledge, capabilities, and practice associated with NASA,
     Federal, and State OSHA health and safety regulations,
@@ -2799,12 +2799,12 @@
     the industrial work environment, and promote the health and
     well being of employees."""@en .
 
-<urn:comp:131>
+<n131>
     a skos:Concept ;
     skos:altLabel "BITSYS"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1078>, <urn:comp:1079>, <urn:comp:1081> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1078>, <n1079>, <n1081> ;
     skos:prefLabel "Business IT Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     computer architectures and computer-based information
@@ -2817,17 +2817,17 @@
     that pertain to the acquisition, computation, storage,
     distribution, reporting, and management of information."""@en .
 
-<urn:comp:1314>
+<n1314>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:138>, <urn:comp:68>, <urn:comp:69>, <urn:comp:70>, <urn:comp:71>, <urn:comp:72>, <urn:comp:73>, <urn:comp:74>, <urn:comp:75>, <urn:comp:76>, <urn:comp:77>, <urn:comp:78> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n138>, <n68>, <n69>, <n70>, <n71>, <n72>, <n73>, <n74>, <n75>, <n76>, <n77>, <n78> ;
     skos:prefLabel "Power & Propulsion Competency Suite"@en .
 
-<urn:comp:1318>
+<n1318>
     a skos:Concept ;
-    skos:broader <urn:comp:72> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n72> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propellantless Propulsion(APNOPROP) [1051]"@en ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     in-space propulsion systems which use technologies other
@@ -2837,12 +2837,12 @@
     solar sails, momentum exchange  electrodynamic reboost
     tethers, aerocapture, etc."""@en .
 
-<urn:comp:133>
+<n133>
     a skos:Concept ;
     skos:altLabel "ENVENGMMT"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1088>, <urn:comp:1089> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1088>, <n1089> ;
     skos:prefLabel "Institutional Environmental Engineering & Management"@en ;
     skos:scopeNote """Uses knowledge of environmental engineering, environmental
     law, chemistry, biology, geology and hydrogeology to
@@ -2857,18 +2857,18 @@
     affirmative procurement and energy management, and
     remediation activities under RCRA and CERCLA requirements."""@en .
 
-<urn:comp:1339>
+<n1339>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:14>, <urn:comp:20>, <urn:comp:92>, <urn:comp:93>, <urn:comp:94>, <urn:comp:95>, <urn:comp:96> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n14>, <n20>, <n92>, <n93>, <n94>, <n95>, <n96> ;
     skos:prefLabel "Sensor Systems Competency Suite"@en .
 
-<urn:comp:134>
+<n134>
     a skos:Concept ;
     skos:altLabel "LOGSUPTRAN"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Institutional Logistics, Supply and Transportation"@en ;
     skos:scopeNote """Knowledge of principles, practices, equipment and tools in
     the areas of Logistics, Supply and Transportation.
@@ -2889,18 +2889,18 @@
     regulations regarding property management and disposal, and
     related contracting terminology and requirements."""@en .
 
-<urn:comp:1347>
+<n1347>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:105>, <urn:comp:17>, <urn:comp:61>, <urn:comp:62>, <urn:comp:63>, <urn:comp:64>, <urn:comp:66>, <urn:comp:67> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n105>, <n17>, <n61>, <n62>, <n63>, <n64>, <n66>, <n67> ;
     skos:prefLabel "Structures, Materials & Mechanics Competency Suite"@en .
 
-<urn:comp:135>
+<n135>
     a skos:Concept ;
     skos:altLabel "PUBLICOMM"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Public Communications & Outreach"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     assessment, development and execution of public
@@ -2923,18 +2923,18 @@
     story development, visitor and guest programs, protocols,
     and concessionaire management."""@en .
 
-<urn:comp:1359>
+<n1359>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:104>, <urn:comp:106>, <urn:comp:26> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n104>, <n106>, <n26> ;
     skos:prefLabel "Thermal/Fluid Competency Suite"@en .
 
-<urn:comp:136>
+<n136>
     a skos:Concept ;
     skos:altLabel "GOVAF"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Governmental Affairs"@en ;
     skos:scopeNote """Knowledge of NASA-related legislation, the legislative
     process and public affairs as it pertains to NASA. Includes
@@ -2948,18 +2948,18 @@
     Broad knowledge of NASA programs and specific knowledge of
     local center programs."""@en .
 
-<urn:comp:1363>
+<n1363>
     a skos:Concept ;
-    skos:broader <urn:comp:1208> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:109>, <urn:comp:111>, <urn:comp:155>, <urn:comp:57>, <urn:comp:86>, <urn:comp:91>, <urn:comp:WQQ-470>, <urn:comp:WQQ-471> ;
+    skos:broader <n1208> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n109>, <n111>, <n155>, <n57>, <n86>, <n91>, <urn:comp:WQQ-470>, <urn:comp:WQQ-471> ;
     skos:prefLabel "Multi-disciplinary R&D Competency Suite"@en .
 
-<urn:comp:137>
+<n137>
     a skos:Concept ;
     skos:altLabel "EDTECH"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Education Programs and Technologies"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     research and application of education programs, standards,
@@ -2980,24 +2980,24 @@
     educational effectiveness and success within the various
     student and educator communities."""@en .
 
-<urn:comp:1371>
+<n1371>
     a skos:Concept ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1372>, <urn:comp:1381> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1372>, <n1381> ;
     skos:prefLabel "Mission Operations Knowledge Domain"@en .
 
-<urn:comp:1372>
+<n1372>
     a skos:Concept ;
-    skos:broader <urn:comp:1371> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:147>, <urn:comp:153>, <urn:comp:162>, <urn:comp:3>, <urn:comp:30>, <urn:comp:4>, <urn:comp:5>, <urn:comp:6> ;
+    skos:broader <n1371> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n147>, <n153>, <n162>, <n3>, <n30>, <n4>, <n5>, <n6> ;
     skos:prefLabel "Mission Operations Competency Suite"@en .
 
-<urn:comp:138>
+<n138>
     a skos:Concept ;
     skos:altLabel "NUCLEARENG"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Nuclear Engineering /Propulsion"@en ;
     skos:scopeNote """Knowledge of scientific and engineering principles
     associated with the safe design and operations of
@@ -3016,18 +3016,18 @@
     determine which concepts can be incorporated into future
     space missions."""@en .
 
-<urn:comp:1381>
+<n1381>
     a skos:Concept ;
-    skos:broader <urn:comp:1371> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:123>, <urn:comp:139>, <urn:comp:149>, <urn:comp:154>, <urn:comp:27>, <urn:comp:28>, <urn:comp:29> ;
+    skos:broader <n1371> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n123>, <n139>, <n149>, <n154>, <n27>, <n28>, <n29> ;
     skos:prefLabel "Quality/Safety/Performance Competency Suite"@en .
 
-<urn:comp:139>
+<n139>
     a skos:Concept ;
     skos:altLabel "SWASSURANCE"@en ;
-    skos:broader <urn:comp:1381> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1381> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Software Assurance Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     planning, organizing, performing, monitoring and directing
@@ -3047,43 +3047,43 @@
     and product standards are appropriate, implemented
     correctly, followed, and improved."""@en .
 
-<urn:comp:1393>
+<n1393>
     a skos:Concept ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1394>, <urn:comp:1399> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1394>, <n1399> ;
     skos:prefLabel "Leadership & Management Knowledge Domain"@en .
 
-<urn:comp:1394>
+<n1394>
     a skos:Concept ;
-    skos:broader <urn:comp:1393> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:170>, <urn:comp:171>, <urn:comp:172>, <urn:comp:173> ;
+    skos:broader <n1393> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n170>, <n171>, <n172>, <n173> ;
     skos:prefLabel "Management Competency Suite"@en .
 
-<urn:comp:1399>
+<n1399>
     a skos:Concept ;
-    skos:broader <urn:comp:1393> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:122>, <urn:comp:140> ;
+    skos:broader <n1393> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n122>, <n140> ;
     skos:prefLabel "Professional Development Competency Suite"@en .
 
-<urn:comp:14>
+<n14>
     a skos:Concept ;
     skos:altLabel "ELDEVTEC"@en ;
-    skos:broader <urn:comp:1339> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1339> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electron Device Technology"@en ;
     skos:scopeNote """Knowledge and practices associated in conducting research
     and development of electron device technology for
     communications component and systems such as microwave
     devices, MEMS and MMICs."""@en .
 
-<urn:comp:140>
+<n140>
     a skos:Concept ;
     skos:altLabel "NASALEADER"@en ;
-    skos:broader <urn:comp:1399> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1001>, <urn:comp:1002>, <urn:comp:1003>, <urn:comp:1004> ;
+    skos:broader <n1399> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1001>, <n1002>, <n1003>, <n1004> ;
     skos:prefLabel "NASA Leadership Competency"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     leading and managing change, people, and work of an
@@ -3103,39 +3103,39 @@
     objectives and removes obstacles and barriers to
     organizational and programmatic performance."""@en .
 
-<urn:comp:1406>
+<n1406>
     a skos:Concept ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1407>, <urn:comp:1415>, <urn:comp:1424>, <urn:comp:1430> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1407>, <n1415>, <n1424>, <n1430> ;
     skos:prefLabel "Science Knowledge Domain"@en .
 
-<urn:comp:1407>
+<n1407>
     a skos:Concept ;
-    skos:broader <urn:comp:1406> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:163>, <urn:comp:44>, <urn:comp:51>, <urn:comp:52>, <urn:comp:53>, <urn:comp:54>, <urn:comp:55> ;
+    skos:broader <n1406> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n163>, <n44>, <n51>, <n52>, <n53>, <n54>, <n55> ;
     skos:prefLabel "Space Sciences Competency Suite"@en .
 
-<urn:comp:1415>
+<n1415>
     a skos:Concept ;
-    skos:broader <urn:comp:1406> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:164>, <urn:comp:45>, <urn:comp:46>, <urn:comp:47>, <urn:comp:48>, <urn:comp:49>, <urn:comp:50>, <urn:comp:88> ;
+    skos:broader <n1406> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n164>, <n45>, <n46>, <n47>, <n48>, <n49>, <n50>, <n88> ;
     skos:prefLabel "Earth Sciences Competency Suite"@en .
 
-<urn:comp:1424>
+<n1424>
     a skos:Concept ;
-    skos:broader <urn:comp:1406> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:107>, <urn:comp:42>, <urn:comp:43>, <urn:comp:56>, <urn:comp:65> ;
+    skos:broader <n1406> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n107>, <n42>, <n43>, <n56>, <n65> ;
     skos:prefLabel "Physical Sciences Competency Suite"@en .
 
-<urn:comp:143>
+<n143>
     a skos:Concept ;
     skos:altLabel "FIREPROT"@en ;
-    skos:broader <urn:comp:1159> ;
+    skos:broader <n1159> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Fire Protection Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated fire
     prevention-related tools and their application to systems
@@ -3151,18 +3151,18 @@
     Safety Systems. Capability to provide mitigation strategies
     for fire protection when requirements cannot be met.."""@en .
 
-<urn:comp:1430>
+<n1430>
     a skos:Concept ;
-    skos:broader <urn:comp:1406> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:156>, <urn:comp:31>, <urn:comp:32>, <urn:comp:34> ;
+    skos:broader <n1406> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n156>, <n31>, <n32>, <n34> ;
     skos:prefLabel "Biological Sciences Competency Suite"@en .
 
-<urn:comp:144>
+<n144>
     a skos:Concept ;
     skos:altLabel "EXPORT"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Export Control"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     complying with federal laws controlling the export of items
@@ -3173,11 +3173,11 @@
     through programs, education of the workforce, and
     addressing unique situations in the aerospace environment."""@en .
 
-<urn:comp:147>
+<n147>
     a skos:Concept ;
     skos:altLabel "PROJANALYS"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Program/Project Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     formulating, planning, implementing, tracking and
@@ -3190,11 +3190,11 @@
     Includes knowledge associated with finance, budgeting,
     schedule, configuration management, and project controls."""@en .
 
-<urn:comp:149>
+<n149>
     a skos:Concept ;
     skos:altLabel "MISHAPINV"@en ;
-    skos:broader <urn:comp:1381> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1381> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mishap Investigation"@en ;
     skos:scopeNote """A NASA employee who understands NASA mishap investigation
     policy, and requirements, and has the skills to perform all
@@ -3203,11 +3203,11 @@
     conducting analyses, drawing collusions, generating
     recommendations, and writing NASA mishap reports."""@en .
 
-<urn:comp:15>
+<n15>
     a skos:Concept ;
     skos:altLabel "ELMECHSY"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Electro-Mechanical Systems"@en ;
     skos:scopeNote """Knowledge of and ability to design, develop, test,
     integrate and evaluate electro-mechanical systems such as;
@@ -3218,12 +3218,12 @@
     for the drive, sensing, and control of precision flight
     instruments, and spacecraft subsystems."""@en .
 
-<urn:comp:150>
+<n150>
     a skos:Concept ;
     skos:altLabel "WORKSAFETY"@en ;
-    skos:broader <urn:comp:1159> ;
+    skos:broader <n1159> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Workplace Safety"@en ;
     skos:scopeNote """Knowledge, capabilities, and practice associated with NASA,
     Federal (29 CFR 1960), and State OSHA health and safety
@@ -3251,11 +3251,11 @@
     concerned with safety and health policy development,
     program execution and evaluation."""@en .
 
-<urn:comp:151>
+<n151>
     a skos:Concept ;
     skos:altLabel "EMERGMMT"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Emergency Management"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices of Comprehensive
     Emergency Management are associated with an integrated
@@ -3302,11 +3302,11 @@
     evaluate agency exercise design criteria for emergency
     response; conduct risk assessments."""@en .
 
-<urn:comp:152>
+<n152>
     a skos:Concept ;
     skos:altLabel "AIROPS"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Institutional Aircraft Operations"@en ;
     skos:scopeNote """Knowledge of aircraft operations, maintenance, acquisition,
     airworthiness and aviation safety principles for
@@ -3322,11 +3322,11 @@
     objectives, strategies, and program goals of the
     organization."""@en .
 
-<urn:comp:153>
+<n153>
     a skos:Concept ;
     skos:altLabel "TECHMMT"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Technical Management"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices of technical
     formulation, planning, implementing, integration and
@@ -3335,11 +3335,11 @@
     management to meet mission specific technical milestones,
     and processes associated with mitigating or accepting risk."""@en .
 
-<urn:comp:154>
+<n154>
     a skos:Concept ;
     skos:altLabel "CONFIGMMT"@en ;
-    skos:broader <urn:comp:1381> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1381> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Configuration Management"@en ;
     skos:scopeNote """Knowledge of configuration management practices required to
     define, document, control and manage changes to the
@@ -3358,11 +3358,11 @@
     baselines for NASA Programs/Projects in accordance with the
     NASA configuration management requirements and standards."""@en .
 
-<urn:comp:155>
+<n155>
     a skos:Concept ;
     skos:altLabel "SPACE_ENV"@en ;
-    skos:broader <urn:comp:1363> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1363> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Space Environments Science and Engineering"@en ;
     skos:scopeNote """Knowledge of composition, elements, behaviors and impact of
     the space environments on the design, development, testing
@@ -3375,11 +3375,11 @@
     development and operations and perform trade-off studies to
     optimize performance and assess risk."""@en .
 
-<urn:comp:156>
+<n156>
     a skos:Concept ;
-    skos:broader <urn:comp:1430> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1064>, <urn:comp:1065> ;
+    skos:broader <n1430> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1064>, <n1065> ;
     skos:prefLabel "Bioethics"@en ;
     skos:scopeNote """Knowledge and experience in interpreting and implementing
     Federal and Agency regulations and guidelines for the
@@ -3392,11 +3392,11 @@
     theory and thought to guide Agency biomedical research and
     clinical medical policy development and decision-making."""@en .
 
-<urn:comp:157>
+<n157>
     a skos:Concept ;
     skos:altLabel "INTLPGMDEV"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "International Program Development"@en ;
     skos:scopeNote """This competency refers to the knowledge and capabilities
     associated with establishing international
@@ -3409,11 +3409,11 @@
     and other U.S. Agencies and Departments. This may involve
     both reimbursable and non-reimbursable agreements."""@en .
 
-<urn:comp:158>
+<n158>
     a skos:Concept ;
     skos:altLabel "DIVERSEMMT"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Diversity Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     application of diversity management including developing,
@@ -3432,11 +3432,11 @@
     appreciate, and value individual differences as catalysts
     for creativity and productivity.."""@en .
 
-<urn:comp:159>
+<n159>
     a skos:Concept ;
     skos:altLabel "WIRELESS"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Wireless Communications and Telemetry"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     design, analysis, development and/or test of microwave, RF
@@ -3457,11 +3457,11 @@
     modulation techniques, spectrum analysis, and non-ionizing
     radiation safety.`"""@en .
 
-<urn:comp:16>
+<n16>
     a skos:Concept ;
     skos:altLabel "MICROELMEC"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Micro-Electromechanical Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     research, design, development, test, evaluation,
@@ -3469,11 +3469,11 @@
     microfabrication, microsystem design and integration,
     modeling, and packaging."""@en .
 
-<urn:comp:160>
+<n160>
     a skos:Concept ;
     skos:altLabel "METROLOGY"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Metrology and Calibration Competency"@en ;
     skos:scopeNote """This competency refers to the knowledge, capabilities and
     responsibilities associated with the NASA Metrology and
@@ -3494,23 +3494,23 @@
     systems, and the impact of deficiencies, such as,
     out-of-tolerance TME."""@en .
 
-<urn:comp:161>
+<n161>
     a skos:Concept ;
     skos:altLabel "DATSYS"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1080>, <urn:comp:1099>, <urn:comp:1100> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1080>, <n1099>, <n1100> ;
     skos:prefLabel "Data Systems and Technology"@en ;
     skos:scopeNote """Knowledge of the principles, procedures, and tools of data
     management, such as modeling techniques, data backup, data
     recovery, data dictionaries, data warehousing, data mining,
     data disposal, and data standardization processes."""@en .
 
-<urn:comp:162>
+<n162>
     a skos:Concept ;
     skos:altLabel "INTLOGSUP"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Integrated Logistics Support"@en ;
     skos:scopeNote """Knowledge, capabilities, concepts, and methods of strategic
     logistics planning, ad execution, emphasizing proactive
@@ -3530,11 +3530,11 @@
     inputs to the Logistics Management Information (LMI)
     database."""@en .
 
-<urn:comp:163>
+<n163>
     a skos:Concept ;
     skos:altLabel "PLANETATM"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Planetary Atmospheres"@en ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation,
     chemistry and dynamics in the study of the structure and
@@ -3552,11 +3552,11 @@
     Solar-Planetary Relationships, Planetary Magnetic Fields
     and Magnetospheres."""@en .
 
-<urn:comp:164>
+<n164>
     a skos:Concept ;
     skos:altLabel "CLIMATE"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Climate Change and Variability"@en ;
     skos:scopeNote """Applies an integrated and cross discipline approach to
     understanding, assessing, and predicting the Earth's
@@ -3571,11 +3571,11 @@
     assessments, and to develop new climate observational and
     modeling requirements, methods, and capabilities."""@en .
 
-<urn:comp:165>
+<n165>
     a skos:Concept ;
     skos:altLabel "PARABUSOPS"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Para-Professional Business Operations"@en ;
     skos:scopeNote """The knowledge and capabilities associated with
     administrative, clerical and management support to a
@@ -3586,11 +3586,11 @@
     of meetings, office communication and document generation
     with the organization."""@en .
 
-<urn:comp:166>
+<n166>
     a skos:Concept ;
     skos:altLabel "IMAGING"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Imaging Analysis"@en ;
     skos:scopeNote """This competency referes to the knowledge and capabilities
     associated with the analysis of all imaging media to
@@ -3608,11 +3608,11 @@
     exploration, research and operations from basic scientific
     knowledge through flight safety."""@en .
 
-<urn:comp:167>
+<n167>
     a skos:Concept ;
     skos:altLabel "MASTERPLAN"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Master Planning"@en ;
     skos:scopeNote """Knowledge of strategic and long-term planning for
     operations, research or development activities at the
@@ -3628,11 +3628,11 @@
     for emergency services and other requirements of large
     complex industrial installations."""@en .
 
-<urn:comp:168>
+<n168>
     a skos:Concept ;
     skos:altLabel "FACLTYPLAN"@en ;
-    skos:broader <urn:comp:1159> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1159> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Research, Development or Flight Facility Planning"@en ;
     skos:scopeNote """Knowledge of strategic and long-term planning for research,
     development or flight facilities and related equipment
@@ -3657,11 +3657,11 @@
     implement policies and procedures regarding risk/hazard
     mitigation and safety assurance."""@en .
 
-<urn:comp:169>
+<n169>
     a skos:Concept ;
     skos:altLabel "POLICYMGMT"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Policy Management"@en ;
     skos:scopeNote """Knowledge of NASA relationships to headquarters, Centers,
     component facilities, partnerships and other government
@@ -3677,11 +3677,11 @@
     develop, maintain, monitor, enforce and provide oversight
     of NASA management requirements."""@en .
 
-<urn:comp:17>
+<n17>
     a skos:Concept ;
     skos:altLabel "MECHSYS"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mechanical Systems"@en ;
     skos:scopeNote """Knowledge, capability and practices involving the design,
     development and testing of vehicle and instrument
@@ -3698,11 +3698,11 @@
     structural analysis, and knowledge of the state of best
     practice for complex mechanical systems."""@en .
 
-<urn:comp:170>
+<n170>
     a skos:Concept ;
     skos:altLabel "EXECMMT"@en ;
-    skos:broader <urn:comp:1394> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1394> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Executive Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     leading change, people, and work of an organization.
@@ -3725,11 +3725,11 @@
     impact of work performance on NASAs relationships with
     external customers and stakeholders."""@en .
 
-<urn:comp:171>
+<n171>
     a skos:Concept ;
     skos:altLabel "TECWORKMMT"@en ;
-    skos:broader <urn:comp:1394> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1394> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Technical Work & Team Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -3740,11 +3740,11 @@
     Employee & Team Leadership
     Work Performance Leadership"""@en .
 
-<urn:comp:172>
+<n172>
     a skos:Concept ;
     skos:altLabel "BUSWORKMMT"@en ;
-    skos:broader <urn:comp:1394> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1394> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Business Work & Team Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -3756,11 +3756,11 @@
     Employee & Team Leadership
     Work Performance Leadership"""@en .
 
-<urn:comp:173>
+<n173>
     a skos:Concept ;
     skos:altLabel "PROWORKMMT"@en ;
-    skos:broader <urn:comp:1394> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1394> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Project Work & Team Management"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     individuals that must understand and manage both the
@@ -3771,12 +3771,12 @@
     Employee & Team Leadership
     Work Performance Leadership"""@en .
 
-<urn:comp:174>
+<n174>
     a skos:Concept ;
     skos:altLabel "STUDENT"@en ;
-    skos:broader <urn:comp:1189> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1101>, <urn:comp:1102>, <urn:comp:1103> ;
+    skos:broader <n1189> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1101>, <n1102>, <n1103> ;
     skos:prefLabel "Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Student Trainees. It is a generic
@@ -3786,11 +3786,11 @@
     competency needs assesmement. Reference the Business Rules
     section in this document for further clarification."""@en .
 
-<urn:comp:175>
+<n175>
     a skos:Concept ;
     skos:altLabel "SIMULATE"@en ;
-    skos:broader <urn:comp:1231> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1231> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Simulation Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     real-time simulation which is a realistic representation of
@@ -3823,22 +3823,22 @@
     graphics generation, system interfaces, communications, and
     networking."""@en .
 
-<urn:comp:176>
+<n176>
     a skos:Concept ;
     skos:altLabel "LEGALSUP"@en ;
-    skos:broader <urn:comp:1125> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1082>, <urn:comp:1114> ;
+    skos:broader <n1125> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1082>, <n1114> ;
     skos:prefLabel "Legal Assistance"@en ;
     skos:scopeNote """Other knowledge of legal research and writing, litigation
     case management, and providing professional administrative
     and technical legal support, not otherwise categorized."""@en .
 
-<urn:comp:18>
+<n18>
     a skos:Concept ;
     skos:altLabel "PYROTECH"@en ;
-    skos:broader <urn:comp:1280> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1280> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Pyrotechnics"@en ;
     skos:scopeNote """Knowledge of the composition, nature, applications and
     handling of devices or assemblies containing or operated by
@@ -3850,11 +3850,11 @@
     physics, structures, mechanical drawings, manufacturing
     processes and explosive material properties."""@en .
 
-<urn:comp:19>
+<n19>
     a skos:Concept ;
     skos:altLabel "FLTGNDSYS"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Flight and Ground Data Systems"@en ;
     skos:scopeNote """Knowledge of controlling and monitoring systems for
     aerospace vehicles, payload flight systems and related
@@ -3870,12 +3870,12 @@
     pieces together to optimize the design, integration and
     test of flight and ground hardware and software"""@en .
 
-<urn:comp:2>
+<n2>
     a skos:Concept ;
     skos:altLabel "FLTDSG"@en ;
-    skos:broader <urn:comp:1231> ;
+    skos:broader <n1231> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mission Flight Design"@en ;
     skos:scopeNote """Knowledge and ability to conduct computational analysis of
     air and space vehicle flight design for mission
@@ -3891,12 +3891,12 @@
     analysis of flight dispersion variables and navigation
     predict generation."""@en .
 
-<urn:comp:20>
+<n20>
     a skos:Concept ;
     skos:altLabel "SENSORDATA"@en ;
-    skos:broader <urn:comp:1339> ;
+    skos:broader <n1339> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Sensors & Data Acquisition"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     sensors and data acquisition systems, particularly for use
@@ -3909,10 +3909,10 @@
     effective implementation of sensors and data acquisition
     usage in aerospace and space systems."""@en .
 
-<urn:comp:21>
+<n21>
     a skos:Concept ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Avionics"@en ;
     skos:scopeNote """Knowledge of research and engineering of real-time analog
     and/or digital electronic avionics systems that use data
@@ -3924,12 +3924,12 @@
     and interfaces, electrical integration, power distribution
     and electrical systems engineering."""@en .
 
-<urn:comp:22>
+<n22>
     a skos:Concept ;
     skos:altLabel "GNC"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1046>, <urn:comp:1047>, <urn:comp:1048>, <urn:comp:1049>, <urn:comp:1110>, <urn:comp:1111> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1046>, <n1047>, <n1048>, <n1049>, <n1110>, <n1111> ;
     skos:prefLabel "Control Systems, Guidance & Navigation"@en ;
     skos:scopeNote """Knowledge of and ability to develop analytical,
     computational, and experimental methods for
@@ -3945,11 +3945,11 @@
     modeling, experimental methods and a broad array of
     engineering disciplines."""@en .
 
-<urn:comp:23>
+<n23>
     a skos:Concept ;
     skos:altLabel "PLANETENV"@en ;
-    skos:broader <urn:comp:1363> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1363> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Terrestrial & Planetary Environmental Science and Engineering"@en ;
     skos:scopeNote """Knowledge of composition, elements, behaviors and impact of
     the terrestrial and planetary environments on the design,
@@ -3962,11 +3962,11 @@
     development and operations and perform trade-off studies to
     optimize performance and assess risk."""@en .
 
-<urn:comp:24>
+<n24>
     a skos:Concept ;
     skos:altLabel "MANUFACT"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Manufacturing Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices to perform concurrent
     engineering and producibility. Includes knowledge and
@@ -3977,11 +3977,11 @@
     manufacturing project schedules, and resolve manufacturing
     related problems."""@en .
 
-<urn:comp:25>
+<n25>
     a skos:Concept ;
     skos:altLabel "CHEMENG"@en ;
-    skos:broader <urn:comp:1280> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1280> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Chemistry/ Chemical Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     Chemistry and Chemical Engineering as applied to aerospace
@@ -3996,11 +3996,11 @@
     operational systems or topics and/or principles and
     practices of chemical engineering."""@en .
 
-<urn:comp:26>
+<n26>
     a skos:Concept ;
     skos:altLabel "CRYOENG"@en ;
-    skos:broader <urn:comp:1359> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1359> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Cryogenics Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     aerospace cryogenic systems, particularly for use in
@@ -4012,13 +4012,13 @@
     and/or evaluation of cryogenic fluids storage and transfer
     systems for both fuels and oxidizers."""@en .
 
-<urn:comp:27>
+<n27>
     a skos:Concept ;
     skos:altLabel "SAFENG"@en ;
-    skos:broader <urn:comp:1381> ;
+    skos:broader <n1381> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1104>, <urn:comp:1105>, <urn:comp:1106>, <urn:comp:1107> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1104>, <n1105>, <n1106>, <n1107> ;
     skos:prefLabel "Safety Engineering and Assurance"@en ;
     skos:scopeNote """Knowledge of scientific, engineering and management
     principles for ensuring safety of missions and systems
@@ -4038,11 +4038,11 @@
     time, and cost throughout all phases of the system
     (mission) life cycle."""@en .
 
-<urn:comp:28>
+<n28>
     a skos:Concept ;
     skos:altLabel "RMEA"@en ;
-    skos:broader <urn:comp:1381> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1381> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Reliability & Maintainability Engineering & Assurance"@en ;
     skos:scopeNote """Knowledge, capabilities and practices used to design
     flight, ground support, and facility systems, equipment and
@@ -4075,12 +4075,12 @@
     availability which can combine the elements of reliability
     and maintainability in a single parameter.\""""@en .
 
-<urn:comp:29>
+<n29>
     a skos:Concept ;
     skos:altLabel "QEA"@en ;
-    skos:broader <urn:comp:1381> ;
+    skos:broader <n1381> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Quality Engineering & Assurance"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     assurance of quality (aeronautic and astronautic) for all
@@ -4116,11 +4116,11 @@
     analysis and trending, to determine deficiency root
     cause(s), and to implement effective preventive measures."""@en .
 
-<urn:comp:3>
+<n3>
     a skos:Concept ;
     skos:altLabel "ADVTEC"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Technical Training Design"@en ;
     skos:scopeNote """Knowledge of state-of-the art practices required to train
     technical personnel such as flight crew or ground support
@@ -4130,11 +4130,11 @@
     techniques. Involves knowledge of instruction providers and
     tools, and how to employ and assess these resources."""@en .
 
-<urn:comp:30>
+<n30>
     a skos:Concept ;
     skos:altLabel "MA"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mission Assurance"@en ;
     skos:scopeNote """Knowledge of methodologies and practices such as risk
     identification, analysis, planning, tracking and control
@@ -4147,13 +4147,13 @@
     development of recommendations, and tracking corrective
     actions."""@en .
 
-<urn:comp:31>
+<n31>
     a skos:Concept ;
     skos:altLabel "CELLBIO"@en ;
-    skos:broader <urn:comp:1430> ;
+    skos:broader <n1430> ;
     skos:changeNote """Changed \"and\"@en in term label to \"&\". Added \"and development
     of biosentinals\"@en to end of scope note."""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Cell & Molecular Biology"@en ;
     skos:scopeNote """Knowledge of and ability to conduct research on basic
     cellular function and properties such as gene regulation
@@ -4167,22 +4167,22 @@
     animals in response to the space environment, and
     development of biosentinels."""@en .
 
-<urn:comp:32>
+<n32>
     a skos:Concept ;
     skos:altLabel "DEVELOPBIO"@en ;
-    skos:broader <urn:comp:1430> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1430> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Developmental Biology"@en ;
     skos:scopeNote """Knowledge of and ability to conduct research on the
     processes of development, differentiation, and growth in
     animals and plants at the molecular, cellular, and genetic
     levels."""@en .
 
-<urn:comp:34>
+<n34>
     a skos:Concept ;
     skos:altLabel "BIOMEDRES"@en ;
-    skos:broader <urn:comp:1430> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1430> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomedical Research"@en ;
     skos:scopeNote """Involves the capability to research, investigate and
     characterize the effects of space flight and exposure to
@@ -4201,11 +4201,11 @@
     performance of flight crews involved during launches,
     landings, and while in space."""@en .
 
-<urn:comp:35>
+<n35>
     a skos:Concept ;
     skos:altLabel "BIOMEDENG"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomedical Engineering"@en ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     test of biomedical systems such as equipment and tools for
@@ -4216,12 +4216,12 @@
     practices. Includes knowledge of operational impacts and
     sustaining engineering on the systems."""@en .
 
-<urn:comp:36>
+<n36>
     a skos:Concept ;
     skos:altLabel "AEROMED"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1070>, <urn:comp:1071> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1070>, <n1071> ;
     skos:prefLabel "Aerospace Medicine"@en ;
     skos:scopeNote """Knowledge, capabilities, and credentials to engage,
     determine, and maintain and provide for the physical and
@@ -4231,11 +4231,11 @@
     diverse environments of atmospheric and space flight
     missions."""@en .
 
-<urn:comp:37>
+<n37>
     a skos:Concept ;
     skos:altLabel "ECLSS"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Environmental Control and Life Support Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     environmental control and/or life support systems used to
@@ -4252,11 +4252,11 @@
     resource recovery, food sources and thermal environmental
     control."""@en .
 
-<urn:comp:38>
+<n38>
     a skos:Concept ;
     skos:altLabel "EAS"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Extravehicular Activity Systems"@en ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     test of EVA systems. Requires knowledge and skills
@@ -4267,13 +4267,13 @@
     knowledge of operational impacts and sustaining engineering
     on the system."""@en .
 
-<urn:comp:39>
+<n39>
     a skos:Concept ;
     skos:altLabel "ENVFACT"@en ;
-    skos:broader <urn:comp:1244> ;
+    skos:broader <n1244> ;
     skos:changeNote """Name changed from \"Habitability and Environmenal Factors\".
     Scope note modified to remove mentions of \"habitability\"."""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Environmental Factors"@en ;
     skos:scopeNote """Knowledge of practices associated with research of and
     applying research to spacecraft and space-based
@@ -4287,11 +4287,11 @@
     understanding to develop systems and technology to enable
     humans to live and work safely and effectively in space."""@en .
 
-<urn:comp:4>
+<n4>
     a skos:Concept ;
     skos:altLabel "MISEXC"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mission Execution"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     execution of missions, including pre-launch, launch,
@@ -4304,12 +4304,12 @@
     decision -making and problem resolution during mission
     critical operations."""@en .
 
-<urn:comp:40>
+<n40>
     a skos:Concept ;
     skos:altLabel "HUMFACTRES"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1005>, <urn:comp:1007>, <urn:comp:1008>, <urn:comp:1009>, <urn:comp:1010>, <urn:comp:1011>, <urn:comp:1012>, <urn:comp:1013>, <urn:comp:1014>, <urn:comp:1015>, <urn:comp:1016>, <urn:comp:1017>, <urn:comp:1018>, <urn:comp:WQQ-302>, <urn:comp:WQQ-303> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1005>, <n1007>, <n1008>, <n1009>, <n1010>, <n1011>, <n1012>, <n1013>, <n1014>, <n1015>, <n1016>, <n1017>, <n1018>, <urn:comp:WQQ-302>, <urn:comp:WQQ-303> ;
     skos:prefLabel "Fundamental Human Factors Research"@en ;
     skos:scopeNote """Knowledge of human engineering research methods (e.g.
     literature search, experiment, operational analysis,
@@ -4333,12 +4333,12 @@
     operational environments to reduce errors and increase
     productivity."""@en .
 
-<urn:comp:41>
+<n41>
     a skos:Concept ;
     skos:altLabel "HUMFACTENG"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1019>, <urn:comp:1020>, <urn:comp:1021>, <urn:comp:1022>, <urn:comp:1023>, <urn:comp:1024>, <urn:comp:1025>, <urn:comp:1026>, <urn:comp:1027> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1019>, <n1020>, <n1021>, <n1022>, <n1023>, <n1024>, <n1025>, <n1026>, <n1027> ;
     skos:prefLabel "Human Factors Engineering"@en ;
     skos:scopeNote """Knowledge and capabilities to apply human factors
     engineering principles, standards, design guides,
@@ -4361,11 +4361,11 @@
     develop training curricula for application to processes and
     systems."""@en .
 
-<urn:comp:42>
+<n42>
     a skos:Concept ;
     skos:altLabel "FUNPHYSICS"@en ;
-    skos:broader <urn:comp:1424> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1424> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Fundamental Physics"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     research and application of electromagnetism, continuum and
@@ -4379,11 +4379,11 @@
     universe and its chemical, biological and geophysical
     systems."""@en .
 
-<urn:comp:43>
+<n43>
     a skos:Concept ;
     skos:altLabel "FLUIDPHY"@en ;
-    skos:broader <urn:comp:1424> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1424> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Fluid Physics"@en ;
     skos:scopeNote """Employ knowledge of the motion of fluids and the effects of
     such motion, to the understanding, control and improvement
@@ -4392,11 +4392,11 @@
     multiphase and phase change, fluid dynamics and
     instabilities, and interfacial phenomena."""@en .
 
-<urn:comp:44>
+<n44>
     a skos:Concept ;
     skos:altLabel "EARTHATM"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Earth Atmosphere"@en ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation,
     chemistry and dynamics in the study of the structure and
@@ -4412,11 +4412,11 @@
     as Radiation and Climate, Stratospheric & Tropospheric
     Chemistry."""@en .
 
-<urn:comp:45>
+<n45>
     a skos:Concept ;
     skos:altLabel "GEOSCI"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Geophysical/Geologic Science"@en ;
     skos:scopeNote """Knowledge of a wide range of disciplines related to the
     earth's composition, its fluid envelopes, and its position
@@ -4426,11 +4426,11 @@
     of the planet. Involves ability to conduct far-reaching
     studies of the origin of the earth and solar system."""@en .
 
-<urn:comp:46>
+<n46>
     a skos:Concept ;
     skos:altLabel "BBECO"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biology and Biogeochemistry of Ecosystems"@en ;
     skos:scopeNote """Apply knowledge of biology, biogeochemistry of ecosystems
     and the global carbon cycle to research, understand and
@@ -4445,11 +4445,11 @@
     ecological stewardship. Ability to understand, study and
     properly document changes in land cover and land use."""@en .
 
-<urn:comp:47>
+<n47>
     a skos:Concept ;
     skos:altLabel "HYDROSCI"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Hydrological Science"@en ;
     skos:scopeNote """Knowledge of the scientific study of waters of the earth,
     especially with relation to the effects of precipitation
@@ -4462,11 +4462,11 @@
     reservoir capacities, determine soil-water-plant
     relationships in agriculture and manage water supplies."""@en .
 
-<urn:comp:48>
+<n48>
     a skos:Concept ;
     skos:altLabel "OCEANSCI"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Oceanographic Science"@en ;
     skos:scopeNote """Research into the composition, activities, processes and
     patterns in the oceans and ocean ice to increase
@@ -4479,11 +4479,11 @@
     and interpretation of the oceans themselves and their
     connection to other earth systems."""@en .
 
-<urn:comp:49>
+<n49>
     a skos:Concept ;
     skos:altLabel "EARSCIRES"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Earth Science Applications Research"@en ;
     skos:scopeNote """Use knowledge of Earth systems and measurement technologies
     for designing research into Earth Science disciplines that
@@ -4493,11 +4493,11 @@
     environmental assessment, human health and safety, food and
     fiber, infrastructure planning, and environmental quality."""@en .
 
-<urn:comp:5>
+<n5>
     a skos:Concept ;
     skos:altLabel "PAYLOADINT"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Payload Integration"@en ;
     skos:scopeNote """Applies knowledge and practices of management, science and
     engineering to lifecycle of all payload research
@@ -4511,11 +4511,11 @@
     Ability to test and process payloads, and integrate them
     successfully on-board the vehicle."""@en .
 
-<urn:comp:50>
+<n50>
     a skos:Concept ;
     skos:altLabel "EARSYMODEL"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Earth System Modeling"@en ;
     skos:scopeNote """Apply understanding of Earth systems to consolidation of
     scientific findings into integrated representations of
@@ -4523,11 +4523,11 @@
     ability to predict future system trends and evolution of
     chemical and biological components."""@en .
 
-<urn:comp:51>
+<n51>
     a skos:Concept ;
     skos:altLabel "SPACEPHY"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Space Physics"@en ;
     skos:scopeNote """Uses knowledge to conduct experimental, theoretical, and/or
     applied physics and modeling relating to matter, radiation,
@@ -4545,11 +4545,11 @@
     as space plasma physics, focused on near-Earth environments
     such as the magnetosphere and its properties."""@en .
 
-<urn:comp:52>
+<n52>
     a skos:Concept ;
     skos:altLabel "ASTRONOMY"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Astronomy & Astrophysics"@en ;
     skos:scopeNote """Knowledge of the fundamental processes of radiation and
     dynamics for the study of the structure and composition of
@@ -4571,11 +4571,11 @@
     particles provide data for examining the content,
     structure, origin and evolution of space elements."""@en .
 
-<urn:comp:53>
+<n53>
     a skos:Concept ;
     skos:altLabel "PLANETSCI"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Planetary Science"@en ;
     skos:scopeNote """Knowledge of space science applied to conducting
     experimental, observational, and theoretical studies and
@@ -4585,11 +4585,11 @@
     composition and properties in such areas as atmospheres,
     magnetospheres, lithospheres, cryospheres, and interiors."""@en .
 
-<urn:comp:54>
+<n54>
     a skos:Concept ;
     skos:altLabel "ASTROBIO"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Astrobiology"@en ;
     skos:scopeNote """Apply knowledge of biology, chemistry, physics, and other
     sciences in interdisciplinary experimental, observational,
@@ -4600,11 +4600,11 @@
     Earth and elsewhere, with due regard to environmental
     conditions and limits."""@en .
 
-<urn:comp:55>
+<n55>
     a skos:Concept ;
     skos:altLabel "ASTROMATER"@en ;
-    skos:broader <urn:comp:1407> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1407> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Astromaterials, Collections, Curation & Analysis"@en ;
     skos:scopeNote """Apply knowledge of foreign materials, and planetary
     sciences to the collection of materials from foreign
@@ -4613,22 +4613,22 @@
     processing the materials to protect Earth system from
     contamination."""@en .
 
-<urn:comp:56>
+<n56>
     a skos:Concept ;
     skos:altLabel "TINYSCI"@en ;
-    skos:broader <urn:comp:1424> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1424> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Nanoscience"@en ;
     skos:scopeNote """Knowledge, capability and practices to study and research
     extremely small materials is such areas as their structure,
     shape how they act, and how their properties change as
     their size changes."""@en .
 
-<urn:comp:57>
+<n57>
     a skos:Concept ;
     skos:altLabel "TINYTEC"@en ;
-    skos:broader <urn:comp:1363> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1363> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Nanotechnology"@en ;
     skos:scopeNote """Knowledge of the study of characteristics and properties of
     extremely small materials for development of new
@@ -4639,21 +4639,21 @@
     findings, and a broad knowledge of other research and
     engineering disciplines."""@en .
 
-<urn:comp:58>
+<n58>
     a skos:Concept ;
     skos:altLabel "BIOENG"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Bioengineering"@en ;
     skos:scopeNote """Application of technologies to living systems including
     such areas as biomechanics, imaging, biomedical
     transducers, biofluids and sensors."""@en .
 
-<urn:comp:59>
+<n59>
     a skos:Concept ;
     skos:altLabel "BIOMIMETIC"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Biomimetics"@en ;
     skos:scopeNote """Knowledge and capability to research and further study
     natural processes which have potential to be deciphered,
@@ -4663,11 +4663,11 @@
     includes capabilities in the area of neural electric
     machine control."""@en .
 
-<urn:comp:6>
+<n6>
     a skos:Concept ;
     skos:altLabel "WOBSFR"@en ;
-    skos:broader <urn:comp:1372> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1372> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Weather Observation and Forecasting"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     developing or improving techniques for observing or
@@ -4688,11 +4688,11 @@
     application of weather data and technologies to the design
     of operational systems and procedures."""@en .
 
-<urn:comp:60>
+<n60>
     a skos:Concept ;
     skos:altLabel "COMNETENG"@en ;
-    skos:broader <urn:comp:1294> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1294> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Communication Networks & Engineering"@en ;
     skos:scopeNote """Knowledge and practices associated with researching and
     developing air and space communications architectures and
@@ -4708,11 +4708,11 @@
     Nation, with care to conserve it for uses where other means
     of communication are not available or feasible."""@en .
 
-<urn:comp:61>
+<n61>
     a skos:Concept ;
     skos:altLabel "STRUCTDYN"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Structural Dynamics"@en ;
     skos:scopeNote """Research knowledge, capabilities and practices for
     developing and analyzing methods to predict, verify and
@@ -4724,12 +4724,12 @@
     provide a more thorough understanding of interactions
     between structures and the motion of mechanisms."""@en .
 
-<urn:comp:62>
+<n62>
     a skos:Concept ;
     skos:altLabel "MECHDUR"@en ;
-    skos:broader <urn:comp:1347> ;
+    skos:broader <n1347> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mechanics and Durability"@en ;
     skos:scopeNote """Knowledge, capability and practices associated with using
     and modifying advanced analytical and computational methods
@@ -4749,11 +4749,11 @@
     assess structural characteristics and validate mathematical
     models."""@en .
 
-<urn:comp:63>
+<n63>
     a skos:Concept ;
     skos:altLabel "STRSYS"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Structural Systems"@en ;
     skos:scopeNote """Knowledge, capability and practices associated with using
     and modifying advanced analytical and computational methods
@@ -4773,11 +4773,11 @@
     structural characteristics and risks, and ensure system
     integration."""@en .
 
-<urn:comp:64>
+<n64>
     a skos:Concept ;
     skos:altLabel "ACMSTR"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Analytical and Computational Structural Methods"@en ;
     skos:scopeNote """Research knowledge, capability, and practices for
     developing computationally efficient methodologies for
@@ -4793,11 +4793,11 @@
     collaboration. Involves in-depth understanding of
     mathematics and computer science."""@en .
 
-<urn:comp:65>
+<n65>
     a skos:Concept ;
     skos:altLabel "ADVMATSCI"@en ;
-    skos:broader <urn:comp:1424> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1424> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Materials and Processing Science"@en ;
     skos:scopeNote """Research knowledge, capabilities and practices associated
     with the synthesis, structure, processing and properties of
@@ -4817,12 +4817,12 @@
     of systems, control defects and prevent contamination of
     operating systems or components."""@en .
 
-<urn:comp:66>
+<n66>
     a skos:Concept ;
     skos:altLabel "MATSCIENG"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1060>, <urn:comp:1061>, <urn:comp:1062>, <urn:comp:1063> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1060>, <n1061>, <n1062>, <n1063> ;
     skos:prefLabel "Materials Science and Engineering"@en ;
     skos:scopeNote """Knowledge capability and practices associated with research
     into the characteristics and performance of materials and
@@ -4835,11 +4835,11 @@
     including material types such as ceramics, metallics, and
     polymers as well as tribology or surface science."""@en .
 
-<urn:comp:67>
+<n67>
     a skos:Concept ;
     skos:altLabel "NONDESSCI"@en ;
-    skos:broader <urn:comp:1347> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1347> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Non-destructive Evaluation Sciences"@en ;
     skos:scopeNote """Research knowledge, capabilities, and practices for
     developing and applying advanced sensors, health monitoring
@@ -4853,11 +4853,11 @@
     nondestructive flaw detection, manufacturing process
     control sensing, and instrument system miniaturization."""@en .
 
-<urn:comp:68>
+<n68>
     a skos:Concept ;
     skos:altLabel "PROSYS"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Propulsion Systems & Testing"@en ;
     skos:scopeNote """Knowledge of conceptual aeropropulsion and aviation systems
     analysis and testing to assess the benefits of
@@ -4874,11 +4874,11 @@
     advanced methods for safe and affordable rocket propellant
     aeropropulsion systems testing."""@en .
 
-<urn:comp:69>
+<n69>
     a skos:Concept ;
     skos:altLabel "AIRPRO"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Airbreathing Propulsion"@en ;
     skos:scopeNote """Knowledge of technologies and concepts for airbreathing
     propelled vehicles in order to enhance the safety of
@@ -4891,11 +4891,11 @@
     prediction, as well as application of combined cycle
     systems to advanced propulsion techniques."""@en .
 
-<urn:comp:7>
+<n7>
     a skos:Concept ;
     skos:altLabel "SYSTEMSENG"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Systems Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     defining, developing, integrating and verifying an
@@ -4922,11 +4922,11 @@
     and control gates to ensure all technical and programmatic
     requirements are being met in an organized fashion."""@en .
 
-<urn:comp:70>
+<n70>
     a skos:Concept ;
     skos:altLabel "HAIRPRO"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Hypersonic Airbreathing Propulsion"@en ;
     skos:scopeNote """Knowledge of research and testing activities associated
     with hypersonic airbreathing propulsion flowpath and its
@@ -4938,11 +4938,11 @@
     the ability to design and develop engine components (inlet,
     combustor, and nozzle) and their interaction."""@en .
 
-<urn:comp:71>
+<n71>
     a skos:Concept ;
     skos:altLabel "HYPERSYS"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Hypergolic Systems"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     hypergolic propellants and propulsion systems. This
@@ -4952,12 +4952,12 @@
     hypergolic systems for research, development, design,
     analysis, testing and/or evaluation."""@en .
 
-<urn:comp:72>
+<n72>
     a skos:Concept ;
     skos:altLabel "ADVPRO"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1050>, <urn:comp:1052>, <urn:comp:1318> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1050>, <n1052>, <n1318> ;
     skos:prefLabel "Advanced In-Space Propulsion"@en ;
     skos:scopeNote """Research, development, design, testing and evaluation of
     propulsion technologies, such as nuclear propulsion, and
@@ -4968,12 +4968,12 @@
     dynamic, and propellantless propulsion such as
     electrodynamic tethers and beamed energy."""@en .
 
-<urn:comp:73>
+<n73>
     a skos:Concept ;
     skos:altLabel "ROCKETPRO"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1053>, <urn:comp:1054>, <urn:comp:1055>, <urn:comp:1056>, <urn:comp:1058>, <urn:comp:1059>, <urn:comp:1108>, <urn:comp:1109>, <urn:comp:WQQ-542>, <urn:comp:WQQ-543> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1053>, <n1054>, <n1055>, <n1056>, <n1058>, <n1059>, <n1108>, <n1109>, <urn:comp:WQQ-542>, <urn:comp:WQQ-543> ;
     skos:prefLabel "Rocket Propulsion"@en ;
     skos:scopeNote """Knowledge of research and testing activities associated
     with liquid and solid rocket propulsion. Includes knowledge
@@ -4985,11 +4985,11 @@
     application of combined cycle systems to advanced
     propulsion techniques."""@en .
 
-<urn:comp:74>
+<n74>
     a skos:Concept ;
     skos:altLabel "BOOMSCI"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Combustion Science"@en ;
     skos:scopeNote """Employs knowledge, capabilities and practices of study of
     the science of burning and burning processes, including
@@ -4999,11 +4999,11 @@
     ground based or microgravity experiments to increase basic
     knowledge of combustion processes"""@en .
 
-<urn:comp:75>
+<n75>
     a skos:Concept ;
     skos:altLabel "PWRSYS"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Power Systems"@en ;
     skos:scopeNote """Applies knowledge and capabilities involved in the design,
     development, test, and evaluation of hardware for power
@@ -5016,53 +5016,53 @@
     evaluation of the impact of environments and material on
     power systems."""@en .
 
-<urn:comp:76>
+<n76>
     a skos:Concept ;
     skos:altLabel "PWRENG"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Power -Energy Storage"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test, and evaluation of battery,
     flywheel, fuel cell, membrane technology and other
     electrical power storage components and systems."""@en .
 
-<urn:comp:77>
+<n77>
     a skos:Concept ;
     skos:altLabel "PWRPHO"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Power Generation -Photovoltaics"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test and evaluation of photovoltaic
     power generation systems, including electric actuation and
     solar cell/array systems."""@en .
 
-<urn:comp:78>
+<n78>
     a skos:Concept ;
     skos:altLabel "PWRTHM"@en ;
-    skos:broader <urn:comp:1314> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1314> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Power Generation -Thermal Systems"@en ;
     skos:scopeNote """Design development, test, and evaluation of dynamic power
     systems including thermal and solar dynamic systems."""@en .
 
-<urn:comp:79>
+<n79>
     a skos:Concept ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Robotics"@en ;
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     testing of robotic and robotic/human systems, including
     telerobotics. Includes knowledge of operational impacts and
     sustaining engineering on the system."""@en .
 
-<urn:comp:8>
+<n8>
     a skos:Concept ;
     skos:altLabel "DESDEVENG"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1028>, <urn:comp:1029>, <urn:comp:1030>, <urn:comp:1031> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1028>, <n1029>, <n1030>, <n1031> ;
     skos:prefLabel "Design and Development Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with all
     aspects of the technical design and development process
@@ -5076,12 +5076,12 @@
     schematics and capability to design the system for safe and
     reliable development, integration and manufacturability."""@en .
 
-<urn:comp:80>
+<n80>
     a skos:Concept ;
     skos:altLabel "COMPSYSENG"@en ;
-    skos:broader <urn:comp:1283> ;
+    skos:broader <n1283> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Computer Systems and Engineering"@en ;
     skos:scopeNote """Knowledge of the design and development of computers and/or
     robots. Involves design of hardware, software, networks and
@@ -5092,11 +5092,11 @@
     computer programming, electronics, mathematical models, and
     neural and/or other networking systems."""@en .
 
-<urn:comp:81>
+<n81>
     a skos:Concept ;
     skos:altLabel "NETSYS"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Network Systems and Technology"@en ;
     skos:scopeNote """Knowledge of how to research and implement high-speed wide
     area networks, including technology development to allow
@@ -5111,11 +5111,11 @@
     Internet technology, including switching/routing
     technology, network architecture, and network security."""@en .
 
-<urn:comp:82>
+<n82>
     a skos:Concept ;
     skos:altLabel "SWENG"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Software Engineering"@en ;
     skos:scopeNote """Knowledge and ability to apply systematic, disciplines and
     quantifiable approaches to the acquisition and development
@@ -5131,11 +5131,11 @@
     Includes knowledge of high-performance computing, graphical
     user interfaces, networking, data integrity and security."""@en .
 
-<urn:comp:84>
+<n84>
     a skos:Concept ;
     skos:altLabel "NEUNETSYS"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Neural Networks & Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices of synthesizing
     practical implementations of artificial neural networks for
@@ -5145,11 +5145,11 @@
     control systems, complex spacecraft docking capabilities,
     and instrument control mechanisms."""@en .
 
-<urn:comp:85>
+<n85>
     a skos:Concept ;
     skos:altLabel "IASYS"@en ;
-    skos:broader <urn:comp:1283> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1283> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Intelligent/Adaptive Systems"@en ;
     skos:scopeNote """Knowledge of research and development techniques involving
     autonomous reasoning, human-centered computing and
@@ -5166,11 +5166,11 @@
     systems, as well as understanding of vehicle health
     management."""@en .
 
-<urn:comp:86>
+<n86>
     a skos:Concept ;
     skos:altLabel "MMA"@en ;
-    skos:broader <urn:comp:1363> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1363> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Mathematical Modeling & Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
     mathematical modeling, the design of algorithms and applied
@@ -5186,11 +5186,11 @@
     computing. Understanding of the physical principle
     represented in the model is essential to this competency."""@en .
 
-<urn:comp:88>
+<n88>
     a skos:Concept ;
     skos:altLabel "GEOSPATIAL"@en ;
-    skos:broader <urn:comp:1415> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1415> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Geospatial Science and Technologies"@en ;
     skos:scopeNote """Applies knowledge and practices of geospatial science and
     has the ability to utilize and/or develop the tools for
@@ -5206,12 +5206,12 @@
     positioning systems such as the Global Positioning System
     (GPS), and telemetry."""@en .
 
-<urn:comp:89>
+<n89>
     a skos:Concept ;
     skos:altLabel "ADVMIS"@en ;
-    skos:broader <urn:comp:1231> ;
+    skos:broader <n1231> ;
     skos:changeNote """Modified for 6a by ???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Mission Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     conception, development, and planning of advanced mission
@@ -5220,12 +5220,12 @@
     feasibility, performance, cost, risk, schedule,
     reliability/safety and environmental effects."""@en .
 
-<urn:comp:9>
+<n9>
     a skos:Concept ;
     skos:altLabel "INTEGENG"@en ;
-    skos:broader <urn:comp:1209> ;
-    skos:inScheme <urn:comp:0> ;
-    skos:narrower <urn:comp:1032>, <urn:comp:1033>, <urn:comp:1034>, <urn:comp:1035>, <urn:comp:1036> ;
+    skos:broader <n1209> ;
+    skos:inScheme <n0> ;
+    skos:narrower <n1032>, <n1033>, <n1034>, <n1035>, <n1036> ;
     skos:prefLabel "Integration Engineering"@en ;
     skos:scopeNote """Knowledge and capability to integrate all elements into a
     functioning system or subsystem such as complex flight to
@@ -5237,12 +5237,12 @@
     long-range plans and responses to externally-driven
     requirements."""@en .
 
-<urn:comp:90>
+<n90>
     a skos:Concept ;
     skos:altLabel "ASCDTA"@en ;
-    skos:broader <urn:comp:1231> ;
+    skos:broader <n1231> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Aerospace Systems Concept Development & Technology Assessment"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
     development of aerospace vehicle and spacecraft concepts
@@ -5254,12 +5254,12 @@
     experts of the potential technology improvements from R&D
     projects in all the relevant aerospace disciplines."""@en .
 
-<urn:comp:91>
+<n91>
     a skos:Concept ;
     skos:altLabel "AADMD"@en ;
-    skos:broader <urn:comp:1363> ;
+    skos:broader <n1363> ;
     skos:changeNote """???"""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Advanced Analysis and Design Method Development"@en ;
     skos:scopeNote """Enable the mission and system analysis and technology
     trades for advanced aerospace system concepts. Knowledge of
@@ -5271,11 +5271,11 @@
     aerospace vehicles and spacecraft (including design,
     manufacturing, and operations)."""@en .
 
-<urn:comp:92>
+<n92>
     a skos:Concept ;
     skos:altLabel "LASER"@en ;
-    skos:broader <urn:comp:1339> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1339> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Laser Technology"@en ;
     skos:scopeNote """Knowledge of high performance, high reliability lasers and
     laser systems for measurement of essential planet
@@ -5290,11 +5290,11 @@
     multibillion shot lifetime) that can withstand both launch
     and the rigors of deployment in space."""@en .
 
-<urn:comp:93>
+<n93>
     a skos:Concept ;
     skos:altLabel "OPTSYS"@en ;
-    skos:broader <urn:comp:1339> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1339> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Optical Systems"@en ;
     skos:scopeNote """Applies principles and practices related to the research,
     design, development, test, and evaluation and/or operation
@@ -5314,11 +5314,11 @@
     implementation of data acquisition in a wide variety of
     systems."""@en .
 
-<urn:comp:94>
+<n94>
     a skos:Concept ;
     skos:altLabel "MICROSYS"@en ;
-    skos:broader <urn:comp:1339> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1339> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Microwave Systems"@en ;
     skos:scopeNote """Applies knowledge and practices associated with the design,
     analysis, development and test support for devices
@@ -5333,11 +5333,11 @@
     and components for instrument, communication, telemetry,
     and radar applications."""@en .
 
-<urn:comp:95>
+<n95>
     a skos:Concept ;
     skos:altLabel "REMOTESENS"@en ;
-    skos:broader <urn:comp:1339> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1339> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Remote Sensing Technologies"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     reasearch, design, development, characterization, and
@@ -5353,14 +5353,14 @@
     and microwave. May include the design, development, test,
     characterization, and"""@en .
 
-<urn:comp:96>
+<n96>
     a skos:Concept ;
     skos:altLabel "DETECTSYS"@en ;
-    skos:broader <urn:comp:1339> ;
+    skos:broader <n1339> ;
     skos:changeNote """Was deleted for REv. 6 (2005-12-07), then restored in 6a
     (2006-04-05). Will be scheduled for deletion in a future
     revision."""@en ;
-    skos:inScheme <urn:comp:0> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Detector Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
     research, design, development, characterization, and
@@ -5373,22 +5373,22 @@
     systems into a variety of applications with an emphasis on
     remote sensing systems."""@en .
 
-<urn:comp:97>
+<n97>
     a skos:Concept ;
     skos:altLabel "CSAOPS"@en ;
-    skos:broader <urn:comp:1244> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1244> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Crew Systems and Aviation Operations"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical and experimental
     methods for pilot/automation integration, crew station
     design, and aerospace vehicle operations concepts."""@en .
 
-<urn:comp:98>
+<n98>
     a skos:Concept ;
     skos:altLabel "FLTDYN"@en ;
-    skos:broader <urn:comp:1237> ;
-    skos:inScheme <urn:comp:0> ;
+    skos:broader <n1237> ;
+    skos:inScheme <n0> ;
     skos:prefLabel "Flight Dynamics"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical, computational, and
