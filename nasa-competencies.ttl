@@ -1,5 +1,4 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix nt2: <http://nasataxonomy.jpl.nasa.gov/cvFields#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://example.org/nasa-competencies> .
 
@@ -12,11 +11,6 @@
     skos:inScheme <urn:comp:0> .
 
 <urn:comp:1>
-    nt2:code "1" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MAP" ;
     skos:broader <urn:comp:1231> ;
@@ -30,11 +24,6 @@
   """@en .
 
 <urn:comp:10>
-    nt2:code "10" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TESTENG" ;
     skos:broader <urn:comp:1209> ;
@@ -61,11 +50,6 @@
   """@en .
 
 <urn:comp:100>
-    nt2:code "100" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AEROELA" ;
     skos:broader <urn:comp:1237> ;
@@ -86,11 +70,6 @@
   """@en .
 
 <urn:comp:1001>
-    nt2:code "1001" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LEADTEAM" ;
     skos:broader <urn:comp:140> ;
@@ -116,11 +95,6 @@
   """@en .
 
 <urn:comp:1002>
-    nt2:code "1002" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LEADCOMM" ;
     skos:broader <urn:comp:140> ;
@@ -143,11 +117,6 @@
   """@en .
 
 <urn:comp:1003>
-    nt2:code "1003" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LEADWORK" ;
     skos:broader <urn:comp:140> ;
@@ -169,11 +138,6 @@
   """@en .
 
 <urn:comp:1004>
-    nt2:code "1004" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LEADGLOBAL" ;
     skos:broader <urn:comp:140> ;
@@ -189,11 +153,6 @@
   """@en .
 
 <urn:comp:1005>
-    nt2:code "1005" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRBIOMECH" ;
     skos:broader <urn:comp:40> ;
@@ -203,11 +162,6 @@
   """@en .
 
 <urn:comp:1006>
-    nt2:code "1006" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRHABIT" ;
     skos:broader <urn:comp:40> ;
@@ -217,11 +171,6 @@
   """@en .
 
 <urn:comp:1007>
-    nt2:code "1007" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRPERCEPT" ;
     skos:broader <urn:comp:40> ;
@@ -232,11 +181,6 @@
   """@en .
 
 <urn:comp:1008>
-    nt2:code "1008" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRPSYPHY" ;
     skos:broader <urn:comp:40> ;
@@ -246,11 +190,6 @@
   """@en .
 
 <urn:comp:1009>
-    nt2:code "1009" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRATIGUE" ;
     skos:broader <urn:comp:40> ;
@@ -260,12 +199,7 @@
   """@en .
 
 <urn:comp:101>
-    nt2:code "101" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "AERODYN" ;
     skos:broader <urn:comp:1237> ;
@@ -296,11 +230,6 @@
   """@en .
 
 <urn:comp:1010>
-    nt2:code "1010" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRCOG" ;
     skos:broader <urn:comp:40> ;
@@ -310,11 +239,6 @@
   """@en .
 
 <urn:comp:1011>
-    nt2:code "1011" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRCOMM" ;
     skos:broader <urn:comp:40> ;
@@ -326,11 +250,6 @@
   """@en .
 
 <urn:comp:1012>
-    nt2:code "1012" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRDECISMK" ;
     skos:broader <urn:comp:40> ;
@@ -340,11 +259,6 @@
   """@en .
 
 <urn:comp:1013>
-    nt2:code "1013" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRORG" ;
     skos:broader <urn:comp:40> ;
@@ -354,11 +268,6 @@
   """@en .
 
 <urn:comp:1014>
-    nt2:code "1014" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRHUMMACH" ;
     skos:broader <urn:comp:40> ;
@@ -370,11 +279,6 @@
   """@en .
 
 <urn:comp:1015>
-    nt2:code "1015" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRMANCNTL" ;
     skos:broader <urn:comp:40> ;
@@ -384,11 +288,6 @@
   """@en .
 
 <urn:comp:1016>
-    nt2:code "1016" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRSUPCNTL" ;
     skos:broader <urn:comp:40> ;
@@ -399,11 +298,6 @@
   """@en .
 
 <urn:comp:1017>
-    nt2:code "1017" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRTRNG" ;
     skos:broader <urn:comp:40> ;
@@ -414,11 +308,6 @@
   """@en .
 
 <urn:comp:1018>
-    nt2:code "1018" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFRHUMPERF" ;
     skos:broader <urn:comp:40> ;
@@ -430,11 +319,6 @@
   """@en .
 
 <urn:comp:1019>
-    nt2:code "1019" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEBIOMECH" ;
     skos:broader <urn:comp:41> ;
@@ -444,11 +328,6 @@
   """@en .
 
 <urn:comp:102>
-    nt2:code "102" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AEROTHM" ;
     skos:broader <urn:comp:1237> ;
@@ -470,11 +349,6 @@
   """@en .
 
 <urn:comp:1020>
-    nt2:code "1020" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEERGO" ;
     skos:broader <urn:comp:41> ;
@@ -485,11 +359,6 @@
   """@en .
 
 <urn:comp:1021>
-    nt2:code "1021" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFESPACE" ;
     skos:broader <urn:comp:41> ;
@@ -500,11 +369,6 @@
   """@en .
 
 <urn:comp:1022>
-    nt2:code "1022" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEHABIT" ;
     skos:broader <urn:comp:41> ;
@@ -514,11 +378,6 @@
   """@en .
 
 <urn:comp:1023>
-    nt2:code "1023" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEPERCEPT" ;
     skos:broader <urn:comp:41> ;
@@ -531,11 +390,6 @@
   """@en .
 
 <urn:comp:1024>
-    nt2:code "1024" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFECOG" ;
     skos:broader <urn:comp:41> ;
@@ -546,11 +400,6 @@
   """@en .
 
 <urn:comp:1025>
-    nt2:code "1025" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEHUMAUTO" ;
     skos:broader <urn:comp:41> ;
@@ -562,11 +411,6 @@
   """@en .
 
 <urn:comp:1026>
-    nt2:code "1026" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFETRNG" ;
     skos:broader <urn:comp:41> ;
@@ -577,11 +421,6 @@
   """@en .
 
 <urn:comp:1027>
-    nt2:code "1027" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HFEHUMERR" ;
     skos:broader <urn:comp:41> ;
@@ -591,11 +430,6 @@
   """@en .
 
 <urn:comp:1028>
-    nt2:code "1028" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DDESTRUCT" ;
     skos:broader <urn:comp:8> ;
@@ -622,11 +456,6 @@
   """@en .
 
 <urn:comp:1029>
-    nt2:code "1029" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DDEELEC" ;
     skos:broader <urn:comp:8> ;
@@ -646,11 +475,6 @@
   """@en .
 
 <urn:comp:103>
-    nt2:code "103" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1237> ;
     skos:inScheme <urn:comp:0> ;
@@ -674,11 +498,6 @@
   """@en .
 
 <urn:comp:1030>
-    nt2:code "1030" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DDEPROP" ;
     skos:broader <urn:comp:8> ;
@@ -705,11 +524,6 @@
   """@en .
 
 <urn:comp:1031>
-    nt2:code "1031" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DDETEST" ;
     skos:broader <urn:comp:8> ;
@@ -732,11 +546,6 @@
   """@en .
 
 <urn:comp:1032>
-    nt2:code "1032" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTSTRUCT" ;
     skos:broader <urn:comp:9> ;
@@ -756,11 +565,6 @@
   """@en .
 
 <urn:comp:1033>
-    nt2:code "1033" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTMATER" ;
     skos:broader <urn:comp:9> ;
@@ -785,11 +589,6 @@
   """@en .
 
 <urn:comp:1034>
-    nt2:code "1034" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTSYSTEMS" ;
     skos:broader <urn:comp:9> ;
@@ -813,11 +612,6 @@
   """@en .
 
 <urn:comp:1035>
-    nt2:code "1035" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTELECT" ;
     skos:broader <urn:comp:9> ;
@@ -839,11 +633,6 @@
   """@en .
 
 <urn:comp:1036>
-    nt2:code "1036" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTPROPEL" ;
     skos:broader <urn:comp:9> ;
@@ -867,11 +656,6 @@
   """@en .
 
 <urn:comp:1037>
-    nt2:code "1037" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TSTSTRUCT" ;
     skos:broader <urn:comp:10> ;
@@ -896,11 +680,6 @@
   """@en .
 
 <urn:comp:1038>
-    nt2:code "1038" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TSTMATER" ;
     skos:broader <urn:comp:10> ;
@@ -916,11 +695,6 @@
   """@en .
 
 <urn:comp:1039>
-    nt2:code "1039" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TSTTHERMO" ;
     skos:broader <urn:comp:10> ;
@@ -947,11 +721,6 @@
   """@en .
 
 <urn:comp:104>
-    nt2:code "104" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "THERMALSYS" ;
     skos:broader <urn:comp:1359> ;
@@ -974,11 +743,6 @@
   """@en .
 
 <urn:comp:1040>
-    nt2:code "1040" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TSTELECT" ;
     skos:broader <urn:comp:10> ;
@@ -1003,11 +767,6 @@
   """@en .
 
 <urn:comp:1041>
-    nt2:code "1041" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TSTPROPUL" ;
     skos:broader <urn:comp:10> ;
@@ -1034,11 +793,6 @@
   """@en .
 
 <urn:comp:1042>
-    nt2:code "1042" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELINSTR" ;
     skos:broader <urn:comp:13> ;
@@ -1060,11 +814,6 @@
   """@en .
 
 <urn:comp:1043>
-    nt2:code "1043" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELEEEPART" ;
     skos:broader <urn:comp:13> ;
@@ -1076,11 +825,6 @@
   """@en .
 
 <urn:comp:1044>
-    nt2:code "1044" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELPARTSPKG" ;
     skos:broader <urn:comp:13> ;
@@ -1095,11 +839,6 @@
   """@en .
 
 <urn:comp:1045>
-    nt2:code "1045" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELCIRCUITS" ;
     skos:broader <urn:comp:13> ;
@@ -1119,11 +858,6 @@
   """@en .
 
 <urn:comp:1046>
-    nt2:code "1046" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GNCSPACE" ;
     skos:broader <urn:comp:22> ;
@@ -1152,11 +886,6 @@
   """@en .
 
 <urn:comp:1047>
-    nt2:code "1047" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GNCVEHCNTL" ;
     skos:broader <urn:comp:22> ;
@@ -1183,11 +912,6 @@
   """@en .
 
 <urn:comp:1048>
-    nt2:code "1048" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GNCGUIDE" ;
     skos:broader <urn:comp:22> ;
@@ -1207,11 +931,6 @@
   """@en .
 
 <urn:comp:1049>
-    nt2:code "1049" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GNCNAVSYS" ;
     skos:broader <urn:comp:22> ;
@@ -1228,11 +947,6 @@
   """@en .
 
 <urn:comp:105>
-    nt2:code "105" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "THERMALSTR" ;
     skos:broader <urn:comp:1347> ;
@@ -1248,11 +962,6 @@
   """@en .
 
 <urn:comp:1050>
-    nt2:code "1050" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "APELEC" ;
     skos:broader <urn:comp:72> ;
@@ -1267,11 +976,6 @@
   """@en .
 
 <urn:comp:1052>
-    nt2:code "1052" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "APCHEM" ;
     skos:broader <urn:comp:72> ;
@@ -1287,11 +991,6 @@
   """@en .
 
 <urn:comp:1053>
-    nt2:code "1053" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPTURBO" ;
     skos:broader <urn:comp:73> ;
@@ -1316,11 +1015,6 @@
   """@en .
 
 <urn:comp:1054>
-    nt2:code "1054" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPCOMBUST" ;
     skos:broader <urn:comp:73> ;
@@ -1341,11 +1035,6 @@
   """@en .
 
 <urn:comp:1055>
-    nt2:code "1055" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPVALVES" ;
     skos:broader <urn:comp:73> ;
@@ -1364,11 +1053,6 @@
   """@en .
 
 <urn:comp:1056>
-    nt2:code "1056" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPPRPMMT" ;
     skos:broader <urn:comp:73> ;
@@ -1385,11 +1069,6 @@
   """@en .
 
 <urn:comp:1057>
-    nt2:code "1057" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPAUXPRP" ;
     skos:broader <urn:comp:73> ;
@@ -1404,11 +1083,6 @@
   """@en .
 
 <urn:comp:1058>
-    nt2:code "1058" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPFLUIDMCH" ;
     skos:broader <urn:comp:73> ;
@@ -1433,11 +1107,6 @@
   """@en .
 
 <urn:comp:1059>
-    nt2:code "1059" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RPDYNDATA" ;
     skos:broader <urn:comp:73> ;
@@ -1457,11 +1126,6 @@
   """@en .
 
 <urn:comp:106>
-    nt2:code "106" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FLUIDSYS" ;
     skos:broader <urn:comp:1359> ;
@@ -1493,11 +1157,6 @@
   """@en .
 
 <urn:comp:1060>
-    nt2:code "1060" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MSEMETAL" ;
     skos:broader <urn:comp:66> ;
@@ -1540,11 +1199,6 @@
   """@en .
 
 <urn:comp:1061>
-    nt2:code "1061" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MSENONMET" ;
     skos:broader <urn:comp:66> ;
@@ -1575,11 +1229,6 @@
   """@en .
 
 <urn:comp:1062>
-    nt2:code "1062" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MSEFAILURE" ;
     skos:broader <urn:comp:66> ;
@@ -1621,11 +1270,6 @@
   """@en .
 
 <urn:comp:1063>
-    nt2:code "1063" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MSECONTAM" ;
     skos:broader <urn:comp:66> ;
@@ -1654,11 +1298,6 @@
   """@en .
 
 <urn:comp:1064>
-    nt2:code "1064" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BRCE" ;
     skos:broader <urn:comp:156> ;
@@ -1676,11 +1315,6 @@
   """@en .
 
 <urn:comp:1065>
-    nt2:code "1065" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RSPR" ;
     skos:broader <urn:comp:156> ;
@@ -1699,11 +1333,6 @@
   """@en .
 
 <urn:comp:1066>
-    nt2:code "1066" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCCMED" ;
     skos:broader <urn:comp:130> ;
@@ -1721,11 +1350,6 @@
   """@en .
 
 <urn:comp:1067>
-    nt2:code "1067" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCCHYGIENE" ;
     skos:broader <urn:comp:130> ;
@@ -1746,11 +1370,6 @@
   """@en .
 
 <urn:comp:1068>
-    nt2:code "1068" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCCPHYSICS" ;
     skos:broader <urn:comp:130> ;
@@ -1772,11 +1391,6 @@
   """@en .
 
 <urn:comp:1069>
-    nt2:code "1069" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCCASSIST" ;
     skos:broader <urn:comp:130> ;
@@ -1798,11 +1412,6 @@
   """@en .
 
 <urn:comp:107>
-    nt2:code "107" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ICEPHYSICS" ;
     skos:broader <urn:comp:1424> ;
@@ -1815,11 +1424,6 @@
   """@en .
 
 <urn:comp:1070>
-    nt2:code "1070" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MDPRACTICE" ;
     skos:broader <urn:comp:36> ;
@@ -1836,11 +1440,6 @@
   """@en .
 
 <urn:comp:1071>
-    nt2:code "1071" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MDBEHAVIOR" ;
     skos:broader <urn:comp:36> ;
@@ -1857,11 +1456,6 @@
   """@en .
 
 <urn:comp:1072>
-    nt2:code "1072" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECPHYSCL" ;
     skos:broader <urn:comp:126> ;
@@ -1878,11 +1472,6 @@
   """@en .
 
 <urn:comp:1074>
-    nt2:code "1074" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECINFO" ;
     skos:broader <urn:comp:126> ;
@@ -1899,11 +1488,6 @@
   """@en .
 
 <urn:comp:1075>
-    nt2:code "1075" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECNATION" ;
     skos:broader <urn:comp:126> ;
@@ -1919,11 +1503,6 @@
   """@en .
 
 <urn:comp:1076>
-    nt2:code "1076" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECPERSON" ;
     skos:broader <urn:comp:126> ;
@@ -1940,11 +1519,6 @@
   """@en .
 
 <urn:comp:1077>
-    nt2:code "1077" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECINDUST" ;
     skos:broader <urn:comp:126> ;
@@ -1971,11 +1545,6 @@
   """@en .
 
 <urn:comp:1078>
-    nt2:code "1078" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BITPLAN" ;
     skos:broader <urn:comp:131> ;
@@ -1989,11 +1558,6 @@
   """@en .
 
 <urn:comp:1079>
-    nt2:code "1079" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BITARCH" ;
     skos:broader <urn:comp:131> ;
@@ -2013,11 +1577,6 @@
   """@en .
 
 <urn:comp:108>
-    nt2:code "108" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AIRTRAFFIC" ;
     skos:broader <urn:comp:1237> ;
@@ -2035,11 +1594,6 @@
   """@en .
 
 <urn:comp:1080>
-    nt2:code "1080" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DATDBMMT" ;
     skos:broader <urn:comp:161> ;
@@ -2054,11 +1608,6 @@
   """@en .
 
 <urn:comp:1081>
-    nt2:code "1081" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BITSECURE" ;
     skos:broader <urn:comp:131> ;
@@ -2074,12 +1623,7 @@
   """@en .
 
 <urn:comp:1082>
-    nt2:code "1082" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:broader <urn:comp:176> ;
     skos:changeNote """Created ??
@@ -2094,12 +1638,7 @@
   """@en .
 
 <urn:comp:1083>
-    nt2:code "1083" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "INTPROPLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2115,12 +1654,7 @@
   """@en .
 
 <urn:comp:1084>
-    nt2:code "1084" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "GENERALLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2136,12 +1670,7 @@
   """@en .
 
 <urn:comp:1085>
-    nt2:code "1085" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "CONTRCTLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2157,12 +1686,7 @@
   """@en .
 
 <urn:comp:1086>
-    nt2:code "1086" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "PERSONLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2178,12 +1702,7 @@
   """@en .
 
 <urn:comp:1087>
-    nt2:code "1087" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "ENVLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2200,11 +1719,6 @@
   """@en .
 
 <urn:comp:1088>
-    nt2:code "1088" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ENVPLAN" ;
     skos:broader <urn:comp:133> ;
@@ -2224,11 +1738,6 @@
   """@en .
 
 <urn:comp:1089>
-    nt2:code "1089" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ENVREMED" ;
     skos:broader <urn:comp:133> ;
@@ -2251,12 +1760,7 @@
   """@en .
 
 <urn:comp:109>
-    nt2:code "109" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "AETT" ;
     skos:broader <urn:comp:1363> ;
@@ -2280,11 +1784,6 @@
   """@en .
 
 <urn:comp:1090>
-    nt2:code "1090" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACIVENG" ;
     skos:broader <urn:comp:112> ;
@@ -2301,11 +1800,6 @@
   """@en .
 
 <urn:comp:1091>
-    nt2:code "1091" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACMECHENG" ;
     skos:broader <urn:comp:112> ;
@@ -2322,11 +1816,6 @@
   """@en .
 
 <urn:comp:1092>
-    nt2:code "1092" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACELECENG" ;
     skos:broader <urn:comp:112> ;
@@ -2344,11 +1833,6 @@
   """@en .
 
 <urn:comp:1093>
-    nt2:code "1093" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ACQPLAN" ;
     skos:broader <urn:comp:124> ;
@@ -2366,11 +1850,6 @@
   """@en .
 
 <urn:comp:1094>
-    nt2:code "1094" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CONFORMAT" ;
     skos:broader <urn:comp:124> ;
@@ -2388,11 +1867,6 @@
   """@en .
 
 <urn:comp:1095>
-    nt2:code "1095" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CONPERFORM" ;
     skos:broader <urn:comp:124> ;
@@ -2409,11 +1883,6 @@
   """@en .
 
 <urn:comp:1096>
-    nt2:code "1096" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACONSTMMT" ;
     skos:broader <urn:comp:112> ;
@@ -2425,11 +1894,6 @@
   """@en .
 
 <urn:comp:1097>
-    nt2:code "1097" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACPROPRTY" ;
     skos:broader <urn:comp:112> ;
@@ -2451,11 +1915,6 @@
   """@en .
 
 <urn:comp:1098>
-    nt2:code "1098" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACOPSMAIN" ;
     skos:broader <urn:comp:112> ;
@@ -2479,11 +1938,6 @@
   """@en .
 
 <urn:comp:1099>
-    nt2:code "1099" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DATLARGE" ;
     skos:broader <urn:comp:161> ;
@@ -2499,11 +1953,6 @@
   """@en .
 
 <urn:comp:11>
-    nt2:code "11" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ENGSCISUP" ;
     skos:broader <urn:comp:1209> ;
@@ -2522,11 +1971,6 @@
   """@en .
 
 <urn:comp:110>
-    nt2:code "110" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SIMFLTSYS" ;
     skos:broader <urn:comp:1237> ;
@@ -2541,11 +1985,6 @@
   """@en .
 
 <urn:comp:1100>
-    nt2:code "1100" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DATVISUAL" ;
     skos:broader <urn:comp:161> ;
@@ -2571,12 +2010,7 @@
   """@en .
 
 <urn:comp:1101>
-    nt2:code "1101" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "STUTECH" ;
     skos:broader <urn:comp:174> ;
@@ -2587,12 +2021,7 @@
   """@en .
 
 <urn:comp:1102>
-    nt2:code "1102" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "STUCLERICAL" ;
     skos:broader <urn:comp:174> ;
@@ -2603,12 +2032,7 @@
   """@en .
 
 <urn:comp:1103>
-    nt2:code "1103" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "STUPROFADM" ;
     skos:broader <urn:comp:174> ;
@@ -2620,12 +2044,7 @@
   """@en .
 
 <urn:comp:1104>
-    nt2:code "1104" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "SYSSAFETY" ;
     skos:broader <urn:comp:27> ;
@@ -2647,12 +2066,7 @@
   """@en .
 
 <urn:comp:1105>
-    nt2:code "1105" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "PROBRISK" ;
     skos:broader <urn:comp:27> ;
@@ -2671,12 +2085,7 @@
   """@en .
 
 <urn:comp:1106>
-    nt2:code "1106" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "TREND" ;
     skos:broader <urn:comp:27> ;
@@ -2697,11 +2106,6 @@
   """@en .
 
 <urn:comp:1107>
-    nt2:code "1107" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PRECURSOR" ;
     skos:broader <urn:comp:27> ;
@@ -2724,11 +2128,6 @@
   """@en .
 
 <urn:comp:1108>
-    nt2:code "1108" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SOLIDENG" ;
     skos:broader <urn:comp:73> ;
@@ -2770,11 +2169,6 @@
   """@en .
 
 <urn:comp:1109>
-    nt2:code "1109" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LIQUIDENG" ;
     skos:broader <urn:comp:73> ;
@@ -2813,11 +2207,6 @@
   """@en .
 
 <urn:comp:111>
-    nt2:code "111" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ADVMDI" ;
     skos:broader <urn:comp:1363> ;
@@ -2837,12 +2226,7 @@
   """@en .
 
 <urn:comp:1110>
-    nt2:code "1110" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "GNCCTLCOM" ;
     skos:broader <urn:comp:22> ;
@@ -2864,12 +2248,7 @@
   """@en .
 
 <urn:comp:1111>
-    nt2:code "1111" ;
-    nt2:inputdate "2005-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "GNCCTLELE" ;
     skos:broader <urn:comp:22> ;
@@ -2886,12 +2265,7 @@
   """@en .
 
 <urn:comp:1112>
-    nt2:code "1112" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "INTLLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2907,12 +2281,7 @@
   """@en .
 
 <urn:comp:1113>
-    nt2:code "1113" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "COMMLAW" ;
     skos:broader <urn:comp:125> ;
@@ -2929,12 +2298,7 @@
   """@en .
 
 <urn:comp:1114>
-    nt2:code "1114" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "PATENTAGT" ;
     skos:broader <urn:comp:176> ;
@@ -2948,12 +2312,7 @@
   """@en .
 
 <urn:comp:1115>
-    nt2:code "1115" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMCLASS" ;
     skos:broader <urn:comp:128> ;
@@ -2966,12 +2325,7 @@
   """@en .
 
 <urn:comp:1116>
-    nt2:code "1116" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMCOMP" ;
     skos:broader <urn:comp:128> ;
@@ -2983,12 +2337,7 @@
   """@en .
 
 <urn:comp:1117>
-    nt2:code "1117" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMEMPBENF" ;
     skos:broader <urn:comp:128> ;
@@ -3000,12 +2349,7 @@
   """@en .
 
 <urn:comp:1118>
-    nt2:code "1118" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMEMPDEV" ;
     skos:broader <urn:comp:128> ;
@@ -3018,12 +2362,7 @@
   """@en .
 
 <urn:comp:1119>
-    nt2:code "1119" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMEMPREL" ;
     skos:broader <urn:comp:128> ;
@@ -3035,11 +2374,6 @@
   """@en .
 
 <urn:comp:112>
-    nt2:code "112" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACENG" ;
     skos:broader <urn:comp:1159> ;
@@ -3061,12 +2395,7 @@
   """@en .
 
 <urn:comp:1120>
-    nt2:code "1120" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMLABOR" ;
     skos:broader <urn:comp:128> ;
@@ -3079,12 +2408,7 @@
   """@en .
 
 <urn:comp:1121>
-    nt2:code "1121" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMPERFMGT" ;
     skos:broader <urn:comp:128> ;
@@ -3096,12 +2420,7 @@
   """@en .
 
 <urn:comp:1122>
-    nt2:code "1122" ;
-    nt2:inputdate "2006-04-05" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMRECRUIT" ;
     skos:broader <urn:comp:128> ;
@@ -3114,12 +2433,7 @@
   """@en .
 
 <urn:comp:1123>
-    nt2:code "1123" ;
-    nt2:inputdate "2006-04-04" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "HCMWORKPLN" ;
     skos:broader <urn:comp:128> ;
@@ -3132,22 +2446,12 @@
   """@en .
 
 <urn:comp:1124>
-    nt2:code "1124" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2007-01-11" ;
     a skos:Concept ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1125>, <urn:comp:1150>, <urn:comp:1159>, <urn:comp:1189> ;
     skos:prefLabel "Business Knowledge Domain" .
 
 <urn:comp:1125>
-    nt2:code "1125" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
     skos:inScheme <urn:comp:0> ;
@@ -3155,11 +2459,6 @@
     skos:prefLabel "Business Operations Competency Suite" .
 
 <urn:comp:113>
-    nt2:code "113" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BUSMMT" ;
     skos:broader <urn:comp:1125> ;
@@ -3180,12 +2479,7 @@
   """@en .
 
 <urn:comp:114>
-    nt2:code "114" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "PROCESSENG" ;
     skos:broader <urn:comp:1209> ;
@@ -3211,11 +2505,6 @@
   """@en .
 
 <urn:comp:115>
-    nt2:code "115" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PROFADMOPS" ;
     skos:broader <urn:comp:1189> ;
@@ -3233,11 +2522,6 @@
   """@en .
 
 <urn:comp:1150>
-    nt2:code "1150" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
     skos:inScheme <urn:comp:0> ;
@@ -3245,11 +2529,6 @@
     skos:prefLabel "Financial Operations Competency Suite" .
 
 <urn:comp:1159>
-    nt2:code "1159" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
     skos:inScheme <urn:comp:0> ;
@@ -3257,11 +2536,6 @@
     skos:prefLabel "Institutional Operations & Support Competency Suite" .
 
 <urn:comp:116>
-    nt2:code "116" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BUSDEV" ;
     skos:broader <urn:comp:1125> ;
@@ -3290,11 +2564,6 @@
   """@en .
 
 <urn:comp:1168>
-    nt2:code "1168" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:126> ;
     skos:inScheme <urn:comp:0> ;
@@ -3309,11 +2578,6 @@
   """@en .
 
 <urn:comp:117>
-    nt2:code "117" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "COMTEC" ;
     skos:broader <urn:comp:1125> ;
@@ -3332,11 +2596,6 @@
   """@en .
 
 <urn:comp:118>
-    nt2:code "118" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FINMMT" ;
     skos:broader <urn:comp:1150> ;
@@ -3358,11 +2617,6 @@
   """@en .
 
 <urn:comp:1189>
-    nt2:code "1189" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1124> ;
     skos:inScheme <urn:comp:0> ;
@@ -3370,11 +2624,6 @@
     skos:prefLabel "Workforce Operations & Support Competency Suite" .
 
 <urn:comp:119>
-    nt2:code "119" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BUDGETMMT" ;
     skos:broader <urn:comp:1150> ;
@@ -3397,11 +2646,6 @@
   """@en .
 
 <urn:comp:12>
-    nt2:code "12" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELMAG" ;
     skos:broader <urn:comp:1294> ;
@@ -3420,11 +2664,6 @@
   """@en .
 
 <urn:comp:120>
-    nt2:code "120" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTAUD" ;
     skos:broader <urn:comp:1150> ;
@@ -3446,22 +2685,12 @@
   """@en .
 
 <urn:comp:1208>
-    nt2:code "1208" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2007-01-11" ;
     a skos:Concept ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1209>, <urn:comp:1231>, <urn:comp:1237>, <urn:comp:1244>, <urn:comp:1280>, <urn:comp:1283>, <urn:comp:1294>, <urn:comp:1314>, <urn:comp:1339>, <urn:comp:1347>, <urn:comp:1359>, <urn:comp:1363> ;
     skos:prefLabel "Engineering & Technology Knowledge Domain" .
 
 <urn:comp:1209>
-    nt2:code "1209" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3469,12 +2698,7 @@
     skos:prefLabel "Engineering of Systems Competency Suite" .
 
 <urn:comp:121>
-    nt2:code "121" ;
-    nt2:inputdate "2003-07-21" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "COSTEST" ;
     skos:broader <urn:comp:1150> ;
@@ -3501,11 +2725,6 @@
   """@en .
 
 <urn:comp:122>
-    nt2:code "122" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PROJPROGMT" ;
     skos:broader <urn:comp:1399> ;
@@ -3528,11 +2747,6 @@
   """@en .
 
 <urn:comp:123>
-    nt2:code "123" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RISKMMT" ;
     skos:broader <urn:comp:1381> ;
@@ -3549,11 +2763,6 @@
   """@en .
 
 <urn:comp:1231>
-    nt2:code "1231" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3561,11 +2770,6 @@
     skos:prefLabel "Systems Analysis & Mission Planning Competency Suite" .
 
 <urn:comp:1237>
-    nt2:code "1237" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3573,11 +2777,6 @@
     skos:prefLabel "Aeronautics Competency Suite" .
 
 <urn:comp:124>
-    nt2:code "124" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CONMMT" ;
     skos:broader <urn:comp:1150> ;
@@ -3606,11 +2805,6 @@
   """@en .
 
 <urn:comp:1244>
-    nt2:code "1244" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3618,12 +2812,7 @@
     skos:prefLabel "Human and Biological Competency Suite" .
 
 <urn:comp:125>
-    nt2:code "125" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "LEGALAPP" ;
     skos:broader <urn:comp:1125> ;
@@ -3651,11 +2840,6 @@
   """@en .
 
 <urn:comp:126>
-    nt2:code "126" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SECURITY" ;
     skos:broader <urn:comp:1159> ;
@@ -3672,11 +2856,6 @@
   """@en .
 
 <urn:comp:127>
-    nt2:code "127" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INSCOMP" ;
     skos:broader <urn:comp:1125> ;
@@ -3695,11 +2874,6 @@
   """@en .
 
 <urn:comp:128>
-    nt2:code "128" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HUMCAPMMT" ;
     skos:broader <urn:comp:1189> ;
@@ -3723,11 +2897,6 @@
   """@en .
 
 <urn:comp:1280>
-    nt2:code "1280" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3735,11 +2904,6 @@
     skos:prefLabel "Chemical Competency Suite" .
 
 <urn:comp:1283>
-    nt2:code "1283" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3747,11 +2911,6 @@
     skos:prefLabel "Computer Science & Information Technology Competency Suite" .
 
 <urn:comp:129>
-    nt2:code "129" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EEOMMT" ;
     skos:broader <urn:comp:1189> ;
@@ -3782,11 +2941,6 @@
   """@en .
 
 <urn:comp:1294>
-    nt2:code "1294" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3794,11 +2948,6 @@
     skos:prefLabel "Electrical & Electronic Competency Suite" .
 
 <urn:comp:13>
-    nt2:code "13" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELSYS" ;
     skos:broader <urn:comp:1294> ;
@@ -3822,11 +2971,6 @@
   """@en .
 
 <urn:comp:130>
-    nt2:code "130" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCCHEALTH" ;
     skos:broader <urn:comp:1159> ;
@@ -3852,11 +2996,6 @@
   """@en .
 
 <urn:comp:131>
-    nt2:code "131" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BITSYS" ;
     skos:broader <urn:comp:1125> ;
@@ -3876,11 +3015,6 @@
   """@en .
 
 <urn:comp:1314>
-    nt2:code "1314" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3888,11 +3022,6 @@
     skos:prefLabel "Power & Propulsion Competency Suite" .
 
 <urn:comp:1318>
-    nt2:code "1318" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:72> ;
     skos:inScheme <urn:comp:0> ;
@@ -3907,11 +3036,6 @@
   """@en .
 
 <urn:comp:133>
-    nt2:code "133" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ENVENGMMT" ;
     skos:broader <urn:comp:1159> ;
@@ -3933,11 +3057,6 @@
   """@en .
 
 <urn:comp:1339>
-    nt2:code "1339" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3945,11 +3064,6 @@
     skos:prefLabel "Sensor Systems Competency Suite" .
 
 <urn:comp:134>
-    nt2:code "134" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LOGSUPTRAN" ;
     skos:broader <urn:comp:1159> ;
@@ -3976,11 +3090,6 @@
   """@en .
 
 <urn:comp:1347>
-    nt2:code "1347" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -3988,11 +3097,6 @@
     skos:prefLabel "Structures, Materials & Mechanics Competency Suite" .
 
 <urn:comp:135>
-    nt2:code "135" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PUBLICOMM" ;
     skos:broader <urn:comp:1125> ;
@@ -4021,11 +3125,6 @@
   """@en .
 
 <urn:comp:1359>
-    nt2:code "1359" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -4033,11 +3132,6 @@
     skos:prefLabel "Thermal/Fluid Competency Suite" .
 
 <urn:comp:136>
-    nt2:code "136" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GOVAF" ;
     skos:broader <urn:comp:1125> ;
@@ -4057,11 +3151,6 @@
   """@en .
 
 <urn:comp:1363>
-    nt2:code "1363" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1208> ;
     skos:inScheme <urn:comp:0> ;
@@ -4069,11 +3158,6 @@
     skos:prefLabel "Multi-disciplinary R&D Competency Suite" .
 
 <urn:comp:137>
-    nt2:code "137" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EDTECH" ;
     skos:broader <urn:comp:1125> ;
@@ -4100,22 +3184,12 @@
   """@en .
 
 <urn:comp:1371>
-    nt2:code "1371" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2007-01-11" ;
     a skos:Concept ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1372>, <urn:comp:1381> ;
     skos:prefLabel "Mission Operations Knowledge Domain" .
 
 <urn:comp:1372>
-    nt2:code "1372" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1371> ;
     skos:inScheme <urn:comp:0> ;
@@ -4123,11 +3197,6 @@
     skos:prefLabel "Mission Operations Competency Suite" .
 
 <urn:comp:138>
-    nt2:code "138" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "NUCLEARENG" ;
     skos:broader <urn:comp:1314> ;
@@ -4152,11 +3221,6 @@
   """@en .
 
 <urn:comp:1381>
-    nt2:code "1381" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1371> ;
     skos:inScheme <urn:comp:0> ;
@@ -4164,11 +3228,6 @@
     skos:prefLabel "Quality/Safety/Performance Competency Suite" .
 
 <urn:comp:139>
-    nt2:code "139" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SWASSURANCE" ;
     skos:broader <urn:comp:1381> ;
@@ -4194,22 +3253,12 @@
   """@en .
 
 <urn:comp:1393>
-    nt2:code "1393" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2007-01-11" ;
     a skos:Concept ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1394>, <urn:comp:1399> ;
     skos:prefLabel "Leadership & Management Knowledge Domain" .
 
 <urn:comp:1394>
-    nt2:code "1394" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1393> ;
     skos:inScheme <urn:comp:0> ;
@@ -4217,11 +3266,6 @@
     skos:prefLabel "Management Competency Suite" .
 
 <urn:comp:1399>
-    nt2:code "1399" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1393> ;
     skos:inScheme <urn:comp:0> ;
@@ -4229,11 +3273,6 @@
     skos:prefLabel "Professional Development Competency Suite" .
 
 <urn:comp:14>
-    nt2:code "14" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELDEVTEC" ;
     skos:broader <urn:comp:1339> ;
@@ -4246,11 +3285,6 @@
   """@en .
 
 <urn:comp:140>
-    nt2:code "140" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "NASALEADER" ;
     skos:broader <urn:comp:1399> ;
@@ -4277,22 +3311,12 @@
   """@en .
 
 <urn:comp:1406>
-    nt2:code "1406" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2007-01-11" ;
     a skos:Concept ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1407>, <urn:comp:1415>, <urn:comp:1424>, <urn:comp:1430> ;
     skos:prefLabel "Science Knowledge Domain" .
 
 <urn:comp:1407>
-    nt2:code "1407" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
     skos:inScheme <urn:comp:0> ;
@@ -4300,11 +3324,6 @@
     skos:prefLabel "Space Sciences Competency Suite" .
 
 <urn:comp:1415>
-    nt2:code "1415" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
     skos:inScheme <urn:comp:0> ;
@@ -4312,11 +3331,6 @@
     skos:prefLabel "Earth Sciences Competency Suite" .
 
 <urn:comp:1424>
-    nt2:code "1424" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
     skos:inScheme <urn:comp:0> ;
@@ -4324,12 +3338,7 @@
     skos:prefLabel "Physical Sciences Competency Suite" .
 
 <urn:comp:143>
-    nt2:code "143" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "FIREPROT" ;
     skos:broader <urn:comp:1159> ;
@@ -4353,11 +3362,6 @@
   """@en .
 
 <urn:comp:1430>
-    nt2:code "1430" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1406> ;
     skos:inScheme <urn:comp:0> ;
@@ -4365,11 +3369,6 @@
     skos:prefLabel "Biological Sciences Competency Suite" .
 
 <urn:comp:144>
-    nt2:code "144" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EXPORT" ;
     skos:broader <urn:comp:1125> ;
@@ -4386,11 +3385,6 @@
   """@en .
 
 <urn:comp:147>
-    nt2:code "147" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PROJANALYS" ;
     skos:broader <urn:comp:1372> ;
@@ -4409,11 +3403,6 @@
   """@en .
 
 <urn:comp:149>
-    nt2:code "149" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MISHAPINV" ;
     skos:broader <urn:comp:1381> ;
@@ -4428,11 +3417,6 @@
   """@en .
 
 <urn:comp:15>
-    nt2:code "15" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ELMECHSY" ;
     skos:broader <urn:comp:1294> ;
@@ -4449,12 +3433,7 @@
   """@en .
 
 <urn:comp:150>
-    nt2:code "150" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "WORKSAFETY" ;
     skos:broader <urn:comp:1159> ;
@@ -4490,11 +3469,6 @@
   """@en .
 
 <urn:comp:151>
-    nt2:code "151" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EMERGMMT" ;
     skos:broader <urn:comp:1159> ;
@@ -4547,11 +3521,6 @@
   """@en .
 
 <urn:comp:152>
-    nt2:code "152" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AIROPS" ;
     skos:broader <urn:comp:1159> ;
@@ -4573,11 +3542,6 @@
   """@en .
 
 <urn:comp:153>
-    nt2:code "153" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TECHMMT" ;
     skos:broader <urn:comp:1372> ;
@@ -4592,11 +3556,6 @@
   """@en .
 
 <urn:comp:154>
-    nt2:code "154" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CONFIGMMT" ;
     skos:broader <urn:comp:1381> ;
@@ -4621,11 +3580,6 @@
   """@en .
 
 <urn:comp:155>
-    nt2:code "155" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SPACE_ENV" ;
     skos:broader <urn:comp:1363> ;
@@ -4644,11 +3598,6 @@
   """@en .
 
 <urn:comp:156>
-    nt2:code "156" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1430> ;
     skos:inScheme <urn:comp:0> ;
@@ -4667,11 +3616,6 @@
   """@en .
 
 <urn:comp:157>
-    nt2:code "157" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTLPGMDEV" ;
     skos:broader <urn:comp:1125> ;
@@ -4690,11 +3634,6 @@
   """@en .
 
 <urn:comp:158>
-    nt2:code "158" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DIVERSEMMT" ;
     skos:broader <urn:comp:1189> ;
@@ -4719,11 +3658,6 @@
   """@en .
 
 <urn:comp:159>
-    nt2:code "159" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "WIRELESS" ;
     skos:broader <urn:comp:1294> ;
@@ -4750,11 +3684,6 @@
   """@en .
 
 <urn:comp:16>
-    nt2:code "16" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MICROELMEC" ;
     skos:broader <urn:comp:1294> ;
@@ -4768,11 +3697,6 @@
   """@en .
 
 <urn:comp:160>
-    nt2:code "160" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "METROLOGY" ;
     skos:broader <urn:comp:1294> ;
@@ -4799,11 +3723,6 @@
   """@en .
 
 <urn:comp:161>
-    nt2:code "161" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DATSYS" ;
     skos:broader <urn:comp:1283> ;
@@ -4817,11 +3736,6 @@
   """@en .
 
 <urn:comp:162>
-    nt2:code "162" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTLOGSUP" ;
     skos:broader <urn:comp:1372> ;
@@ -4847,11 +3761,6 @@
   """@en .
 
 <urn:comp:163>
-    nt2:code "163" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PLANETATM" ;
     skos:broader <urn:comp:1407> ;
@@ -4875,11 +3784,6 @@
   """@en .
 
 <urn:comp:164>
-    nt2:code "164" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CLIMATE" ;
     skos:broader <urn:comp:1415> ;
@@ -4900,11 +3804,6 @@
   """@en .
 
 <urn:comp:165>
-    nt2:code "165" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PARABUSOPS" ;
     skos:broader <urn:comp:1189> ;
@@ -4921,11 +3820,6 @@
   """@en .
 
 <urn:comp:166>
-    nt2:code "166" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "IMAGING" ;
     skos:broader <urn:comp:1283> ;
@@ -4949,11 +3843,6 @@
   """@en .
 
 <urn:comp:167>
-    nt2:code "167" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MASTERPLAN" ;
     skos:broader <urn:comp:1159> ;
@@ -4975,11 +3864,6 @@
   """@en .
 
 <urn:comp:168>
-    nt2:code "168" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FACLTYPLAN" ;
     skos:broader <urn:comp:1159> ;
@@ -5010,11 +3894,6 @@
   """@en .
 
 <urn:comp:169>
-    nt2:code "169" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "POLICYMGMT" ;
     skos:broader <urn:comp:1125> ;
@@ -5036,11 +3915,6 @@
   """@en .
 
 <urn:comp:17>
-    nt2:code "17" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MECHSYS" ;
     skos:broader <urn:comp:1347> ;
@@ -5063,11 +3937,6 @@
   """@en .
 
 <urn:comp:170>
-    nt2:code "170" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EXECMMT" ;
     skos:broader <urn:comp:1394> ;
@@ -5096,11 +3965,6 @@
   """@en .
 
 <urn:comp:171>
-    nt2:code "171" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TECWORKMMT" ;
     skos:broader <urn:comp:1394> ;
@@ -5117,11 +3981,6 @@
   """@en .
 
 <urn:comp:172>
-    nt2:code "172" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BUSWORKMMT" ;
     skos:broader <urn:comp:1394> ;
@@ -5139,11 +3998,6 @@
   """@en .
 
 <urn:comp:173>
-    nt2:code "173" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PROWORKMMT" ;
     skos:broader <urn:comp:1394> ;
@@ -5160,12 +4014,7 @@
   """@en .
 
 <urn:comp:174>
-    nt2:code "174" ;
-    nt2:inputdate "2005-12-07" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "STUDENT" ;
     skos:broader <urn:comp:1189> ;
@@ -5182,12 +4031,7 @@
   """@en .
 
 <urn:comp:175>
-    nt2:code "175" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "SIMULATE" ;
     skos:broader <urn:comp:1231> ;
@@ -5226,12 +4070,7 @@
   """@en .
 
 <urn:comp:176>
-    nt2:code "176" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "LEGALSUP" ;
     skos:broader <urn:comp:1125> ;
@@ -5244,11 +4083,6 @@
   """@en .
 
 <urn:comp:18>
-    nt2:code "18" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PYROTECH" ;
     skos:broader <urn:comp:1280> ;
@@ -5266,11 +4100,6 @@
   """@en .
 
 <urn:comp:19>
-    nt2:code "19" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FLTGNDSYS" ;
     skos:broader <urn:comp:1294> ;
@@ -5292,12 +4121,7 @@
   """@en .
 
 <urn:comp:2>
-    nt2:code "2" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "FLTDSG" ;
     skos:broader <urn:comp:1231> ;
@@ -5321,12 +4145,7 @@
   """@en .
 
 <urn:comp:20>
-    nt2:code "20" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "SENSORDATA" ;
     skos:broader <urn:comp:1339> ;
@@ -5347,11 +4166,6 @@
   """@en .
 
 <urn:comp:21>
-    nt2:code "21" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1294> ;
     skos:inScheme <urn:comp:0> ;
@@ -5368,11 +4182,6 @@
   """@en .
 
 <urn:comp:22>
-    nt2:code "22" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GNC" ;
     skos:broader <urn:comp:1294> ;
@@ -5395,11 +4204,6 @@
   """@en .
 
 <urn:comp:23>
-    nt2:code "23" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PLANETENV" ;
     skos:broader <urn:comp:1363> ;
@@ -5418,11 +4222,6 @@
   """@en .
 
 <urn:comp:24>
-    nt2:code "24" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MANUFACT" ;
     skos:broader <urn:comp:1209> ;
@@ -5439,11 +4238,6 @@
   """@en .
 
 <urn:comp:25>
-    nt2:code "25" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CHEMENG" ;
     skos:broader <urn:comp:1280> ;
@@ -5464,11 +4258,6 @@
   """@en .
 
 <urn:comp:26>
-    nt2:code "26" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CRYOENG" ;
     skos:broader <urn:comp:1359> ;
@@ -5486,12 +4275,7 @@
   """@en .
 
 <urn:comp:27>
-    nt2:code "27" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "SAFENG" ;
     skos:broader <urn:comp:1381> ;
@@ -5520,11 +4304,6 @@
   """@en .
 
 <urn:comp:28>
-    nt2:code "28" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "RMEA" ;
     skos:broader <urn:comp:1381> ;
@@ -5563,12 +4342,7 @@
   """@en .
 
 <urn:comp:29>
-    nt2:code "29" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "QEA" ;
     skos:broader <urn:comp:1381> ;
@@ -5612,11 +4386,6 @@
   """@en .
 
 <urn:comp:3>
-    nt2:code "3" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ADVTEC" ;
     skos:broader <urn:comp:1372> ;
@@ -5632,11 +4401,6 @@
   """@en .
 
 <urn:comp:30>
-    nt2:code "30" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MA" ;
     skos:broader <urn:comp:1372> ;
@@ -5655,12 +4419,7 @@
   """@en .
 
 <urn:comp:31>
-    nt2:code "31" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "CELLBIO" ;
     skos:broader <urn:comp:1430> ;
@@ -5683,11 +4442,6 @@
   """@en .
 
 <urn:comp:32>
-    nt2:code "32" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DEVELOPBIO" ;
     skos:broader <urn:comp:1430> ;
@@ -5700,11 +4454,6 @@
   """@en .
 
 <urn:comp:34>
-    nt2:code "34" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BIOMEDRES" ;
     skos:broader <urn:comp:1430> ;
@@ -5729,11 +4478,6 @@
   """@en .
 
 <urn:comp:35>
-    nt2:code "35" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BIOMEDENG" ;
     skos:broader <urn:comp:1244> ;
@@ -5750,11 +4494,6 @@
   """@en .
 
 <urn:comp:36>
-    nt2:code "36" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AEROMED" ;
     skos:broader <urn:comp:1244> ;
@@ -5771,11 +4510,6 @@
   """@en .
 
 <urn:comp:37>
-    nt2:code "37" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ECLSS" ;
     skos:broader <urn:comp:1244> ;
@@ -5798,11 +4532,6 @@
   """@en .
 
 <urn:comp:38>
-    nt2:code "38" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EAS" ;
     skos:broader <urn:comp:1244> ;
@@ -5819,12 +4548,7 @@
   """@en .
 
 <urn:comp:39>
-    nt2:code "39" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "ENVFACT" ;
     skos:broader <urn:comp:1244> ;
@@ -5847,11 +4571,6 @@
   """@en .
 
 <urn:comp:4>
-    nt2:code "4" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MISEXC" ;
     skos:broader <urn:comp:1372> ;
@@ -5870,11 +4589,6 @@
   """@en .
 
 <urn:comp:40>
-    nt2:code "40" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HUMFACTRES" ;
     skos:broader <urn:comp:1244> ;
@@ -5905,11 +4619,6 @@
   """@en .
 
 <urn:comp:41>
-    nt2:code "41" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HUMFACTENG" ;
     skos:broader <urn:comp:1244> ;
@@ -5939,11 +4648,6 @@
   """@en .
 
 <urn:comp:42>
-    nt2:code "42" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FUNPHYSICS" ;
     skos:broader <urn:comp:1424> ;
@@ -5963,11 +4667,6 @@
   """@en .
 
 <urn:comp:43>
-    nt2:code "43" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FLUIDPHY" ;
     skos:broader <urn:comp:1424> ;
@@ -5982,11 +4681,6 @@
   """@en .
 
 <urn:comp:44>
-    nt2:code "44" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EARTHATM" ;
     skos:broader <urn:comp:1407> ;
@@ -6008,11 +4702,6 @@
   """@en .
 
 <urn:comp:45>
-    nt2:code "45" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GEOSCI" ;
     skos:broader <urn:comp:1415> ;
@@ -6028,11 +4717,6 @@
   """@en .
 
 <urn:comp:46>
-    nt2:code "46" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BBECO" ;
     skos:broader <urn:comp:1415> ;
@@ -6053,11 +4737,6 @@
   """@en .
 
 <urn:comp:47>
-    nt2:code "47" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HYDROSCI" ;
     skos:broader <urn:comp:1415> ;
@@ -6076,11 +4755,6 @@
   """@en .
 
 <urn:comp:48>
-    nt2:code "48" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OCEANSCI" ;
     skos:broader <urn:comp:1415> ;
@@ -6099,11 +4773,6 @@
   """@en .
 
 <urn:comp:49>
-    nt2:code "49" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EARSCIRES" ;
     skos:broader <urn:comp:1415> ;
@@ -6119,11 +4788,6 @@
   """@en .
 
 <urn:comp:5>
-    nt2:code "5" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PAYLOADINT" ;
     skos:broader <urn:comp:1372> ;
@@ -6143,11 +4807,6 @@
   """@en .
 
 <urn:comp:50>
-    nt2:code "50" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "EARSYMODEL" ;
     skos:broader <urn:comp:1415> ;
@@ -6161,11 +4820,6 @@
   """@en .
 
 <urn:comp:51>
-    nt2:code "51" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SPACEPHY" ;
     skos:broader <urn:comp:1407> ;
@@ -6189,11 +4843,6 @@
   """@en .
 
 <urn:comp:52>
-    nt2:code "52" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ASTRONOMY" ;
     skos:broader <urn:comp:1407> ;
@@ -6221,11 +4870,6 @@
   """@en .
 
 <urn:comp:53>
-    nt2:code "53" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PLANETSCI" ;
     skos:broader <urn:comp:1407> ;
@@ -6241,11 +4885,6 @@
   """@en .
 
 <urn:comp:54>
-    nt2:code "54" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ASTROBIO" ;
     skos:broader <urn:comp:1407> ;
@@ -6262,11 +4901,6 @@
   """@en .
 
 <urn:comp:55>
-    nt2:code "55" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ASTROMATER" ;
     skos:broader <urn:comp:1407> ;
@@ -6281,11 +4915,6 @@
   """@en .
 
 <urn:comp:56>
-    nt2:code "56" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TINYSCI" ;
     skos:broader <urn:comp:1424> ;
@@ -6298,11 +4927,6 @@
   """@en .
 
 <urn:comp:57>
-    nt2:code "57" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "TINYTEC" ;
     skos:broader <urn:comp:1363> ;
@@ -6319,11 +4943,6 @@
   """@en .
 
 <urn:comp:58>
-    nt2:code "58" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BIOENG" ;
     skos:broader <urn:comp:1244> ;
@@ -6335,11 +4954,6 @@
   """@en .
 
 <urn:comp:59>
-    nt2:code "59" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BIOMIMETIC" ;
     skos:broader <urn:comp:1244> ;
@@ -6355,11 +4969,6 @@
   """@en .
 
 <urn:comp:6>
-    nt2:code "6" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "WOBSFR" ;
     skos:broader <urn:comp:1372> ;
@@ -6386,11 +4995,6 @@
   """@en .
 
 <urn:comp:60>
-    nt2:code "60" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "COMNETENG" ;
     skos:broader <urn:comp:1294> ;
@@ -6412,11 +5016,6 @@
   """@en .
 
 <urn:comp:61>
-    nt2:code "61" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "STRUCTDYN" ;
     skos:broader <urn:comp:1347> ;
@@ -6434,12 +5033,7 @@
   """@en .
 
 <urn:comp:62>
-    nt2:code "62" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "MECHDUR" ;
     skos:broader <urn:comp:1347> ;
@@ -6467,13 +5061,7 @@
   """@en .
 
 <urn:comp:63>
-    nt2:code "63" ;
-    nt2:inputdate "2004-10-08" ;
-    nt2:notValidDate "2005-12-07" ;
-    nt2:status "Notvalid" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2004-10-08" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "STRSYS" ;
     skos:broader <urn:comp:1347> ;
@@ -6499,11 +5087,6 @@
   """@en .
 
 <urn:comp:64>
-    nt2:code "64" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ACMSTR" ;
     skos:broader <urn:comp:1347> ;
@@ -6525,11 +5108,6 @@
   """@en .
 
 <urn:comp:65>
-    nt2:code "65" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ADVMATSCI" ;
     skos:broader <urn:comp:1424> ;
@@ -6555,11 +5133,6 @@
   """@en .
 
 <urn:comp:66>
-    nt2:code "66" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MATSCIENG" ;
     skos:broader <urn:comp:1347> ;
@@ -6579,11 +5152,6 @@
   """@en .
 
 <urn:comp:67>
-    nt2:code "67" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "NONDESSCI" ;
     skos:broader <urn:comp:1347> ;
@@ -6603,11 +5171,6 @@
   """@en .
 
 <urn:comp:68>
-    nt2:code "68" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PROSYS" ;
     skos:broader <urn:comp:1314> ;
@@ -6630,11 +5193,6 @@
   """@en .
 
 <urn:comp:69>
-    nt2:code "69" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "AIRPRO" ;
     skos:broader <urn:comp:1314> ;
@@ -6653,11 +5211,6 @@
   """@en .
 
 <urn:comp:7>
-    nt2:code "7" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SYSTEMSENG" ;
     skos:broader <urn:comp:1209> ;
@@ -6690,11 +5243,6 @@
   """@en .
 
 <urn:comp:70>
-    nt2:code "70" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HAIRPRO" ;
     skos:broader <urn:comp:1314> ;
@@ -6712,11 +5260,6 @@
   """@en .
 
 <urn:comp:71>
-    nt2:code "71" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "HYPERSYS" ;
     skos:broader <urn:comp:1314> ;
@@ -6732,11 +5275,6 @@
   """@en .
 
 <urn:comp:72>
-    nt2:code "72" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ADVPRO" ;
     skos:broader <urn:comp:1314> ;
@@ -6754,11 +5292,6 @@
   """@en .
 
 <urn:comp:73>
-    nt2:code "73" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "ROCKETPRO" ;
     skos:broader <urn:comp:1314> ;
@@ -6777,11 +5310,6 @@
   """@en .
 
 <urn:comp:74>
-    nt2:code "74" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "BOOMSCI" ;
     skos:broader <urn:comp:1314> ;
@@ -6797,11 +5325,6 @@
   """@en .
 
 <urn:comp:75>
-    nt2:code "75" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PWRSYS" ;
     skos:broader <urn:comp:1314> ;
@@ -6820,11 +5343,6 @@
   """@en .
 
 <urn:comp:76>
-    nt2:code "76" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PWRENG" ;
     skos:broader <urn:comp:1314> ;
@@ -6837,11 +5355,6 @@
   """@en .
 
 <urn:comp:77>
-    nt2:code "77" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PWRPHO" ;
     skos:broader <urn:comp:1314> ;
@@ -6854,11 +5367,6 @@
   """@en .
 
 <urn:comp:78>
-    nt2:code "78" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "PWRTHM" ;
     skos:broader <urn:comp:1314> ;
@@ -6869,11 +5377,6 @@
   """@en .
 
 <urn:comp:79>
-    nt2:code "79" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:broader <urn:comp:1283> ;
     skos:inScheme <urn:comp:0> ;
@@ -6885,11 +5388,6 @@
   """@en .
 
 <urn:comp:8>
-    nt2:code "8" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "DESDEVENG" ;
     skos:broader <urn:comp:1209> ;
@@ -6910,12 +5408,7 @@
   """@en .
 
 <urn:comp:80>
-    nt2:code "80" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "COMPSYSENG" ;
     skos:broader <urn:comp:1283> ;
@@ -6934,11 +5427,6 @@
   """@en .
 
 <urn:comp:81>
-    nt2:code "81" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "NETSYS" ;
     skos:broader <urn:comp:1283> ;
@@ -6959,11 +5447,6 @@
   """@en .
 
 <urn:comp:82>
-    nt2:code "82" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "SWENG" ;
     skos:broader <urn:comp:1283> ;
@@ -6985,11 +5468,6 @@
   """@en .
 
 <urn:comp:84>
-    nt2:code "84" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "NEUNETSYS" ;
     skos:broader <urn:comp:1283> ;
@@ -7005,11 +5483,6 @@
   """@en .
 
 <urn:comp:85>
-    nt2:code "85" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "IASYS" ;
     skos:broader <urn:comp:1283> ;
@@ -7032,11 +5505,6 @@
   """@en .
 
 <urn:comp:86>
-    nt2:code "86" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MMA" ;
     skos:broader <urn:comp:1363> ;
@@ -7058,11 +5526,6 @@
   """@en .
 
 <urn:comp:88>
-    nt2:code "88" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "GEOSPATIAL" ;
     skos:broader <urn:comp:1415> ;
@@ -7084,12 +5547,7 @@
   """@en .
 
 <urn:comp:89>
-    nt2:code "89" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "ADVMIS" ;
     skos:broader <urn:comp:1231> ;
@@ -7106,11 +5564,6 @@
   """@en .
 
 <urn:comp:9>
-    nt2:code "9" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "INTEGENG" ;
     skos:broader <urn:comp:1209> ;
@@ -7129,12 +5582,7 @@
   """@en .
 
 <urn:comp:90>
-    nt2:code "90" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "ASCDTA" ;
     skos:broader <urn:comp:1231> ;
@@ -7154,12 +5602,7 @@
   """@en .
 
 <urn:comp:91>
-    nt2:code "91" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2005-12-07" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "AADMD" ;
     skos:broader <urn:comp:1363> ;
@@ -7179,11 +5622,6 @@
   """@en .
 
 <urn:comp:92>
-    nt2:code "92" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "LASER" ;
     skos:broader <urn:comp:1339> ;
@@ -7204,11 +5642,6 @@
   """@en .
 
 <urn:comp:93>
-    nt2:code "93" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "OPTSYS" ;
     skos:broader <urn:comp:1339> ;
@@ -7234,11 +5667,6 @@
   """@en .
 
 <urn:comp:94>
-    nt2:code "94" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "MICROSYS" ;
     skos:broader <urn:comp:1339> ;
@@ -7259,11 +5687,6 @@
   """@en .
 
 <urn:comp:95>
-    nt2:code "95" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "REMOTESENS" ;
     skos:broader <urn:comp:1339> ;
@@ -7285,12 +5708,7 @@
   """@en .
 
 <urn:comp:96>
-    nt2:code "96" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
     dcterms:dateAccepted "2006-04-05" ;
-    dcterms:modified "2006-12-18" ;
     a skos:Concept ;
     skos:altLabel "DETECTSYS" ;
     skos:broader <urn:comp:1339> ;
@@ -7313,11 +5731,6 @@
   """@en .
 
 <urn:comp:97>
-    nt2:code "97" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "CSAOPS" ;
     skos:broader <urn:comp:1244> ;
@@ -7330,11 +5743,6 @@
   """@en .
 
 <urn:comp:98>
-    nt2:code "98" ;
-    nt2:inputdate "2006-12-13" ;
-    nt2:status "Approved" ;
-    nt2:type "Descriptor" ;
-    dcterms:modified "2006-12-13" ;
     a skos:Concept ;
     skos:altLabel "FLTDYN" ;
     skos:broader <urn:comp:1237> ;
