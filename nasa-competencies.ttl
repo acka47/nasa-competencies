@@ -1,9 +1,7 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix nt2: <http://nasataxonomy.jpl.nasa.gov/cvFields#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@base <https://example.org/nasa-competencies> .
 
 <urn:comp:0>
     dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA Taxonomy 2.0 was designed to make it easy for various audiences to find relevant information from NASA programs quickly. See https://github.com/nasa/dictionaries/tree/master/taxonomies. This facet is derived from the NASA Workforce Competency Dictionary, revision 6a, published April 17, 2006.
