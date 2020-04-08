@@ -3,8 +3,12 @@
 @base <https://example.org/nasa-competencies/> .
 
 <urn:comp:0>
-    dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA Taxonomy 2.0 was designed to make it easy for various audiences to find relevant information from NASA programs quickly. See https://github.com/nasa/dictionaries/tree/master/taxonomies. This facet is derived from the NASA Workforce Competency Dictionary, revision 6a, published April 17, 2006.
-  """@en ;
+    dcterms:description """This Taxonomy is part of NASA Taxonomy 2.0. The NASA
+    Taxonomy 2.0 was designed to make it easy for various audiences to find relevant
+     information from NASA programs quickly. 
+     See https://github.com/nasa/dictionaries/tree/master/taxonomies. 
+     This facet is derived from the NASA Workforce Competency Dictionary, 
+     revision 6a, published April 17, 2006."""@en ;
     dcterms:title "NASA Workforce Competencies"@en ;
     a skos:ConceptScheme ;
     skos:hasTopConcept <urn:comp:1124>, <urn:comp:1208>, <urn:comp:1371>, <urn:comp:1393>, <urn:comp:1406> ;
@@ -20,8 +24,7 @@
     and near-term missions. Manage integration of technical
     elements such as vehicle design, flight trajectories, and
     operational and ground-based infrastructure requirements in
-    order to meet mission and programmatic objectives.
-  """@en .
+    order to meet mission and programmatic objectives."""@en .
 
 <urn:comp:10>
     a skos:Concept ;
@@ -46,8 +49,7 @@
     thermal, chemical, microgravity and solar vacuum,
     aerodynamics and temperature and humidity. Includes
     knowledge required for safe and reliable system
-    development/integration.
-  """@en .
+    development/integration."""@en .
 
 <urn:comp:100>
     a skos:Concept ;
@@ -66,8 +68,7 @@
     analytical methods that predict the aeroelastic and
     aeroservoelastic responses of aerospace vehicles, and for
     conducting unsteady aerodynamic, aeroelastic, and
-    aeroservoelastic wind-tunnel tests.
-  """@en .
+    aeroservoelastic wind-tunnel tests."""@en .
 
 <urn:comp:1001>
     a skos:Concept ;
@@ -91,8 +92,7 @@
     issues. Knows how to apply appropriate techniques,
     procedures and policies in the management of workforce to
     achieve work objectives and maintain effective and positive
-    operational environments.
-  """@en .
+    operational environments."""@en .
 
 <urn:comp:1002>
     a skos:Concept ;
@@ -113,8 +113,7 @@
     integrate new technology into the workplace. Understands
     and applies principles of information security in relation
     to data publishing, technology transfer and release of
-    information.
-  """@en .
+    information."""@en .
 
 <urn:comp:1003>
     a skos:Concept ;
@@ -134,8 +133,7 @@
     systems that facilitate the effective assignment of work
     and measurement of results. Knowledge of methods for
     integrating work from across functional and organizational
-    boundaries.
-  """@en .
+    boundaries."""@en .
 
 <urn:comp:1004>
     a skos:Concept ;
@@ -149,8 +147,7 @@
     the rules and policies that regulate or dictate
     international partnerships and how to work within those
     guidelines in order to accomplish objectives and sustain
-    ongoing relationships.
-  """@en .
+    ongoing relationships."""@en .
 
 <urn:comp:1005>
     a skos:Concept ;
@@ -158,8 +155,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomechanics and Ergonomics Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1006>
     a skos:Concept ;
@@ -167,8 +163,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Habitability and Environmental Psychology Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1007>
     a skos:Concept ;
@@ -177,8 +172,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Perception and Psychophysics Fundamental Research"@en ;
     skos:scopeNote """TBD (includes vision, audition, haptics, vestibular,
-    multimodal)
-  """@en .
+    multimodal)"""@en .
 
 <urn:comp:1008>
     a skos:Concept ;
@@ -186,8 +180,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Psychophysiology Fundamental Research"@en ;
-    skos:scopeNote """TBD (includes memory, attention, task processing, etc.)
-  """@en .
+    skos:scopeNote """TBD (includes memory, attention, task processing, etc.)"""@en .
 
 <urn:comp:1009>
     a skos:Concept ;
@@ -195,15 +188,13 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fatigue, Alertness, Circadian Rhythms Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:101>
     a skos:Concept ;
     skos:altLabel "AERODYN"@en ;
     skos:broader <urn:comp:1237> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aerodynamics"@en ;
     skos:scopeNote """Knowledge of the science of aerodynamics, with the ability
@@ -225,8 +216,7 @@
     phenomena, propulsion system-airframe integration, rotary
     wing aerodynamics, cavity flows, etc., for a realistic
     assessment and improvement of the vehicle aerodynamic
-    performance.
-  """@en .
+    performance."""@en .
 
 <urn:comp:1010>
     a skos:Concept ;
@@ -234,8 +224,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cognitive Science Fundamental Research"@en ;
-    skos:scopeNote """TBD (includes memory, attention, task processing, etc.)
-  """@en .
+    skos:scopeNote """TBD (includes memory, attention, task processing, etc.)"""@en .
 
 <urn:comp:1011>
     a skos:Concept ;
@@ -245,8 +234,7 @@
     skos:prefLabel "Communication and Knowledge Management Fundamental Research"@en ;
     skos:scopeNote """TBD (includes interpersonal communication,
     technology-mediated communication, procedures,
-    documentation)
-  """@en .
+    documentation)"""@en .
 
 <urn:comp:1012>
     a skos:Concept ;
@@ -254,8 +242,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Decision Making and Risk Management Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1013>
     a skos:Concept ;
@@ -263,8 +250,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Organizational Science Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1014>
     a skos:Concept ;
@@ -274,8 +260,7 @@
     skos:prefLabel "Human-Machine Interaction Fundamental Research"@en ;
     skos:scopeNote """TBD (includes human-computer interaction and
     human-automation interaction) (includes human-computer
-    interaction and human-automation interaction)
-  """@en .
+    interaction and human-automation interaction)"""@en .
 
 <urn:comp:1015>
     a skos:Concept ;
@@ -283,8 +268,7 @@
     skos:broader <urn:comp:40> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Manual Control Fundamental Research"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1016>
     a skos:Concept ;
@@ -293,8 +277,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Supervisory Control Fundamental Research"@en ;
     skos:scopeNote """TBD (includes single human operator supervisory control and
-    distributed [multi-agent] supervisory control)
-  """@en .
+    distributed [multi-agent] supervisory control)"""@en .
 
 <urn:comp:1017>
     a skos:Concept ;
@@ -303,8 +286,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Training and Adaptation Fundamental Research"@en ;
     skos:scopeNote """TBD (includes basic research on perceptual and behavioral
-    adaptation, learning, memory, etc.)
-  """@en .
+    adaptation, learning, memory, etc.)"""@en .
 
 <urn:comp:1018>
     a skos:Concept ;
@@ -314,8 +296,7 @@
     skos:prefLabel "Human Performance Fundamental Research"@en ;
     skos:scopeNote """TBD (includes basic research on human error and error
     countermeasures)
-    NASA Competency Management SystemPage 36
-  """@en .
+    NASA Competency Management SystemPage 36"""@en .
 
 <urn:comp:1019>
     a skos:Concept ;
@@ -323,8 +304,7 @@
     skos:broader <urn:comp:41> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Biomechanical Engineering, Technology, Standards"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:102>
     a skos:Concept ;
@@ -344,8 +324,7 @@
     performance and environment. Knowledge of high temperature
     gas physics including molecular and atomic internal energy
     structure, rate processes, and radiative emission
-    characteristics.
-  """@en .
+    characteristics."""@en .
 
 <urn:comp:1020>
     a skos:Concept ;
@@ -354,8 +333,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Ergonomics Engineering, Technology, and Standards"@en ;
     skos:scopeNote """TBD (including lighting, noise, vibration, physical
-    ergonomics of hand tools, manual materials handling, etc.)
-  """@en .
+    ergonomics of hand tools, manual materials handling, etc.)"""@en .
 
 <urn:comp:1021>
     a skos:Concept ;
@@ -364,8 +342,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Space Human Factors Engineering, Technology, and Standards"@en ;
     skos:scopeNote """TBD (focus on humans in micro-gravity, radiation
-    environments)
-  """@en .
+    environments)"""@en .
 
 <urn:comp:1022>
     a skos:Concept ;
@@ -373,8 +350,7 @@
     skos:broader <urn:comp:41> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Habitability Engineering, Technology, and Standards"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1023>
     a skos:Concept ;
@@ -385,8 +361,7 @@
     skos:scopeNote """TBD (includes visual display design, image and video
     compression, display composition and layout, icon design
     and font selection, auditory displays, multimodal
-    environments)
-  """@en .
+    environments)"""@en .
 
 <urn:comp:1024>
     a skos:Concept ;
@@ -395,8 +370,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cognitive Technologies"@en ;
     skos:scopeNote """TBD (includes augmented cognition devices, decision support
-    technologies, intelligent assistant systems)
-  """@en .
+    technologies, intelligent assistant systems)"""@en .
 
 <urn:comp:1025>
     a skos:Concept ;
@@ -406,8 +380,7 @@
     skos:prefLabel "Human-Automation System Design"@en ;
     skos:scopeNote """TBD (includes Distributed Supervisory Control Design;
     fFunction Allocation; Mixed-Initiative Decision Making,
-    Planning and Operations; Distributed Human-Machine Systems)
-  """@en .
+    Planning and Operations; Distributed Human-Machine Systems)"""@en .
 
 <urn:comp:1026>
     a skos:Concept ;
@@ -416,8 +389,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Training Technologies"@en ;
     skos:scopeNote """TBD (includes computer-based training systems, intelligent
-    tutoring systems, handbooks, documentation)
-  """@en .
+    tutoring systems, handbooks, documentation)"""@en .
 
 <urn:comp:1027>
     a skos:Concept ;
@@ -425,8 +397,7 @@
     skos:broader <urn:comp:41> ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Human Reliability and Human Error Analysis"@en ;
-    skos:scopeNote """TBD
-  """@en .
+    skos:scopeNote """TBD"""@en .
 
 <urn:comp:1028>
     a skos:Concept ;
@@ -451,8 +422,7 @@
     tolerance and structural life prediction. Also involves
     research into measurement, instrument and test systems to
     assess structural characteristics and risks, and ensure
-    system integration.
-  """@en .
+    system integration."""@en .
 
 <urn:comp:1029>
     a skos:Concept ;
@@ -470,8 +440,7 @@
     Includes broad knowledge EEE parts, electronic packaging
     design and tools, reliability and environmental effects,
     power generation, distribution, storage and conditioning
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:103>
     a skos:Concept ;
@@ -493,8 +462,7 @@
     designed to understand and predict the acoustic environment
     and to validate advanced active and passive noise control
     concepts.
-    NASA Competency Management SystemPage 32
-  """@en .
+    NASA Competency Management SystemPage 32"""@en .
 
 <urn:comp:1030>
     a skos:Concept ;
@@ -519,8 +487,7 @@
     familiarization with system engineering tools, procedures,
     and documentation such as configuration management, the
     design review process, interface control documents, and
-    interface requirements documents.
-  """@en .
+    interface requirements documents."""@en .
 
 <urn:comp:1031>
     a skos:Concept ;
@@ -541,8 +508,7 @@
     create and evaluate subscale or full-scale models, test
     articles, or prototypes to assess the system or subsystem
     design, development, and integration meets the intended
-    objectives.
-  """@en .
+    objectives."""@en .
 
 <urn:comp:1032>
     a skos:Concept ;
@@ -560,8 +526,7 @@
     planning, coordination, oversight, and integration of all
     structural systems, subsystems, and components in
     accordance with requirements and specifications, both
-    external and internal.
-  """@en .
+    external and internal."""@en .
 
 <urn:comp:1033>
     a skos:Concept ;
@@ -584,8 +549,7 @@
     engineering elements of a system, schedules, configurations
     and resources as well as the development of launch,
     mission, manifest, contigency and long-range plans and
-    responses to externally-driven requirements.
-  """@en .
+    responses to externally-driven requirements."""@en .
 
 <urn:comp:1034>
     a skos:Concept ;
@@ -607,8 +571,7 @@
     input to the PPO for risk management, tracks cost and
     schedule, tracks technical performance, verifies
     requirements are met and reviews and audits program
-    engineering support activities.
-  """@en .
+    engineering support activities."""@en .
 
 <urn:comp:1035>
     a skos:Concept ;
@@ -628,8 +591,7 @@
     electrical packaging, as well as the development of
     electrical and electronic systems impacts to launch,
     mission, manifest, contingency and long-range plans, and
-    responses to externally-driven requirements.
-  """@en .
+    responses to externally-driven requirements."""@en .
 
 <urn:comp:1036>
     a skos:Concept ;
@@ -651,8 +613,7 @@
     design, development, and evaluation of the various
     components and subsystems that is necessary to insure
     proper function and compatibility within the propulsion
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:1037>
     a skos:Concept ;
@@ -675,8 +636,7 @@
     systems analytical models. Test discipline skills
     associated with this competency include: vibration;
     acoustics; shock; static structural loads; and modal
-    analysis.
-  """@en .
+    analysis."""@en .
 
 <urn:comp:1038>
     a skos:Concept ;
@@ -690,8 +650,7 @@
     Included is the understanding of various test set ups,
     instrumentation, data acquistion, equipment and tools
     utilized for material qualification and certification for
-    ground and aerospace flight systems.
-  """@en .
+    ground and aerospace flight systems."""@en .
 
 <urn:comp:1039>
     a skos:Concept ;
@@ -716,8 +675,7 @@
     including radiation, pressure, thermal, outgassing,
     microgravity and solar vacuum, aerodynamics and temperature
     and humidity. Includes knowledge required for safe and
-    reliable system testing and development/integration.
-  """@en .
+    reliable system testing and development/integration."""@en .
 
 <urn:comp:104>
     a skos:Concept ;
@@ -738,8 +696,7 @@
     two-phase heat transfer systems, cryogenic systems,
     advanced coatings, and heat pumps. Includes knowledge of
     the development of math models for low and high speed
-    convection, conduction, radiation, ablation and aeroheating.
-  """@en .
+    convection, conduction, radiation, ablation and aeroheating."""@en .
 
 <urn:comp:1040>
     a skos:Concept ;
@@ -762,8 +719,7 @@
     workmanship and validate operations in a relevant
     environment, including vibration, shock, acoustics,
     electromagnetic interference and compatibility (EMI/EMC),
-    depressurization and vacuum operation, and thermal cycling.
-  """@en .
+    depressurization and vacuum operation, and thermal cycling."""@en .
 
 <urn:comp:1041>
     a skos:Concept ;
@@ -788,8 +744,7 @@
     environment in accordance with NASA, Military or Commercial
     Specifications of air, space and ground systems,
     components, piece parts, as well as integrated propulsion
-    systems or sub-systems.
-  """@en .
+    systems or sub-systems."""@en .
 
 <urn:comp:1042>
     a skos:Concept ;
@@ -809,8 +764,7 @@
     sensors for both flight and ground instrumentation systems
     in the areas of temperature, pressure, vacuum, vibration,
     position, displacement, acceleration, mass spectroscopy,
-    heat flux, flow, optical spectrometry and strain.
-  """@en .
+    heat flux, flow, optical spectrometry and strain."""@en .
 
 <urn:comp:1043>
     a skos:Concept ;
@@ -820,8 +774,7 @@
     skos:prefLabel "EEE Parts"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with EEE
     Parts requirements, selection, analysis, and verification
-    for space flight and ground support hardware.
-  """@en .
+    for space flight and ground support hardware."""@en .
 
 <urn:comp:1044>
     a skos:Concept ;
@@ -834,8 +787,7 @@
     layout, design of mechanical housings (black boxes),
     thermal analysis of pc boards and black boxes, and
     processes involved in the manufacturing/assembly of this
-    hardware.
-  """@en .
+    hardware."""@en .
 
 <urn:comp:1045>
     a skos:Concept ;
@@ -853,8 +805,7 @@
     analysis; test procedure development and safety analysis;
     reliability and environmental effects; and knowledge of
     thermal analysis of printed circuit boards and subsequent
-    use of thermal data to optimize flight electronics design.
-  """@en .
+    use of thermal data to optimize flight electronics design."""@en .
 
 <urn:comp:1046>
     a skos:Concept ;
@@ -881,8 +832,7 @@
     of sensors, avionics, actuation and control mechanisms,
     large space structure dynamics, mathematical modeling,
     interplanetary environmental models, experimental methods
-    and a broad array of engineering disciplines.
-  """@en .
+    and a broad array of engineering disciplines."""@en .
 
 <urn:comp:1047>
     a skos:Concept ;
@@ -907,8 +857,7 @@
     and space. Includes knowledge of sensors, avionics,
     actuation and control mechanisms, flight dynamics,
     mathematical modeling, experimental methods and a broad
-    array of engineering disciplines.
-  """@en .
+    array of engineering disciplines."""@en .
 
 <urn:comp:1048>
     a skos:Concept ;
@@ -926,8 +875,7 @@
     Support of verification through demonstration that guidance
     integrates with the other subsystems to meet overall
     requirements. Detailed definition of guidance algorithms
-    and support of software development and testing.
-  """@en .
+    and support of software development and testing."""@en .
 
 <urn:comp:1049>
     a skos:Concept ;
@@ -942,8 +890,7 @@
     Kalman filtering and other software techniques to merge
     data from different sources to obtain an accurate and
     optimum navigation solution. Skill in using the output
-    navigation solution for orbit determination.
-  """@en .
+    navigation solution for orbit determination."""@en .
 
 <urn:comp:105>
     a skos:Concept ;
@@ -957,8 +904,7 @@
     to extreme operational environments and for developing
     design technology for thermal-structures applications and
     for multiscale optimization of metallic materials,
-    structures, and fabrication processes.
-  """@en .
+    structures, and fabrication processes."""@en .
 
 <urn:comp:1050>
     a skos:Concept ;
@@ -971,8 +917,7 @@
     comprising power, power conditioning, propellant storage
     and management, and thrusters. Specialty knowledge in the
     three categories of electric propulsion thruster devices:
-    electrothermal, electromagnetic and electrostatic.
-  """@en .
+    electrothermal, electromagnetic and electrostatic."""@en .
 
 <urn:comp:1052>
     a skos:Concept ;
@@ -986,8 +931,7 @@
     means such as more energetic chemical propellants,
     ultralightweight propellant storage and management
     subsytems, high temperature system operation, heat addition
-    to propellant by insolation concentration, etc.
-  """@en .
+    to propellant by insolation concentration, etc."""@en .
 
 <urn:comp:1053>
     a skos:Concept ;
@@ -1010,8 +954,7 @@
     structural design, and material selection for all
     turbomachinery components especially high speed seals and
     bearings. Also includes component test planning, test
-    integration, and data analysis.
-  """@en .
+    integration, and data analysis."""@en .
 
 <urn:comp:1054>
     a skos:Concept ;
@@ -1030,8 +973,7 @@
     fabrication, test planning, testing, and data analysis of
     combustion devices components which include, injectors,
     thrust chambers, nozzles, preburners, heat exchangers, and
-    ignition systems.
-  """@en .
+    ignition systems."""@en .
 
 <urn:comp:1055>
     a skos:Concept ;
@@ -1048,8 +990,7 @@
     pertaining to integration of valves, valve actuators,
     lines, ducts, and miscellaneous fluid components into
     flight systems, developmental systems, and ground test
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:1056>
     a skos:Concept ;
@@ -1064,8 +1005,7 @@
     management devices, zero-G liquid mass gauging, and
     incorporation of these into complete cryogenic propellant
     storage and management systems for long-duration space
-    flight.
-  """@en .
+    flight."""@en .
 
 <urn:comp:1057>
     a skos:Concept ;
@@ -1078,8 +1018,7 @@
     manuevering engines, pressurization systems, propellant
     acquisition devices and feedsystems for storable and
     cryogenic propellants in pressure-fed spacecraft auxiliary
-    propulsion systems.
-  """@en .
+    propulsion systems."""@en .
 
 <urn:comp:1058>
     a skos:Concept ;
@@ -1102,8 +1041,7 @@
     validation and for demonstrating advanced fluid design
     concepts. Requires working knoweledge of thermal and
     structural dynamisc modeling in order to properly provide
-    output of tasks to these other disciplines.
-  """@en .
+    output of tasks to these other disciplines."""@en .
 
 <urn:comp:1059>
     a skos:Concept ;
@@ -1121,8 +1059,7 @@
     analyses results are maintained in databases that are
     utilized to determine engine/engine component health,
     statistical family comparability, and flight acceptability.
-    NASA Competency Management SystemPage 46
-  """@en .
+    NASA Competency Management SystemPage 46"""@en .
 
 <urn:comp:106>
     a skos:Concept ;
@@ -1152,8 +1089,7 @@
     system layouts / designs and evaluation of their capability
     to satisfy functional and performance requirements. Agree
     with recommended change, however, move under new knowledge
-    category mechanical engineering.
-  """@en .
+    category mechanical engineering."""@en .
 
 <urn:comp:1060>
     a skos:Concept ;
@@ -1194,8 +1130,7 @@
     react to stresses, environments, and processes in order to
     select, plan, design, develop processing methods and
     produce materials with specific and exacting properties for
-    aerospace applications.
-  """@en .
+    aerospace applications."""@en .
 
 <urn:comp:1061>
     a skos:Concept ;
@@ -1224,8 +1159,7 @@
     analysis of the nature, behavior, and physical
     characteristics of non-metals and their constituents,
     including the mechanisms and effects by which materials
-    react to stresses, environments, and processes.
-  """@en .
+    react to stresses, environments, and processes."""@en .
 
 <urn:comp:1062>
     a skos:Concept ;
@@ -1265,8 +1199,7 @@
     environmental conditions and contaminants. Includes broad
     knowledge of materials disciplines, including material
     types such as ceramics, metallics, composites and polymers
-    as well as tribology or surface science.
-  """@en .
+    as well as tribology or surface science."""@en .
 
 <urn:comp:1063>
     a skos:Concept ;
@@ -1293,8 +1226,7 @@
     testing. Material and process evaluations related to space
     simulation include material and component outgas testing,
     sensitive hardware bake-out certification, and ultraviolet
-    enhanced contaminant deposition characterization.
-  """@en .
+    enhanced contaminant deposition characterization."""@en .
 
 <urn:comp:1064>
     a skos:Concept ;
@@ -1310,8 +1242,7 @@
     development of ethical thought related to biomedical
     research and medical practice, to guide the development of
     Agency policy, and provision of expert opinion on relevant
-    ethical issues to inform Agency decision-making.
-  """@en .
+    ethical issues to inform Agency decision-making."""@en .
 
 <urn:comp:1065>
     a skos:Concept ;
@@ -1328,8 +1259,7 @@
     the conduct of human subjects Institutional Review Boards
     and Institutional Animal Care and Use Committees, and
     knowledge of the implementation of such Agency Boards and
-    Committees.
-  """@en .
+    Committees."""@en .
 
 <urn:comp:1066>
     a skos:Concept ;
@@ -1345,8 +1275,7 @@
     experience to manage implement and evaluate occupational
     medicine program areas. This includes clinical case
     management, health surveillance, and emergency medical
-    response.
-  """@en .
+    response."""@en .
 
 <urn:comp:1067>
     a skos:Concept ;
@@ -1365,8 +1294,7 @@
     will have on the health of employees. Knowledge to provide
     professional symposia, workshops, and coordinate the
     development of related training programs for Agency-wide
-    application.
-  """@en .
+    application."""@en .
 
 <urn:comp:1068>
     a skos:Concept ;
@@ -1386,8 +1314,7 @@
     related issues, and the impact of new laws and regulations
     and provides advice to Agency top management. Knowledge to
     provide professional symposia, workshops, and develop
-    related training programs for Agency-wide application.
-  """@en .
+    related training programs for Agency-wide application."""@en .
 
 <urn:comp:1069>
     a skos:Concept ;
@@ -1407,8 +1334,7 @@
     stress or other traumatic events in the workplace,
     promotion of an emotionally healthy workforce, and
     assessment of regulations that potentially impact the
-    workplace.
-  """@en .
+    workplace."""@en .
 
 <urn:comp:107>
     a skos:Concept ;
@@ -1419,8 +1345,7 @@
     skos:scopeNote """Knowledge, capabilities and practices associated with
     researching and understanding icing physics analysis and
     testing, atmospheric science, and ice sensing and
-    protection methods.
-  """@en .
+    protection methods."""@en .
 
 <urn:comp:1070>
     a skos:Concept ;
@@ -1435,8 +1360,7 @@
     and injuries are the goals of medical practice. Knowledge
     and skills of physiology of mission environment,
     operational medicine, clinical practice, human systems
-    interfaces, and astronaut selection and training.
-  """@en .
+    interfaces, and astronaut selection and training."""@en .
 
 <urn:comp:1071>
     a skos:Concept ;
@@ -1451,8 +1375,7 @@
     of clinical and operational psychiatry, clinical, aviation
     or organizational psychology, psychosocial psychology,
     behavioral health maintenance, human systems interfaces and
-    astronaut selection and training.
-  """@en .
+    astronaut selection and training."""@en .
 
 <urn:comp:1072>
     a skos:Concept ;
@@ -1467,8 +1390,7 @@
     physical counter-measures designed to protect personnel
     from potential threats; prevent unauthorized access to
     equipment, facilities, material, and documents; and
-    safeguard against espionage, sabotage, damage, and theft.
-  """@en .
+    safeguard against espionage, sabotage, damage, and theft."""@en .
 
 <urn:comp:1074>
     a skos:Concept ;
@@ -1483,8 +1405,7 @@
     classified national defense information originated or
     controlled by Federal agencies in accordance with Executive
     Order 12958, April 17, 1995, \"Classified National Security
-    Information,\"
-  """@en .
+    Information,\""""@en .
 
 <urn:comp:1075>
     a skos:Concept ;
@@ -1498,8 +1419,7 @@
     classified and sensitive unclassified information
     technology systems and programs involving secure voice,
     data, video, and facsimile to include ground-to-ground,
-    space-to-space, and ground-to-space communications assets.
-  """@en .
+    space-to-space, and ground-to-space communications assets."""@en .
 
 <urn:comp:1076>
     a skos:Concept ;
@@ -1514,8 +1434,7 @@
     trustworthiness of applicants, employees, and others to
     work for the U.S. Government, on U.S. Government contracts,
     and/or will have access to classified national security
-    information and material.
-  """@en .
+    information and material."""@en .
 
 <urn:comp:1077>
     a skos:Concept ;
@@ -1540,8 +1459,7 @@
     ownership or influence; classification and clearance levels
     required for contract performance; product classification;
     and access to communication security, intelligence or
-    international organization information.
-  """@en .
+    international organization information."""@en .
 
 <urn:comp:1078>
     a skos:Concept ;
@@ -1553,8 +1471,7 @@
     assessment, planning, management, monitoring, and
     evaluation, such as IT baseline assessment, interagency
     functional analysis, contingency planning, and disaster
-    recovery.
-  """@en .
+    recovery."""@en .
 
 <urn:comp:1079>
     a skos:Concept ;
@@ -1572,8 +1489,7 @@
     Government. This could also includet heknowledge of the
     princilpes, tools, and technquies used to design, develop,
     and/or implement Knolwedge Management practices at a local
-    or enterprise level.
-  """@en .
+    or enterprise level."""@en .
 
 <urn:comp:108>
     a skos:Concept ;
@@ -1589,8 +1505,7 @@
     to the development of new systems and tools to improve the
     efficiency, effectiveness and capacity of the air traffic
     system, using advanced distributed modeling techniques to
-    research and test concepts and prototypes.
-  """@en .
+    research and test concepts and prototypes."""@en .
 
 <urn:comp:1080>
     a skos:Concept ;
@@ -1603,8 +1518,7 @@
     security, and integrity of data. This could include the
     knowledge of the principles, methods, and tools for
     automating, developing, implementing, or administering
-    database systems.
-  """@en .
+    database systems."""@en .
 
 <urn:comp:1081>
     a skos:Concept ;
@@ -1618,89 +1532,77 @@
     security of information systems and network services. May
     also include the knowledge of the principles, methods, and
     tools for evaluating information systems security features
-    against a set of specified security requirements.
-  """@en .
+    against a set of specified security requirements."""@en .
 
 <urn:comp:1082>
     a skos:Concept ;
     skos:broader <urn:comp:176> ;
     skos:changeNote """Created ??
-    Modified by ???
-  """@en ;
+    Modified by ???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Paralegal"@en ;
     skos:scopeNote """Knowledge of legal research and writing, litigation case
     management, and providing professional administrative and
     technical legal support. Possesses paralegal certificate or
-    equivalent
-  """@en .
+    equivalent"""@en .
 
 <urn:comp:1083>
     a skos:Concept ;
     skos:altLabel "INTPROPLAW"@en ;
     skos:broader <urn:comp:125> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Intellectual Property Law"@en ;
     skos:scopeNote """Speciaized knowledge of matter related to intellectual
     property, including but not limited to patents, copyrights,
     data rights, trademarks, and commercialization of
     technology. Be in good standing to practice before the
-    United States Patent and Trademark Office.
-  """@en .
+    United States Patent and Trademark Office."""@en .
 
 <urn:comp:1084>
     a skos:Concept ;
     skos:altLabel "GENERALLAW"@en ;
     skos:broader <urn:comp:125> ;
-    skos:changeNote """Modified ???
-  """@en ;
+    skos:changeNote """Modified ???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "General Law"@en ;
     skos:scopeNote """. Speciaized knowledge of matters related to civil and
     administrative law, including but not limited to fiscal and
     appropriations law, ethics, FOIA, torts, privacy issues,
     export control, immigration and foreign visitors, and
-    litigation and appeals.
-  """@en .
+    litigation and appeals."""@en .
 
 <urn:comp:1085>
     a skos:Concept ;
     skos:altLabel "CONTRCTLAW"@en ;
     skos:broader <urn:comp:125> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Contracts Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to procurement,
     including but not limited to contracts, grants, cooperative
     agreements, Space Act agreements, source selections,
     claims, protests, and litigation and appeals related to
-    procurement matters .
-  """@en .
+    procurement matters ."""@en .
 
 <urn:comp:1086>
     a skos:Concept ;
     skos:altLabel "PERSONLAW"@en ;
     skos:broader <urn:comp:125> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Personnel/EEO Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to employee and
     personnel issues, including but not limited to employee
     discipline and performance matters, MSPB, labor unions and
     collective bargaining, EEO, ADR, and litigation and appeals
-    related to employment and personnel matters.
-  """@en .
+    related to employment and personnel matters."""@en .
 
 <urn:comp:1087>
     a skos:Concept ;
     skos:altLabel "ENVLAW"@en ;
     skos:broader <urn:comp:125> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Environmental/Real Property Law"@en ;
     skos:scopeNote """Speciaized knowledge of matters related to environmental
@@ -1708,8 +1610,7 @@
     Federal environmental laws, regulations, Executive Orders,
     and administrative procedures, NEPA, permits, response or
     corrective actions, pollution prevention, and litigation
-    and appeals related to environmental matters.
-  """@en .
+    and appeals related to environmental matters."""@en .
 
 <urn:comp:1088>
     a skos:Concept ;
@@ -1727,8 +1628,7 @@
     documentation including Environmental Assessments,
     Environmental Impact Statements, Findings of No Significant
     Impact, and Records of Decision. Coordinates public
-    meetings to solicit input on major Agency actions.
-  """@en .
+    meetings to solicit input on major Agency actions."""@en .
 
 <urn:comp:1089>
     a skos:Concept ;
@@ -1749,15 +1649,13 @@
     of scientific/engineering, contractual, management, and
     informational documents, including preparation of Records
     of Decisions (RODs), administrative orders, and consent
-    decrees. Performs necessary community relations activities.
-  """@en .
+    decrees. Performs necessary community relations activities."""@en .
 
 <urn:comp:109>
     a skos:Concept ;
     skos:altLabel "AETT"@en ;
     skos:broader <urn:comp:1363> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Experimentation and Testing Technologies"@en ;
     skos:scopeNote """Knowledge of advanced experimentation and testing
@@ -1772,8 +1670,7 @@
     of current and future aerospace vehicles. Also involves
     ability to develop, manage and enhance test processes to
     optimize productivity, cycle time, data quality, cost and
-    customer satisfaction.
-  """@en .
+    customer satisfaction."""@en .
 
 <urn:comp:1090>
     a skos:Concept ;
@@ -1788,8 +1685,7 @@
     Requires understanding of energy management and
     sustainability standards for sustainable design. Also
     requires knowledge of construction contracting and
-    contractor oversight and contracts management.
-  """@en .
+    contractor oversight and contracts management."""@en .
 
 <urn:comp:1091>
     a skos:Concept ;
@@ -1804,8 +1700,7 @@
     Heating Ventalation and Air Conditioning (HVAC), piping and
     elevators. etc. Also requires knowledge of construction
     contracting and contractor oversight and contracts
-    management.
-  """@en .
+    management."""@en .
 
 <urn:comp:1092>
     a skos:Concept ;
@@ -1821,8 +1716,7 @@
     power management and distribution, communications and
     controls. Also requires knowledge of construction
     contracting and contractor oversight and contracts
-    management.
-  """@en .
+    management."""@en .
 
 <urn:comp:1093>
     a skos:Concept ;
@@ -1838,8 +1732,7 @@
     recognize factors to be considered when evaluating and
     providing government financing, conducting price analyses,
     negotiating, identifying actions to resolve protests, and
-    contract awarding.
-  """@en .
+    contract awarding."""@en .
 
 <urn:comp:1094>
     a skos:Concept ;
@@ -1855,8 +1748,7 @@
     recognize factors to be considered when evaluating and
     providing government financing, conducting price analyses,
     negotiating, identifying actions to resolve protests, and
-    contract awarding.
-  """@en .
+    contract awarding."""@en .
 
 <urn:comp:1095>
     a skos:Concept ;
@@ -1871,8 +1763,7 @@
     appropriate actions necessary to ensure customer
     satisfaction, identifying and selecting the appropriate
     course of action for resolving a contractor dispute, and
-    identifying and implementing contract close-out procedures.
-  """@en .
+    identifying and implementing contract close-out procedures."""@en .
 
 <urn:comp:1096>
     a skos:Concept ;
@@ -1882,8 +1773,7 @@
     skos:prefLabel "Construction Management"@en ;
     skos:scopeNote """Knowledge of the materials, methods, systems, and the tools
     used to construct facilities and other real property
-    infrastructure.
-  """@en .
+    infrastructure."""@en .
 
 <urn:comp:1097>
     a skos:Concept ;
@@ -1903,8 +1793,7 @@
     material value. Knowledge of facility utilization
     include space planning and tracking for institutional
     charges as well as for space management and utilization
-    reporting at the agency as well as at the federal level.
-  """@en .
+    reporting at the agency as well as at the federal level."""@en .
 
 <urn:comp:1098>
     a skos:Concept ;
@@ -1926,8 +1815,7 @@
     modification and repair, etc., to operate, sustain and
     optimize facilities and equipment. Includes the ability to
     effectively integrate these services to be consistent with
-    the strategies and program goals of the organization.
-  """@en .
+    the strategies and program goals of the organization."""@en .
 
 <urn:comp:1099>
     a skos:Concept ;
@@ -1941,8 +1829,7 @@
     research algorithms into processing code that produces
     scientific data products for the science community.
     Includes knowledge of image methods and procedures for
-    automated feature extraction from large data sets.
-  """@en .
+    automated feature extraction from large data sets."""@en .
 
 <urn:comp:11>
     a skos:Concept ;
@@ -1959,8 +1846,7 @@
     verbal direction, in order to produce a model, prototype or
     finished product. The technicians application of tools and
     apparatus, both physical and analytical, are a key element
-    of this competency.
-  """@en .
+    of this competency."""@en .
 
 <urn:comp:110>
     a skos:Concept ;
@@ -1973,8 +1859,7 @@
     in support of piloted simulators and research aircraft that
     enable experiments in Flight Dynamics,
     Guidance/Navigation/Control, Crew Systems and Aviation
-    Operations, Reliable Digital Systems and Electromagnetics.
-  """@en .
+    Operations, Reliable Digital Systems and Electromagnetics."""@en .
 
 <urn:comp:1100>
     a skos:Concept ;
@@ -1998,8 +1883,7 @@
     animation three dimensional modeling, video generation and
     other data representation techniques. Also involves
     aesthetic skills in creating renditions of data with the
-    power to communicate meaning.
-  """@en .
+    power to communicate meaning."""@en .
 
 <urn:comp:1101>
     a skos:Concept ;
@@ -2008,8 +1892,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Technical Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
-    who are classified as Technical Student Trainees.
-  """@en .
+    who are classified as Technical Student Trainees."""@en .
 
 <urn:comp:1102>
     a skos:Concept ;
@@ -2018,8 +1901,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Clerical Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
-    who are classified as Clerical Student Trainees.
-  """@en .
+    who are classified as Clerical Student Trainees."""@en .
 
 <urn:comp:1103>
     a skos:Concept ;
@@ -2029,8 +1911,7 @@
     skos:prefLabel "Professional Administrative Student Trainee"@en ;
     skos:scopeNote """This is a training and development competency for employees
     who are classified as Professional Administrative
-    Student Trainees.
-  """@en .
+    Student Trainees."""@en .
 
 <urn:comp:1104>
     a skos:Concept ;
@@ -2050,8 +1931,7 @@
     the need for risk trade studies concerning resolution of
     hazards; to formulate risk reduction strategies; and to
     timely and effectively communicate safety risk insights to
-    decision-makers.
-  """@en .
+    decision-makers."""@en .
 
 <urn:comp:1105>
     a skos:Concept ;
@@ -2068,8 +1948,7 @@
     using probabilistic and statistical analysis techniques,
     consequence assessment (evaluation of the physical
     consequences of accident scenarios), uncertainty and
-    risk-trade-off analysis, and risk communication.
-  """@en .
+    risk-trade-off analysis, and risk communication."""@en .
 
 <urn:comp:1106>
     a skos:Concept ;
@@ -2088,8 +1967,7 @@
     statistically significant time trends, patterns
     associations, outliers, and periodicities. Involves the
     capability to interpret the information provided by trends
-    and patterns in terms of their program implications.
-  """@en .
+    and patterns in terms of their program implications."""@en .
 
 <urn:comp:1107>
     a skos:Concept ;
@@ -2110,8 +1988,7 @@
     severity of the event in terms of the nearness of the event
     to a failure or accident. Involves the assessment of
     preventative or mitigative actions to determine their
-    impact on the precursor probability or consequences.
-  """@en .
+    impact on the precursor probability or consequences."""@en .
 
 <urn:comp:1108>
     a skos:Concept ;
@@ -2151,8 +2028,7 @@
     systems over all flight / ground test regimes. Includes
     knowledge of the systems engineering tools, processes, and
     procedures that are required to ensure safe and reliable
-    system development and integration.
-  """@en .
+    system development and integration."""@en .
 
 <urn:comp:1109>
     a skos:Concept ;
@@ -2189,8 +2065,7 @@
     systems over all flight / ground test regimes. Includes
     knowledge of the systems engineering tools, processes, and
     procedures that are required to ensure safe and reliable
-    engine system development and integration.
-  """@en .
+    engine system development and integration."""@en .
 
 <urn:comp:111>
     a skos:Concept ;
@@ -2208,8 +2083,7 @@
     aerospace vehicles in ground facilities and in flight.
     Inherent within this competency is also the ability to
     resolve issues arising from test articles, data systems,
-    and integrated measurement systems and their interactions.
-  """@en .
+    and integrated measurement systems and their interactions."""@en .
 
 <urn:comp:1110>
     a skos:Concept ;
@@ -2229,8 +2103,7 @@
     applications and integrate them into larger subsystems.
     Includes knowledge of control circuitry, control theory,
     experimental methods, statistical analysis and application
-    and mathematical modeling..
-  """@en .
+    and mathematical modeling.."""@en .
 
 <urn:comp:1111>
     a skos:Concept ;
@@ -2245,8 +2118,7 @@
     Kalman filtering and other software techniques to merge
     data from different sources to obtain an accurate and
     optimum navigation solution. Skill in using the output
-    navigation solution for orbit determination.
-  """@en .
+    navigation solution for orbit determination."""@en .
 
 <urn:comp:1112>
     a skos:Concept ;
@@ -2260,8 +2132,7 @@
     Agreements, inter-agency procdedures concerning
     international agreements (C-175), negotiation skills and
     general knowledge concerning all other areas of law (e.g.,
-    IP, ethics, contracts, environmental).
-  """@en .
+    IP, ethics, contracts, environmental)."""@en .
 
 <urn:comp:1113>
     a skos:Concept ;
@@ -2276,8 +2147,7 @@
     Knowledge related to intellectural property law and
     commercialization of NASA activities, in addition to
     policy, legislative drafting, negotiating and drafting
-    agreements, and providing legal advice and reviews.
-  """@en .
+    agreements, and providing legal advice and reviews."""@en .
 
 <urn:comp:1114>
     a skos:Concept ;
@@ -2289,8 +2159,7 @@
     copyrights, data rights, trademarks, and commercilization
     of technology. Must be admitted to the practice before U.S.
     Patent Office, but not necessarily liscensed to practice
-    law.
-  """@en .
+    law."""@en .
 
 <urn:comp:1115>
     a skos:Concept ;
@@ -2301,8 +2170,7 @@
     skos:scopeNote """Knowledge of classification concepts, principles, and
     practices related to structuring organizations and
     positions and determining the appropriate pay system,
-    occupational grouping, title, and pay level of positions..
-  """@en .
+    occupational grouping, title, and pay level of positions.."""@en .
 
 <urn:comp:1116>
     a skos:Concept ;
@@ -2312,8 +2180,7 @@
     skos:prefLabel "Compensation"@en ;
     skos:scopeNote """Knowledge of compensation concepts, principles, and
     practices, including pay and leave administration and
-    compensation flexibilities..
-  """@en .
+    compensation flexibilities.."""@en .
 
 <urn:comp:1117>
     a skos:Concept ;
@@ -2323,8 +2190,7 @@
     skos:prefLabel "Employee Benefits"@en ;
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to retirement, insurance, injury compensation, and other
-    employee benefits programs..
-  """@en .
+    employee benefits programs.."""@en .
 
 <urn:comp:1118>
     a skos:Concept ;
@@ -2335,8 +2201,7 @@
     skos:scopeNote """Knowledge of employee development concepts, principles, and
     practices related to planning, evaluating,and
     administering training, organizational development, and
-    career development initiatives.
-  """@en .
+    career development initiatives."""@en .
 
 <urn:comp:1119>
     a skos:Concept ;
@@ -2346,8 +2211,7 @@
     skos:prefLabel "Employee Relations"@en ;
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to employee conduct,
-    performance, and dispute resolution.
-  """@en .
+    performance, and dispute resolution."""@en .
 
 <urn:comp:112>
     a skos:Concept ;
@@ -2367,8 +2231,7 @@
     including earned value management or other measure for
     facility project controls. Also requires knowledge of
     construction contracting and contractor oversight and
-    contracts management.
-  """@en .
+    contracts management."""@en .
 
 <urn:comp:1120>
     a skos:Concept ;
@@ -2379,8 +2242,7 @@
     skos:scopeNote """Knowledge of laws, rules, regulations, case law,
     principles, and practices related to negotiating and
     administering
-    labor agreements.
-  """@en .
+    labor agreements."""@en .
 
 <urn:comp:1121>
     a skos:Concept ;
@@ -2390,8 +2252,7 @@
     skos:prefLabel "Performance Management"@en ;
     skos:scopeNote """Knowledge of performance management concepts, principles,
     and practices related to planning, monitoring,
-    rating,and rewarding employee performance.
-  """@en .
+    rating,and rewarding employee performance."""@en .
 
 <urn:comp:1122>
     a skos:Concept ;
@@ -2402,8 +2263,7 @@
     skos:scopeNote """Knowledge of HR concepts, principles,and practices related
     to identifying, attracting, and selecting individuals and
     placing them into positions to address changing
-    organizational needs.
-  """@en .
+    organizational needs."""@en .
 
 <urn:comp:1123>
     a skos:Concept ;
@@ -2414,8 +2274,7 @@
     skos:scopeNote """Knowledge of HR concepts, principles, and practices related
     to determining workload projections and current and
     future competency gaps to align human capital with
-    organizational goals.
-  """@en .
+    organizational goals."""@en .
 
 <urn:comp:1124>
     a skos:Concept ;
@@ -2447,15 +2306,13 @@
     procedures. Understanding ofAgency and federal government
     financial, budget and performance operations and processes,
     and how to apply these processes to optimize operational
-    and investment decisions.
-  """@en .
+    and investment decisions."""@en .
 
 <urn:comp:114>
     a skos:Concept ;
     skos:altLabel "PROCESSENG"@en ;
     skos:broader <urn:comp:1209> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Process Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
@@ -2472,8 +2329,7 @@
     statistical analysis methods, process improvement
     techniques, optimization algorithms, process simulation
     modeling (discrete and/or continuous), linear programming,
-    and scheduling and capacity analysis systems.
-  """@en .
+    and scheduling and capacity analysis systems."""@en .
 
 <urn:comp:115>
     a skos:Concept ;
@@ -2489,8 +2345,7 @@
     various enabling functions which may include human
     resources management, resource management, employee support
     services, documentation, procurement and financial
-    management.
-  """@en .
+    management."""@en .
 
 <urn:comp:1150>
     a skos:Concept ;
@@ -2531,8 +2386,7 @@
     Agency strategies, partner requirements and Space Act
     provisions. Ability to integrate and work with the
     appropriate elements of the agency's technical and support
-    communities.
-  """@en .
+    communities."""@en .
 
 <urn:comp:1168>
     a skos:Concept ;
@@ -2545,8 +2399,7 @@
     neutralizing acts involving espionage, intelligence
     activities, sabotage and/or terrorist activities conducted
     for or on behalf of foreign powers, organizations or
-    persons.
-  """@en .
+    persons."""@en .
 
 <urn:comp:117>
     a skos:Concept ;
@@ -2563,8 +2416,7 @@
     partnerships as well as general business knowledge for
     assessing potential partners. Includes broad understanding
     of Agency technologies and programs, as well as familiarity
-    with external entities and markets.
-  """@en .
+    with external entities and markets."""@en .
 
 <urn:comp:118>
     a skos:Concept ;
@@ -2584,8 +2436,7 @@
     and prepare standard documentation. Ability to develop and
     implement strategies to capture, record, maintain and
     allocate organizational resources rationally and
-    effectively.
-  """@en .
+    effectively."""@en .
 
 <urn:comp:1189>
     a skos:Concept ;
@@ -2613,8 +2464,7 @@
     scenarios and execute a budget plan. Requires knowledge of
     policies and practices related to Federal, Agency and
     Installation accounting, and internal business information
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:12>
     a skos:Concept ;
@@ -2631,8 +2481,7 @@
     integral/conformal antennas. Also includes engineering
     design of systems and how they will react given
     electromagnetic fields, compatibility, interference and
-    discharge.
-  """@en .
+    discharge."""@en .
 
 <urn:comp:120>
     a skos:Concept ;
@@ -2652,8 +2501,7 @@
     report adequacy, validity and compliance/non-compliance to
     requirements. Ability to communicate derived audit
     assessment and recommend, establish, modify and/or
-    implement internal controls to mitigate findings.
-  """@en .
+    implement internal controls to mitigate findings."""@en .
 
 <urn:comp:1208>
     a skos:Concept ;
@@ -2673,8 +2521,7 @@
     skos:altLabel "COSTEST"@en ;
     skos:broader <urn:comp:1150> ;
     skos:changeNote """Name changed from \"Cost Estimation Analysis\"@en and Scope Note
-    updated.
-  """@en ;
+    updated."""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cost Estimation and Analysis"@en ;
     skos:scopeNote """This competency refers to the knowledge, capabilities, and
@@ -2691,8 +2538,7 @@
     Breakdown Structure (WBS) development, data collection,
     cost estimating relationship development and documentation,
     application of cost models, and evaluation of cost realism
-    in proposals.
-  """@en .
+    in proposals."""@en .
 
 <urn:comp:122>
     a skos:Concept ;
@@ -2713,8 +2559,7 @@
     schedule, and technical requirements. Includes knowledge
     associated with system architecture, finance, budgeting,
     risk assessment, schedule, configuration management,
-    contract technical management, and project controls.
-  """@en .
+    contract technical management, and project controls."""@en .
 
 <urn:comp:123>
     a skos:Concept ;
@@ -2729,8 +2574,7 @@
     implementation in programs/projects, Risk-Based Acquisition
     Management (R-BAM) implementation for major procurements
     that require formal acquisition planning, and ongoing
-    assessment of program/project risk management activities.
-  """@en .
+    assessment of program/project risk management activities."""@en .
 
 <urn:comp:1231>
     a skos:Concept ;
@@ -2771,8 +2615,7 @@
     services and products. Ability to use contract or
     acquisition instruments and surveillance systems as
     necessary to ensure contract or acquisition requirements
-    are being met throughout the life of the contract.
-  """@en .
+    are being met throughout the life of the contract."""@en .
 
 <urn:comp:1244>
     a skos:Concept ;
@@ -2788,8 +2631,7 @@
     skos:changeNote """Introduced ???
     Modified for 6a by ???
     New child nodes added for International Law and Commercial
-    Law.
-  """@en ;
+    Law."""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1083>, <urn:comp:1084>, <urn:comp:1085>, <urn:comp:1086>, <urn:comp:1087>, <urn:comp:1112>, <urn:comp:1113> ;
     skos:prefLabel "Legal Application Practice"@en ;
@@ -2805,8 +2647,7 @@
     claims, , fiscal matters, personnel matters, environmental
     matters, FOIA, Congressional inquiries, ethics,
     intellectual property and data rights, litigation, and
-    appeals.
-  """@en .
+    appeals."""@en .
 
 <urn:comp:126>
     a skos:Concept ;
@@ -2821,8 +2662,7 @@
     processes and programs involving law enforcement,
     counter-intelligence and counter-terrorism investigations,
     and security support programs including physical,
-    information, personnel and industrial security.
-  """@en .
+    information, personnel and industrial security."""@en .
 
 <urn:comp:127>
     a skos:Concept ;
@@ -2839,8 +2679,7 @@
     or solve crime, fraud, waste and abuse and ensure efficient
     Agency operations. Involves understanding of how to
     communicate information to constituents, including Agency
-    leadership and management, employees, and Congress.
-  """@en .
+    leadership and management, employees, and Congress."""@en .
 
 <urn:comp:128>
     a skos:Concept ;
@@ -2862,8 +2701,7 @@
     processes. Includes understanding of organizational
     mission, strategy and business objectives as well as
     various rules, regulations and culture on people and their
-    work.
-  """@en .
+    work."""@en .
 
 <urn:comp:1280>
     a skos:Concept ;
@@ -2906,8 +2744,7 @@
     that are considered barriers to equal opportunity.
     Advisor/advocate role to agency officials to influence
     change and ensure compliance with relevant federal law,
-    rules and regulations.
-  """@en .
+    rules and regulations."""@en .
 
 <urn:comp:1294>
     a skos:Concept ;
@@ -2936,8 +2773,7 @@
     generation, distribution, storage and conditioning systems.
     Knowledge of thermal analysis of printed circuit boards and
     use to analyze data to optimize design of flight
-    electronics.
-  """@en .
+    electronics."""@en .
 
 <urn:comp:130>
     a skos:Concept ;
@@ -2961,8 +2797,7 @@
     health programs and practices, which are designed to
     prevent injury to personnel and loss of NASA property in
     the industrial work environment, and promote the health and
-    well being of employees.
-  """@en .
+    well being of employees."""@en .
 
 <urn:comp:131>
     a skos:Concept ;
@@ -2980,8 +2815,7 @@
     operating systems, web or database systems, network
     hardware and software, IT security and other technologies
     that pertain to the acquisition, computation, storage,
-    distribution, reporting, and management of information.
-  """@en .
+    distribution, reporting, and management of information."""@en .
 
 <urn:comp:1314>
     a skos:Concept ;
@@ -3001,8 +2835,7 @@
     non-rocket propulsion). Specialty knowledge in one or more
     categories of propellantless propulsion devices including
     solar sails, momentum exchange  electrodynamic reboost
-    tethers, aerocapture, etc.
-  """@en .
+    tethers, aerocapture, etc."""@en .
 
 <urn:comp:133>
     a skos:Concept ;
@@ -3022,8 +2855,7 @@
     requirements, Executive Orders, and directives. Implements
     proactive programs such as recycling, pollution prevention,
     affirmative procurement and energy management, and
-    remediation activities under RCRA and CERCLA requirements.
-  """@en .
+    remediation activities under RCRA and CERCLA requirements."""@en .
 
 <urn:comp:1339>
     a skos:Concept ;
@@ -3055,8 +2887,7 @@
     for, reported against and disposed of at the end of its
     useful life. Requires understanding of government
     regulations regarding property management and disposal, and
-    related contracting terminology and requirements.
-  """@en .
+    related contracting terminology and requirements."""@en .
 
 <urn:comp:1347>
     a skos:Concept ;
@@ -3090,8 +2921,7 @@
     speaking, information collection and dissemination, news
     broadcasting and writing, media relations, exhibit design,
     story development, visitor and guest programs, protocols,
-    and concessionaire management.
-  """@en .
+    and concessionaire management."""@en .
 
 <urn:comp:1359>
     a skos:Concept ;
@@ -3116,8 +2946,7 @@
     help manage NASA press releases of Congressional interest
     and identify key members and issues of importance to them.
     Broad knowledge of NASA programs and specific knowledge of
-    local center programs.
-  """@en .
+    local center programs."""@en .
 
 <urn:comp:1363>
     a skos:Concept ;
@@ -3149,8 +2978,7 @@
     programs with these needs. Includes knowledge of
     demographic and geographic dynamics that influence the
     educational effectiveness and success within the various
-    student and educator communities.
-  """@en .
+    student and educator communities."""@en .
 
 <urn:comp:1371>
     a skos:Concept ;
@@ -3186,8 +3014,7 @@
     develop design concepts for potential nuclear propulsion
     systems, evaluating proposed designs and doing tradeoffs to
     determine which concepts can be incorporated into future
-    space missions.
-  """@en .
+    space missions."""@en .
 
 <urn:comp:1381>
     a skos:Concept ;
@@ -3218,8 +3045,7 @@
     practices, languages, management, planning, standards,
     procedures, and recommended processes. Assures that process
     and product standards are appropriate, implemented
-    correctly, followed, and improved.
-  """@en .
+    correctly, followed, and improved."""@en .
 
 <urn:comp:1393>
     a skos:Concept ;
@@ -3250,8 +3076,7 @@
     skos:scopeNote """Knowledge and practices associated in conducting research
     and development of electron device technology for
     communications component and systems such as microwave
-    devices, MEMS and MMICs.
-  """@en .
+    devices, MEMS and MMICs."""@en .
 
 <urn:comp:140>
     a skos:Concept ;
@@ -3276,8 +3101,7 @@
     assignment, prioritization and monitoring of work. Align
     work unit performance objectives with organizational
     objectives and removes obstacles and barriers to
-    organizational and programmatic performance.
-  """@en .
+    organizational and programmatic performance."""@en .
 
 <urn:comp:1406>
     a skos:Concept ;
@@ -3310,8 +3134,7 @@
     a skos:Concept ;
     skos:altLabel "FIREPROT"@en ;
     skos:broader <urn:comp:1159> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Fire Protection Engineering"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated fire
@@ -3326,8 +3149,7 @@
     assess complex technical documents for their impact on fire
     prevention work. Maintain a comprehensive knowledge of Life
     Safety Systems. Capability to provide mitigation strategies
-    for fire protection when requirements cannot be met..
-  """@en .
+    for fire protection when requirements cannot be met.."""@en .
 
 <urn:comp:1430>
     a skos:Concept ;
@@ -3349,8 +3171,7 @@
     procedures that ensure compliance with federal law. The
     primary focus of export control it to ensure compliance
     through programs, education of the workforce, and
-    addressing unique situations in the aerospace environment.
-  """@en .
+    addressing unique situations in the aerospace environment."""@en .
 
 <urn:comp:147>
     a skos:Concept ;
@@ -3367,8 +3188,7 @@
     Program/Project manager to achieve the appropriate balance
     between resources, schedule, and technical objectives.
     Includes knowledge associated with finance, budgeting,
-    schedule, configuration management, and project controls.
-  """@en .
+    schedule, configuration management, and project controls."""@en .
 
 <urn:comp:149>
     a skos:Concept ;
@@ -3381,8 +3201,7 @@
     aspects of mishap investigation including preserving,
     collecting, and impounding evidence, interviewing,
     conducting analyses, drawing collusions, generating
-    recommendations, and writing NASA mishap reports.
-  """@en .
+    recommendations, and writing NASA mishap reports."""@en .
 
 <urn:comp:15>
     a skos:Concept ;
@@ -3397,15 +3216,13 @@
     shutters, scanning, and focusing mechanisms. Has capability
     to perform the complete engineering lifecycle on systems
     for the drive, sensing, and control of precision flight
-    instruments, and spacecraft subsystems.
-  """@en .
+    instruments, and spacecraft subsystems."""@en .
 
 <urn:comp:150>
     a skos:Concept ;
     skos:altLabel "WORKSAFETY"@en ;
     skos:broader <urn:comp:1159> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Workplace Safety"@en ;
     skos:scopeNote """Knowledge, capabilities, and practice associated with NASA,
@@ -3432,8 +3249,7 @@
     agency. At the National Level assures interagency
     coordination with all concerned departments and agencies
     concerned with safety and health policy development,
-    program execution and evaluation.
-  """@en .
+    program execution and evaluation."""@en .
 
 <urn:comp:151>
     a skos:Concept ;
@@ -3484,8 +3300,7 @@
     agency in determining levels of coordination with
     intergovernmental departments, state and local agencies;
     evaluate agency exercise design criteria for emergency
-    response; conduct risk assessments.
-  """@en .
+    response; conduct risk assessments."""@en .
 
 <urn:comp:152>
     a skos:Concept ;
@@ -3505,8 +3320,7 @@
     standards, codes and regulations. Effectively integrate
     these aircraft services to be consistent with the broader
     objectives, strategies, and program goals of the
-    organization.
-  """@en .
+    organization."""@en .
 
 <urn:comp:153>
     a skos:Concept ;
@@ -3519,8 +3333,7 @@
     managing of complex engineering work. This includes special
     knowledge in field of expertise, technical resources
     management to meet mission specific technical milestones,
-    and processes associated with mitigating or accepting risk.
-  """@en .
+    and processes associated with mitigating or accepting risk."""@en .
 
 <urn:comp:154>
     a skos:Concept ;
@@ -3543,8 +3356,7 @@
     Knowledge of NASA Program/Project management processes and
     the ability to plan, conduct, and evaluate the evolving
     baselines for NASA Programs/Projects in accordance with the
-    NASA configuration management requirements and standards.
-  """@en .
+    NASA configuration management requirements and standards."""@en .
 
 <urn:comp:155>
     a skos:Concept ;
@@ -3561,8 +3373,7 @@
     Involves the ability to perform analyses to define the
     environments, quantify their effect on spacecraft design,
     development and operations and perform trade-off studies to
-    optimize performance and assess risk.
-  """@en .
+    optimize performance and assess risk."""@en .
 
 <urn:comp:156>
     a skos:Concept ;
@@ -3579,8 +3390,7 @@
     mechanisms for the use of human and animal subjects in
     research. The ability to apply the knowledge of ethical
     theory and thought to guide Agency biomedical research and
-    clinical medical policy development and decision-making.
-  """@en .
+    clinical medical policy development and decision-making."""@en .
 
 <urn:comp:157>
     a skos:Concept ;
@@ -3597,8 +3407,7 @@
     signing ceremonies, meetings between heads of agencies and
     NASA, exchange of gifts, liaison with Department of State
     and other U.S. Agencies and Departments. This may involve
-    both reimbursable and non-reimbursable agreements.
-  """@en .
+    both reimbursable and non-reimbursable agreements."""@en .
 
 <urn:comp:158>
     a skos:Concept ;
@@ -3621,8 +3430,7 @@
     through teamwork and innovation, and to build an
     organizational climate in which employees respect,
     appreciate, and value individual differences as catalysts
-    for creativity and productivity..
-  """@en .
+    for creativity and productivity.."""@en .
 
 <urn:comp:159>
     a skos:Concept ;
@@ -3647,8 +3455,7 @@
     effects, multipath, scattering, Electromagnetic
     Interference, Compatibility and Effects (EMI/EMC/EME),
     modulation techniques, spectrum analysis, and non-ionizing
-    radiation safety.`
-  """@en .
+    radiation safety.`"""@en .
 
 <urn:comp:16>
     a skos:Concept ;
@@ -3660,8 +3467,7 @@
     research, design, development, test, evaluation,
     application and manufacture of MEMS technologies, including
     microfabrication, microsystem design and integration,
-    modeling, and packaging.
-  """@en .
+    modeling, and packaging."""@en .
 
 <urn:comp:160>
     a skos:Concept ;
@@ -3686,8 +3492,7 @@
     purpose, application to contracts, use in auditing and
     surveillance, implementation in management and quality
     systems, and the impact of deficiencies, such as,
-    out-of-tolerance TME.
-  """@en .
+    out-of-tolerance TME."""@en .
 
 <urn:comp:161>
     a skos:Concept ;
@@ -3699,8 +3504,7 @@
     skos:scopeNote """Knowledge of the principles, procedures, and tools of data
     management, such as modeling techniques, data backup, data
     recovery, data dictionaries, data warehousing, data mining,
-    data disposal, and data standardization processes.
-  """@en .
+    data disposal, and data standardization processes."""@en .
 
 <urn:comp:162>
     a skos:Concept ;
@@ -3724,8 +3528,7 @@
     interfaces and components down to the piece part level on
     both a continual and iterative basis; generation of data
     inputs to the Logistics Management Information (LMI)
-    database.
-  """@en .
+    database."""@en .
 
 <urn:comp:163>
     a skos:Concept ;
@@ -3747,8 +3550,7 @@
     Climate, Atmospheric Chemistry and Dynamics,
     Atmosphere-Surface Interactions, CelestialMechanics,
     Solar-Planetary Relationships, Planetary Magnetic Fields
-    and Magnetospheres.
-  """@en .
+    and Magnetospheres."""@en .
 
 <urn:comp:164>
     a skos:Concept ;
@@ -3767,8 +3569,7 @@
     capability includes the ability to estimate the uncertainty
     of future climate predictions, to support impact
     assessments, and to develop new climate observational and
-    modeling requirements, methods, and capabilities.
-  """@en .
+    modeling requirements, methods, and capabilities."""@en .
 
 <urn:comp:165>
     a skos:Concept ;
@@ -3783,8 +3584,7 @@
     knowledge of policies, procedures and tools to implement
     operations within a business environment such as scheduling
     of meetings, office communication and document generation
-    with the organization.
-  """@en .
+    with the organization."""@en .
 
 <urn:comp:166>
     a skos:Concept ;
@@ -3806,8 +3606,7 @@
     terestrial, extratrestrial and planetary study as well as
     other areas of imaging. This competency supports
     exploration, research and operations from basic scientific
-    knowledge through flight safety.
-  """@en .
+    knowledge through flight safety."""@en .
 
 <urn:comp:167>
     a skos:Concept ;
@@ -3827,8 +3626,7 @@
     requirements. Specialized knowledge of transportation
     modeling as well as broad aspects of community interface
     for emergency services and other requirements of large
-    complex industrial installations.
-  """@en .
+    complex industrial installations."""@en .
 
 <urn:comp:168>
     a skos:Concept ;
@@ -3857,8 +3655,7 @@
     including earned value management or other measure for
     project controls. Includes abilities to devise and
     implement policies and procedures regarding risk/hazard
-    mitigation and safety assurance.
-  """@en .
+    mitigation and safety assurance."""@en .
 
 <urn:comp:169>
     a skos:Concept ;
@@ -3878,8 +3675,7 @@
     communications, inspection, compliance, and health and
     safety. Utilizes a wide variety of resources and tools to
     develop, maintain, monitor, enforce and provide oversight
-    of NASA management requirements.
-  """@en .
+    of NASA management requirements."""@en .
 
 <urn:comp:17>
     a skos:Concept ;
@@ -3900,8 +3696,7 @@
     techniques, materials, mechanical and materials standards,
     parametric computer aided design, mechanisms design, basic
     structural analysis, and knowledge of the state of best
-    practice for complex mechanical systems.
-  """@en .
+    practice for complex mechanical systems."""@en .
 
 <urn:comp:170>
     a skos:Concept ;
@@ -3928,8 +3723,7 @@
     Strategic Plan, Mission Directorate Roadmaps, Presidents
     Management Agenda, Space Act, and GPRA. Ability to assess
     impact of work performance on NASAs relationships with
-    external customers and stakeholders.
-  """@en .
+    external customers and stakeholders."""@en .
 
 <urn:comp:171>
     a skos:Concept ;
@@ -3944,8 +3738,7 @@
     supervisor or lead to have the following competencies:
     Technical Management
     Employee & Team Leadership
-    Work Performance Leadership
-  """@en .
+    Work Performance Leadership"""@en .
 
 <urn:comp:172>
     a skos:Concept ;
@@ -3961,8 +3754,7 @@
     following competencies:
     Any business management related competency
     Employee & Team Leadership
-    Work Performance Leadership
-  """@en .
+    Work Performance Leadership"""@en .
 
 <urn:comp:173>
     a skos:Concept ;
@@ -3977,8 +3769,7 @@
     supervisor or lead to have the following competencies:
     Project Management
     Employee & Team Leadership
-    Work Performance Leadership
-  """@en .
+    Work Performance Leadership"""@en .
 
 <urn:comp:174>
     a skos:Concept ;
@@ -3993,8 +3784,7 @@
     workforce planning process so tat students will be
     correctly identified and planned for during the workforce
     competency needs assesmement. Reference the Business Rules
-    section in this document for further clarification.
-  """@en .
+    section in this document for further clarification."""@en .
 
 <urn:comp:175>
     a skos:Concept ;
@@ -4031,8 +3821,7 @@
     and video distribution; high performance computer network;
     and special purpose software for real-time math modeling,
     graphics generation, system interfaces, communications, and
-    networking.
-  """@en .
+    networking."""@en .
 
 <urn:comp:176>
     a skos:Concept ;
@@ -4043,8 +3832,7 @@
     skos:prefLabel "Legal Assistance"@en ;
     skos:scopeNote """Other knowledge of legal research and writing, litigation
     case management, and providing professional administrative
-    and technical legal support, not otherwise categorized.
-  """@en .
+    and technical legal support, not otherwise categorized."""@en .
 
 <urn:comp:18>
     a skos:Concept ;
@@ -4060,8 +3848,7 @@
     materials and systems. Includes knowledge of fluid and
     mechanics, thermodynamics, materials, chemistry and
     physics, structures, mechanical drawings, manufacturing
-    processes and explosive material properties.
-  """@en .
+    processes and explosive material properties."""@en .
 
 <urn:comp:19>
     a skos:Concept ;
@@ -4081,15 +3868,13 @@
     Assumes broad understanding of IT, electronics and
     communications disciplines and an ability to integrate the
     pieces together to optimize the design, integration and
-    test of flight and ground hardware and software
-  """@en .
+    test of flight and ground hardware and software"""@en .
 
 <urn:comp:2>
     a skos:Concept ;
     skos:altLabel "FLTDSG"@en ;
     skos:broader <urn:comp:1231> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mission Flight Design"@en ;
     skos:scopeNote """Knowledge and ability to conduct computational analysis of
@@ -4104,15 +3889,13 @@
     exchange as well as optimization tools which take into
     account environmental and design constraints. Involves
     analysis of flight dispersion variables and navigation
-    predict generation.
-  """@en .
+    predict generation."""@en .
 
 <urn:comp:20>
     a skos:Concept ;
     skos:altLabel "SENSORDATA"@en ;
     skos:broader <urn:comp:1339> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Sensors & Data Acquisition"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with
@@ -4124,8 +3907,7 @@
     acquisition and data processing characteristics and
     properties, and system unique requirements for the safe and
     effective implementation of sensors and data acquisition
-    usage in aerospace and space systems.
-  """@en .
+    usage in aerospace and space systems."""@en .
 
 <urn:comp:21>
     a skos:Concept ;
@@ -4140,8 +3922,7 @@
     vehicle health monitoring. Includes knowledge of design and
     development of computational hardware and software networks
     and interfaces, electrical integration, power distribution
-    and electrical systems engineering.
-  """@en .
+    and electrical systems engineering."""@en .
 
 <urn:comp:22>
     a skos:Concept ;
@@ -4162,8 +3943,7 @@
     vehicles in the atmosphere and space. Includes knowledge of
     sensors and avionics, flight dynamics, mathematical
     modeling, experimental methods and a broad array of
-    engineering disciplines.
-  """@en .
+    engineering disciplines."""@en .
 
 <urn:comp:23>
     a skos:Concept ;
@@ -4180,8 +3960,7 @@
     Involves the ability to perform analyses to define the
     environments, quantify their effect on vehicle design,
     development and operations and perform trade-off studies to
-    optimize performance and assess risk.
-  """@en .
+    optimize performance and assess risk."""@en .
 
 <urn:comp:24>
     a skos:Concept ;
@@ -4196,8 +3975,7 @@
     develop manufacturing processes, plan and manage hardware
     fabrication and assembly, develop and maintain
     manufacturing project schedules, and resolve manufacturing
-    related problems.
-  """@en .
+    related problems."""@en .
 
 <urn:comp:25>
     a skos:Concept ;
@@ -4216,8 +3994,7 @@
     and physical chemistry and their application to a wide
     variety of research, development, failure analysis, and
     operational systems or topics and/or principles and
-    practices of chemical engineering.
-  """@en .
+    practices of chemical engineering."""@en .
 
 <urn:comp:26>
     a skos:Concept ;
@@ -4233,15 +4010,13 @@
     for the safe and effective usage of cryogenic fluids for
     research, development, design, analysis, test, operation
     and/or evaluation of cryogenic fluids storage and transfer
-    systems for both fuels and oxidizers.
-  """@en .
+    systems for both fuels and oxidizers."""@en .
 
 <urn:comp:27>
     a skos:Concept ;
     skos:altLabel "SAFENG"@en ;
     skos:broader <urn:comp:1381> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:narrower <urn:comp:1104>, <urn:comp:1105>, <urn:comp:1106>, <urn:comp:1107> ;
     skos:prefLabel "Safety Engineering and Assurance"@en ;
@@ -4261,8 +4036,7 @@
     and achieve an acceptable level of risk, within the
     constraints of operational effectiveness and suitability,
     time, and cost throughout all phases of the system
-    (mission) life cycle.
-  """@en .
+    (mission) life cycle."""@en .
 
 <urn:comp:28>
     a skos:Concept ;
@@ -4299,15 +4073,13 @@
     Assurance, Human Factors, Software Assurance, Acquisition
     and Contract Management, and Logistics. Also includes
     availability which can combine the elements of reliability
-    and maintainability in a single parameter.\"
-  """@en .
+    and maintainability in a single parameter.\""""@en .
 
 <urn:comp:29>
     a skos:Concept ;
     skos:altLabel "QEA"@en ;
     skos:broader <urn:comp:1381> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Quality Engineering & Assurance"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
@@ -4342,8 +4114,7 @@
     quality tools, techniques, technology, practices, policy,
     procedures, and training. Ability to perform quality data
     analysis and trending, to determine deficiency root
-    cause(s), and to implement effective preventive measures.
-  """@en .
+    cause(s), and to implement effective preventive measures."""@en .
 
 <urn:comp:3>
     a skos:Concept ;
@@ -4357,8 +4128,7 @@
     missions. Identify training objectives, design training
     plans, tools, curricula and simulations using advanced
     techniques. Involves knowledge of instruction providers and
-    tools, and how to employ and assess these resources.
-  """@en .
+    tools, and how to employ and assess these resources."""@en .
 
 <urn:comp:30>
     a skos:Concept ;
@@ -4375,16 +4145,14 @@
     product design requirements, testing validation, critical
     inspections, facility evaluations, flight safety analysis,
     development of recommendations, and tracking corrective
-    actions.
-  """@en .
+    actions."""@en .
 
 <urn:comp:31>
     a skos:Concept ;
     skos:altLabel "CELLBIO"@en ;
     skos:broader <urn:comp:1430> ;
     skos:changeNote """Changed \"and\"@en in term label to \"&\". Added \"and development
-    of biosentinals\"@en to end of scope note.
-  """@en ;
+    of biosentinals\"@en to end of scope note."""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Cell & Molecular Biology"@en ;
     skos:scopeNote """Knowledge of and ability to conduct research on basic
@@ -4397,8 +4165,7 @@
     and across organisms under a variety of environmental
     conditions, such as the physiological changes seen in whole
     animals in response to the space environment, and
-    development of biosentinels.
-  """@en .
+    development of biosentinels."""@en .
 
 <urn:comp:32>
     a skos:Concept ;
@@ -4409,8 +4176,7 @@
     skos:scopeNote """Knowledge of and ability to conduct research on the
     processes of development, differentiation, and growth in
     animals and plants at the molecular, cellular, and genetic
-    levels.
-  """@en .
+    levels."""@en .
 
 <urn:comp:34>
     a skos:Concept ;
@@ -4433,8 +4199,7 @@
     operational and clinical research to develop, and validate
     countermeasures that will ensure the health, safety and
     performance of flight crews involved during launches,
-    landings, and while in space.
-  """@en .
+    landings, and while in space."""@en .
 
 <urn:comp:35>
     a skos:Concept ;
@@ -4449,8 +4214,7 @@
     broad array of engineering disciplines, and biomedical
     research, human factors and space medicine findings and
     practices. Includes knowledge of operational impacts and
-    sustaining engineering on the systems.
-  """@en .
+    sustaining engineering on the systems."""@en .
 
 <urn:comp:36>
     a skos:Concept ;
@@ -4465,8 +4229,7 @@
     families, and associated personnel during all mission
     phases (pre-flight, in-flight and post-flight) in the
     diverse environments of atmospheric and space flight
-    missions.
-  """@en .
+    missions."""@en .
 
 <urn:comp:37>
     a skos:Concept ;
@@ -4487,8 +4250,7 @@
     ecology to development of advanced, regenerative life
     support such as air and water recycling, solid waste
     resource recovery, food sources and thermal environmental
-    control.
-  """@en .
+    control."""@en .
 
 <urn:comp:38>
     a skos:Concept ;
@@ -4503,16 +4265,14 @@
     in designing and developing spacesuits, tools, mechanisms,
     and operations that support such an activity. Includes
     knowledge of operational impacts and sustaining engineering
-    on the system.
-  """@en .
+    on the system."""@en .
 
 <urn:comp:39>
     a skos:Concept ;
     skos:altLabel "ENVFACT"@en ;
     skos:broader <urn:comp:1244> ;
     skos:changeNote """Name changed from \"Habitability and Environmenal Factors\".
-    Scope note modified to remove mentions of \"habitability\".
-  """@en ;
+    Scope note modified to remove mentions of \"habitability\"."""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Environmental Factors"@en ;
     skos:scopeNote """Knowledge of practices associated with research of and
@@ -4525,8 +4285,7 @@
     mechanics, and chemical, biological, and metabolic
     processes. Ability to integrate and apply this
     understanding to develop systems and technology to enable
-    humans to live and work safely and effectively in space.
-  """@en .
+    humans to live and work safely and effectively in space."""@en .
 
 <urn:comp:4>
     a skos:Concept ;
@@ -4543,8 +4302,7 @@
     operations and EVA operations according to mission
     objectives including the technical activities and real-time
     decision -making and problem resolution during mission
-    critical operations.
-  """@en .
+    critical operations."""@en .
 
 <urn:comp:40>
     a skos:Concept ;
@@ -4573,8 +4331,7 @@
     and guidelines which could be used toward designing
     technology for human performance in complex aerospace
     operational environments to reduce errors and increase
-    productivity.
-  """@en .
+    productivity."""@en .
 
 <urn:comp:41>
     a skos:Concept ;
@@ -4602,8 +4359,7 @@
     guidelines, develop system concepts, designs, and
     prototypes; evaluate human-centered technologies, and
     develop training curricula for application to processes and
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:42>
     a skos:Concept ;
@@ -4621,8 +4377,7 @@
     conduct microgravitational research designed to answer
     basic questions about the nature and structure of the
     universe and its chemical, biological and geophysical
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:43>
     a skos:Concept ;
@@ -4635,8 +4390,7 @@
     of industrial and natural processes. Areas of research
     include microgravitational study of complex fluids,
     multiphase and phase change, fluid dynamics and
-    instabilities, and interfacial phenomena.
-  """@en .
+    instabilities, and interfacial phenomena."""@en .
 
 <urn:comp:44>
     a skos:Concept ;
@@ -4656,8 +4410,7 @@
     the development of atmospheric instrument and sensor
     development. Includes subspecialty knowledge in areas such
     as Radiation and Climate, Stratospheric & Tropospheric
-    Chemistry.
-  """@en .
+    Chemistry."""@en .
 
 <urn:comp:45>
     a skos:Concept ;
@@ -4671,8 +4424,7 @@
     physics, chemistry, and biology to the problems of the
     atmosphere, the oceans, the solid earth, and the evolution
     of the planet. Involves ability to conduct far-reaching
-    studies of the origin of the earth and solar system.
-  """@en .
+    studies of the origin of the earth and solar system."""@en .
 
 <urn:comp:46>
     a skos:Concept ;
@@ -4691,8 +4443,7 @@
     for biological productivity, explain the role of the
     biosphere in Earth system function, and promote proactive
     ecological stewardship. Ability to understand, study and
-    properly document changes in land cover and land use.
-  """@en .
+    properly document changes in land cover and land use."""@en .
 
 <urn:comp:47>
     a skos:Concept ;
@@ -4709,8 +4460,7 @@
     seas, and application of findings to predict rates and
     amounts of runoff in rivers, assess required spillway and
     reservoir capacities, determine soil-water-plant
-    relationships in agriculture and manage water supplies.
-  """@en .
+    relationships in agriculture and manage water supplies."""@en .
 
 <urn:comp:48>
     a skos:Concept ;
@@ -4727,8 +4477,7 @@
     describe and predict ocean processes. Includes ability to
     translate data into information useful in the understanding
     and interpretation of the oceans themselves and their
-    connection to other earth systems.
-  """@en .
+    connection to other earth systems."""@en .
 
 <urn:comp:49>
     a skos:Concept ;
@@ -4742,8 +4491,7 @@
     Earth and the longevity of the planet. Apply research to
     such subjects as resource and disaster management,
     environmental assessment, human health and safety, food and
-    fiber, infrastructure planning, and environmental quality.
-  """@en .
+    fiber, infrastructure planning, and environmental quality."""@en .
 
 <urn:comp:5>
     a skos:Concept ;
@@ -4761,8 +4509,7 @@
     payloads into vehicles and determine requirements and
     predict operating impacts between payloads and vehicles.
     Ability to test and process payloads, and integrate them
-    successfully on-board the vehicle.
-  """@en .
+    successfully on-board the vehicle."""@en .
 
 <urn:comp:50>
     a skos:Concept ;
@@ -4774,8 +4521,7 @@
     scientific findings into integrated representations of
     atmosphere, ocean, ice land and biosphere systems, with the
     ability to predict future system trends and evolution of
-    chemical and biological components.
-  """@en .
+    chemical and biological components."""@en .
 
 <urn:comp:51>
     a skos:Concept ;
@@ -4797,8 +4543,7 @@
     its magnetic activity, characteristics, composition and
     influence on the Earth and other planetary bodies, as well
     as space plasma physics, focused on near-Earth environments
-    such as the magnetosphere and its properties.
-  """@en .
+    such as the magnetosphere and its properties."""@en .
 
 <urn:comp:52>
     a skos:Concept ;
@@ -4824,8 +4569,7 @@
     Astronomy and Cosmic Ray Astrophysics, in which
     electromagnetic waves, x-ray emissions and cosmic ray
     particles provide data for examining the content,
-    structure, origin and evolution of space elements.
-  """@en .
+    structure, origin and evolution of space elements."""@en .
 
 <urn:comp:53>
     a skos:Concept ;
@@ -4839,8 +4583,7 @@
     comets, meteoroids, and other objects, media, and particles
     in the solar system, in order to determine their
     composition and properties in such areas as atmospheres,
-    magnetospheres, lithospheres, cryospheres, and interiors.
-  """@en .
+    magnetospheres, lithospheres, cryospheres, and interiors."""@en .
 
 <urn:comp:54>
     a skos:Concept ;
@@ -4855,8 +4598,7 @@
     bodies and media, including the Earth and its atmosphere,
     and to determine how and where life arose and evolved on
     Earth and elsewhere, with due regard to environmental
-    conditions and limits.
-  """@en .
+    conditions and limits."""@en .
 
 <urn:comp:55>
     a skos:Concept ;
@@ -4869,8 +4611,7 @@
     planets, and developing and using appropriate processes for
     handling and curating them. Includes knowledge and skill in
     processing the materials to protect Earth system from
-    contamination.
-  """@en .
+    contamination."""@en .
 
 <urn:comp:56>
     a skos:Concept ;
@@ -4881,8 +4622,7 @@
     skos:scopeNote """Knowledge, capability and practices to study and research
     extremely small materials is such areas as their structure,
     shape how they act, and how their properties change as
-    their size changes.
-  """@en .
+    their size changes."""@en .
 
 <urn:comp:57>
     a skos:Concept ;
@@ -4897,8 +4637,7 @@
     structures, storage capabilities and computer systems.
     Includes an understanding of how to apply nanoscience
     findings, and a broad knowledge of other research and
-    engineering disciplines.
-  """@en .
+    engineering disciplines."""@en .
 
 <urn:comp:58>
     a skos:Concept ;
@@ -4908,8 +4647,7 @@
     skos:prefLabel "Bioengineering"@en ;
     skos:scopeNote """Application of technologies to living systems including
     such areas as biomechanics, imaging, biomedical
-    transducers, biofluids and sensors.
-  """@en .
+    transducers, biofluids and sensors."""@en .
 
 <urn:comp:59>
     a skos:Concept ;
@@ -4923,8 +4661,7 @@
     biological systems such as environmental heat sensors,
     retinal or iris scans or face recognition technology. Also
     includes capabilities in the area of neural electric
-    machine control.
-  """@en .
+    machine control."""@en .
 
 <urn:comp:6>
     a skos:Concept ;
@@ -4949,8 +4686,7 @@
     understanding the impact of meteorological variables on
     Range operations and systems; and knowledge of the
     application of weather data and technologies to the design
-    of operational systems and procedures.
-  """@en .
+    of operational systems and procedures."""@en .
 
 <urn:comp:60>
     a skos:Concept ;
@@ -4970,8 +4706,7 @@
     involve ability to make effective, efficient, and prudent
     use of the radio spectrum in the best interest of the
     Nation, with care to conserve it for uses where other means
-    of communication are not available or feasible.
-  """@en .
+    of communication are not available or feasible."""@en .
 
 <urn:comp:61>
     a skos:Concept ;
@@ -4987,15 +4722,13 @@
     develop high fidelity integrated mechanical
     three-dimensional models to simulate system behavior and to
     provide a more thorough understanding of interactions
-    between structures and the motion of mechanisms.
-  """@en .
+    between structures and the motion of mechanisms."""@en .
 
 <urn:comp:62>
     a skos:Concept ;
     skos:altLabel "MECHDUR"@en ;
     skos:broader <urn:comp:1347> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Mechanics and Durability"@en ;
     skos:scopeNote """Knowledge, capability and practices associated with using
@@ -5014,8 +4747,7 @@
     involves the planning and development of structural tests
     including measurement, instrument and test systems to
     assess structural characteristics and validate mathematical
-    models.
-  """@en .
+    models."""@en .
 
 <urn:comp:63>
     a skos:Concept ;
@@ -5039,8 +4771,7 @@
     structural life prediction. Also involves research into
     measurement, instrument and test systems to assess
     structural characteristics and risks, and ensure system
-    integration.
-  """@en .
+    integration."""@en .
 
 <urn:comp:64>
     a skos:Concept ;
@@ -5060,8 +4791,7 @@
     developing multi-sensory, visually immersive simulation and
     design methodologies for enhanced understanding and
     collaboration. Involves in-depth understanding of
-    mathematics and computer science.
-  """@en .
+    mathematics and computer science."""@en .
 
 <urn:comp:65>
     a skos:Concept ;
@@ -5085,8 +4815,7 @@
     these materials to further understanding of how they can be
     combined or treated to improve the quality and reliability
     of systems, control defects and prevent contamination of
-    operating systems or components.
-  """@en .
+    operating systems or components."""@en .
 
 <urn:comp:66>
     a skos:Concept ;
@@ -5104,8 +4833,7 @@
     response to environmental conditions and contaminants.
     Includes broad knowledge of materials disciplines,
     including material types such as ceramics, metallics, and
-    polymers as well as tribology or surface science.
-  """@en .
+    polymers as well as tribology or surface science."""@en .
 
 <urn:comp:67>
     a skos:Concept ;
@@ -5123,8 +4851,7 @@
     monitoring, control, and self-repair of aerospace systems,
     and for developing techniques and concepts for
     nondestructive flaw detection, manufacturing process
-    control sensing, and instrument system miniaturization.
-  """@en .
+    control sensing, and instrument system miniaturization."""@en .
 
 <urn:comp:68>
     a skos:Concept ;
@@ -5145,8 +4872,7 @@
     distributed instrumentation for acquiring improved
     information in a hostile engine environment. Experience in
     advanced methods for safe and affordable rocket propellant
-    aeropropulsion systems testing.
-  """@en .
+    aeropropulsion systems testing."""@en .
 
 <urn:comp:69>
     a skos:Concept ;
@@ -5163,8 +4889,7 @@
     various materials, and reliable design tools for
     aerodynamic and propulsion system design and performance
     prediction, as well as application of combined cycle
-    systems to advanced propulsion techniques.
-  """@en .
+    systems to advanced propulsion techniques."""@en .
 
 <urn:comp:7>
     a skos:Concept ;
@@ -5195,8 +4920,7 @@
     a detailed understanding of how the pieces fit together.
     Thorough knowledge of the NASA process of reviews, audits,
     and control gates to ensure all technical and programmatic
-    requirements are being met in an organized fashion.
-  """@en .
+    requirements are being met in an organized fashion."""@en .
 
 <urn:comp:70>
     a skos:Concept ;
@@ -5212,8 +4936,7 @@
     of experimental and computational investigations to derive
     engine performance. Inherent within this competency is also
     the ability to design and develop engine components (inlet,
-    combustor, and nozzle) and their interaction.
-  """@en .
+    combustor, and nozzle) and their interaction."""@en .
 
 <urn:comp:71>
     a skos:Concept ;
@@ -5227,8 +4950,7 @@
     system safety, and system unique requirements for the safe
     and effective test, implementation, and operation of
     hypergolic systems for research, development, design,
-    analysis, testing and/or evaluation.
-  """@en .
+    analysis, testing and/or evaluation."""@en .
 
 <urn:comp:72>
     a skos:Concept ;
@@ -5244,8 +4966,7 @@
     specific technologies such as nuclear propulsion, high
     powered electrical, solar voltaic, fuel cells, solar
     dynamic, and propellantless propulsion such as
-    electrodynamic tethers and beamed energy.
-  """@en .
+    electrodynamic tethers and beamed energy."""@en .
 
 <urn:comp:73>
     a skos:Concept ;
@@ -5262,8 +4983,7 @@
     thrust chambers, turbopump assemblies, valves, propellant
     ducts, and auxiliary propulsion systems, as well as
     application of combined cycle systems to advanced
-    propulsion techniques.
-  """@en .
+    propulsion techniques."""@en .
 
 <urn:comp:74>
     a skos:Concept ;
@@ -5277,8 +4997,7 @@
     transfer, combustion and fluid flow processes by which
     chemical energy is converted to propulsive power. Utilizes
     ground based or microgravity experiments to increase basic
-    knowledge of combustion processes
-  """@en .
+    knowledge of combustion processes"""@en .
 
 <urn:comp:75>
     a skos:Concept ;
@@ -5295,8 +5014,7 @@
     all elements into networked systems tailored to their
     specific environments. Also includes development, test and
     evaluation of the impact of environments and material on
-    power systems.
-  """@en .
+    power systems."""@en .
 
 <urn:comp:76>
     a skos:Concept ;
@@ -5307,8 +5025,7 @@
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test, and evaluation of battery,
     flywheel, fuel cell, membrane technology and other
-    electrical power storage components and systems.
-  """@en .
+    electrical power storage components and systems."""@en .
 
 <urn:comp:77>
     a skos:Concept ;
@@ -5319,8 +5036,7 @@
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
     design, development, test and evaluation of photovoltaic
     power generation systems, including electric actuation and
-    solar cell/array systems.
-  """@en .
+    solar cell/array systems."""@en .
 
 <urn:comp:78>
     a skos:Concept ;
@@ -5329,8 +5045,7 @@
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Power Generation -Thermal Systems"@en ;
     skos:scopeNote """Design development, test, and evaluation of dynamic power
-    systems including thermal and solar dynamic systems.
-  """@en .
+    systems including thermal and solar dynamic systems."""@en .
 
 <urn:comp:79>
     a skos:Concept ;
@@ -5340,8 +5055,7 @@
     skos:scopeNote """Knowledge of engineering, design, development, analysis and
     testing of robotic and robotic/human systems, including
     telerobotics. Includes knowledge of operational impacts and
-    sustaining engineering on the system.
-  """@en .
+    sustaining engineering on the system."""@en .
 
 <urn:comp:8>
     a skos:Concept ;
@@ -5360,15 +5074,13 @@
     ability to create models and prototypes, particularly in a
     laboratory setting, based on research oriented plans and
     schematics and capability to design the system for safe and
-    reliable development, integration and manufacturability.
-  """@en .
+    reliable development, integration and manufacturability."""@en .
 
 <urn:comp:80>
     a skos:Concept ;
     skos:altLabel "COMPSYSENG"@en ;
     skos:broader <urn:comp:1283> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Computer Systems and Engineering"@en ;
     skos:scopeNote """Knowledge of the design and development of computers and/or
@@ -5378,8 +5090,7 @@
     technologies such as virtual reality, artificial
     intelligence, and automation. Includes knowledge of
     computer programming, electronics, mathematical models, and
-    neural and/or other networking systems.
-  """@en .
+    neural and/or other networking systems."""@en .
 
 <urn:comp:81>
     a skos:Concept ;
@@ -5398,8 +5109,7 @@
     applications. Involves technical skills used in the
     development and application of computer networks and
     Internet technology, including switching/routing
-    technology, network architecture, and network security.
-  """@en .
+    technology, network architecture, and network security."""@en .
 
 <urn:comp:82>
     a skos:Concept ;
@@ -5419,8 +5129,7 @@
     attributes of software-intense systems such as real-time
     response and embedded hardware-driven resource limits.
     Includes knowledge of high-performance computing, graphical
-    user interfaces, networking, data integrity and security.
-  """@en .
+    user interfaces, networking, data integrity and security."""@en .
 
 <urn:comp:84>
     a skos:Concept ;
@@ -5434,8 +5143,7 @@
     includes such applications as machine learning algorithms
     and pattern recognition systems for intelligent flight
     control systems, complex spacecraft docking capabilities,
-    and instrument control mechanisms.
-  """@en .
+    and instrument control mechanisms."""@en .
 
 <urn:comp:85>
     a skos:Concept ;
@@ -5456,8 +5164,7 @@
     of artificial intelligence, virtual reality, automated
     software engineering, and collaborative and assistant
     systems, as well as understanding of vehicle health
-    management.
-  """@en .
+    management."""@en .
 
 <urn:comp:86>
     a skos:Concept ;
@@ -5477,8 +5184,7 @@
     systems design of algorithms and applied computational
     methods. This includes capability in the area of quantum
     computing. Understanding of the physical principle
-    represented in the model is essential to this competency.
-  """@en .
+    represented in the model is essential to this competency."""@en .
 
 <urn:comp:88>
     a skos:Concept ;
@@ -5498,15 +5204,13 @@
     tools, such as geographic information systems (GIS), remote
     sensing, thematic mapping, image processing, satellite
     positioning systems such as the Global Positioning System
-    (GPS), and telemetry.
-  """@en .
+    (GPS), and telemetry."""@en .
 
 <urn:comp:89>
     a skos:Concept ;
     skos:altLabel "ADVMIS"@en ;
     skos:broader <urn:comp:1231> ;
-    skos:changeNote """Modified for 6a by ???
-  """@en ;
+    skos:changeNote """Modified for 6a by ???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Mission Analysis"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices associated with the
@@ -5514,8 +5218,7 @@
     architectures and systems synthesizing science, commercial,
     military and exploration requirements and considering
     feasibility, performance, cost, risk, schedule,
-    reliability/safety and environmental effects.
-  """@en .
+    reliability/safety and environmental effects."""@en .
 
 <urn:comp:9>
     a skos:Concept ;
@@ -5532,15 +5235,13 @@
     schedules, configurations and resources as well as the
     development of launch, mission, manifest, contigency and
     long-range plans and responses to externally-driven
-    requirements.
-  """@en .
+    requirements."""@en .
 
 <urn:comp:90>
     a skos:Concept ;
     skos:altLabel "ASCDTA"@en ;
     skos:broader <urn:comp:1231> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Aerospace Systems Concept Development & Technology Assessment"@en ;
     skos:scopeNote """Knowledge, capabilities and practices associated with the
@@ -5551,15 +5252,13 @@
     design, sizing & synthesis of aerospace vehicles or
     spacecraft. Knowledge of elicitation from subject matter
     experts of the potential technology improvements from R&D
-    projects in all the relevant aerospace disciplines.
-  """@en .
+    projects in all the relevant aerospace disciplines."""@en .
 
 <urn:comp:91>
     a skos:Concept ;
     skos:altLabel "AADMD"@en ;
     skos:broader <urn:comp:1363> ;
-    skos:changeNote """???
-  """@en ;
+    skos:changeNote """???"""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Advanced Analysis and Design Method Development"@en ;
     skos:scopeNote """Enable the mission and system analysis and technology
@@ -5570,8 +5269,7 @@
     design optimization methods for use in conceptual,
     preliminary and detailed engineering analysis and design of
     aerospace vehicles and spacecraft (including design,
-    manufacturing, and operations).
-  """@en .
+    manufacturing, and operations)."""@en .
 
 <urn:comp:92>
     a skos:Concept ;
@@ -5590,8 +5288,7 @@
     (such as those tunable and stable to a part per million
     with high spectral purity, in double pulse format with
     multibillion shot lifetime) that can withstand both launch
-    and the rigors of deployment in space.
-  """@en .
+    and the rigors of deployment in space."""@en .
 
 <urn:comp:93>
     a skos:Concept ;
@@ -5615,8 +5312,7 @@
     acquisition and data processing techniques; and system
     unique requirements for the safe and effective
     implementation of data acquisition in a wide variety of
-    systems.
-  """@en .
+    systems."""@en .
 
 <urn:comp:94>
     a skos:Concept ;
@@ -5635,8 +5331,7 @@
     instrument systems (both active and passive) for space,
     suborbital, aircraft, and ground applications, and systems
     and components for instrument, communication, telemetry,
-    and radar applications.
-  """@en .
+    and radar applications."""@en .
 
 <urn:comp:95>
     a skos:Concept ;
@@ -5656,8 +5351,7 @@
     development of advanced detectors and detector systems
     covering a wide spectral range to include UV, visible, IR,
     and microwave. May include the design, development, test,
-    characterization, and
-  """@en .
+    characterization, and"""@en .
 
 <urn:comp:96>
     a skos:Concept ;
@@ -5665,8 +5359,7 @@
     skos:broader <urn:comp:1339> ;
     skos:changeNote """Was deleted for REv. 6 (2005-12-07), then restored in 6a
     (2006-04-05). Will be scheduled for deletion in a future
-    revision.
-  """@en ;
+    revision."""@en ;
     skos:inScheme <urn:comp:0> ;
     skos:prefLabel "Detector Systems"@en ;
     skos:scopeNote """Knowledge, capabilities, and practices related to the
@@ -5678,8 +5371,7 @@
     and microwave. Also includes the design, development, test,
     characterization, and integration of detectors and detector
     systems into a variety of applications with an emphasis on
-    remote sensing systems.
-  """@en .
+    remote sensing systems."""@en .
 
 <urn:comp:97>
     a skos:Concept ;
@@ -5690,8 +5382,7 @@
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical and experimental
     methods for pilot/automation integration, crew station
-    design, and aerospace vehicle operations concepts.
-  """@en .
+    design, and aerospace vehicle operations concepts."""@en .
 
 <urn:comp:98>
     a skos:Concept ;
@@ -5702,6 +5393,5 @@
     skos:scopeNote """Knowledge, capabilities, and practices associated with
     research and technology in analytical, computational, and
     experimental methods to characterize the flight dynamics
-    behaviors of aerospace vehicles.
-  """@en .
+    behaviors of aerospace vehicles."""@en .
 
