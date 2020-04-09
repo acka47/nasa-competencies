@@ -11,8 +11,7 @@
      revision 6a, published April 17, 2006."""@en ;
     dcterms:title "NASA Workforce Competencies"@en ;
     a skos:ConceptScheme ;
-    skos:hasTopConcept <n1124>, <n1208>, <n1371>, <n1393>, <n1406> ;
-    skos:inScheme <n0> .
+    skos:hasTopConcept <n1124>, <n1208>, <n1371>, <n1393>, <n1406> .
 
 <n1>
     a skos:Concept ;
